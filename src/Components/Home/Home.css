@@ -11,8 +11,9 @@
 }
 
 .background-image {
-    background-image: url('../assets/images/Vector\ 650.png');
+    background-image: url('../assets/images/backgroundImage.png');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .kaul-institute {
@@ -132,12 +133,31 @@
     background: #2D4A9D;
     color: #FFFF;
 }
-.margin{
+
+.footer-heading {
+    font-family: 'Cormorant';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+
+.contact-info {
+    font-family: 'Cormorant';
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.margin {
     margin-left: 80px;
 }
-.margin-right{
+
+.margin-right {
     margin-left: 80px;
 }
-.margin-for-institute{
+
+.margin-for-institute {
     margin-top: 100px;
 }
+
+.kept-top {}

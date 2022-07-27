@@ -25,7 +25,8 @@ const InstuteOfEducation = () => {
         <div>
             <div className=''>
             <div>
-                <div className='flex items-center ml-[80px] mr-[80px] mt-[51px] mb-[116px]'>
+                <div className='kept-top background-image pb-[295px]'>
+                <div className='flex items-center ml-[80px] mr-[80px] mb-[50px]'>
                     <img src={sosChildrenVillage} alt="" />
                     <div className='block mx-auto'>
                         <div>
@@ -35,7 +36,7 @@ const InstuteOfEducation = () => {
                     </div>
                 </div>
 
-                <div className='flex ml-[80px] mr-[80px] mb-[319px]'>
+                <div className='flex ml-[80px] mr-[80px] justify-center mb-[219px]'>
                     <div className='flex items-center'>
                         <div className=''>
                             <p className='kaul-institute'>J.N KAUL INSTITUTE OF EDUCATION <br /> BHIMTAL NAINITAL, INDIA</p>
@@ -47,11 +48,11 @@ const InstuteOfEducation = () => {
                         </div>
                     </div>
                 </div>
-
+                </div>
 
                 <div className='margin-for-institute ml-[80px] mr-[80px]'>
                     <div>
-                        <div className='mb-8 mt-8'>
+                        <div className='mt-8 mb-8'>
                         <h1 className='welcome'>Welcome to J.N Kaul Institute of Education</h1>
                         <img src={rectangle} alt="" />
                         </div>
@@ -191,20 +192,20 @@ const InstuteOfEducation = () => {
                         </div>
                     </div>
 
-                    <div className='flex justify-around mb-8 mt-8'>
+                    <div className='flex justify-around mt-8 mb-8'>
                         <div>
-                            <h1 className='drop-details mb-12'>Drop us your details for quick response.</h1>
+                            <h1 className='mb-12 drop-details'>Drop us your details for quick response.</h1>
                             <div>
                                 <div>
-                                    <input className='contact-input mr-12' type="text" ></input>
+                                    <input className='mr-12 contact-input' type="text" ></input>
                                     <input className='contact-input' type="text" ></input>
                                 </div>
                                 <div className='my-8'>
-                                    <input className='contact-input mr-12' type="text" ></input>
+                                    <input className='mr-12 contact-input' type="text" ></input>
                                     <input className='contact-input' type="text" ></input>
                                 </div>
                                 <div>
-                                    <input className='contact-input mr-12' type="text" ></input>
+                                    <input className='mr-12 contact-input' type="text" ></input>
                                     <input className='contact-input' type="text" ></input>
                                 </div>
                                 <button class="btn submit-button block mx-auto mt-10"> <span className='submit'>Submit</span> </button>

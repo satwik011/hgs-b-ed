@@ -1,0 +1,17 @@
+.navbar-topic:hover {
+    background: #2D4A9D;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.for-background {
+    background: #2D4A9D;
+    border-radius: 10px;
+    color: white;
+}
+
+.for-making-sticky-navbar {
+    position: sticky;
+    top: 0;
+}
