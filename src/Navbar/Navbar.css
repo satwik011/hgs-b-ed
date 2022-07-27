@@ -6,12 +6,32 @@
 }
 
 .for-background {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
     background: #2D4A9D;
     border-radius: 10px;
-    color: white;
 }
 
 .for-making-sticky-navbar {
     position: sticky;
     top: 0;
+}
+
+.navbar-button {
+    width: 126px;
+    height: 60px;
+    background: #2D4A9D;
+    border-radius: 10px;
+}
+
+.not-selected {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2D4A9D;
+
 }
