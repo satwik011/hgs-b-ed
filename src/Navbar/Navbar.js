@@ -9,6 +9,7 @@ const Navbar = () => {
     const [admission, setAdmission] = useState('');
     const [facultiStaff, setFacultiStaff] = useState('');
     const [contactUs, setContactUs] = useState('');
+    const [navbar, setNavbar] = useState(false);
     const handleOverview = () => {
         setOverview('setOverview')
         setLeadership('')
@@ -84,11 +85,20 @@ const Navbar = () => {
         setAdmission('')
         setFacultiStaff('')
         setContactUs('setAwards')
-        
     }
 
+    const activeNavbar = () =>{
+        if(window.scrollY >= 200){
+            setNavbar(true); 
+        }
+        else{
+            setNavbar(false); 
+        }
+    }
+    window.addEventListener('scroll', activeNavbar);  
+
     return (
-        <div className='flex justify-center mx-[80px] bg-white for-making-sticky-navbar'>
+        <div className={`flex justify-center ${navbar===true ? 'block' : 'hidden'} mx-[80px] bg-white for-making-sticky-navbar`}>
             <div onClick={handleOverview} className={`items-center ${overView ? 'for-background' : ''} px-8 mr-[46px] py-6 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Overview</h1>
             </div>
