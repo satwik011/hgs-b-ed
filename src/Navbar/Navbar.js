@@ -21,6 +21,7 @@ const Navbar = () => {
         setAdmission('')
         setFacultiStaff('')
         setContactUs('')
+        navigate('/'); 
 
     }
     const handleLeadership = () => {
@@ -76,6 +77,7 @@ const Navbar = () => {
         setAdmission('')
         setFacultiStaff('setLife')
         setContactUs('')
+        navigate('/faculty')
 
     }
     const handleContactUs = () => {

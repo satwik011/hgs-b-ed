@@ -1,19 +1,6 @@
 import React from 'react';
 import sosChildrenVillage from './../assets/images/sos_logo 3.png';
 import studyImage from './../assets/images/10088-removebg-preview 1.png';
-import studentTeacher from './../assets/images/image 12.png';
-import studentTeacher2 from './../assets/images/image 13.png';
-import rectangle405 from './../assets/images/Rectangle 405.png';
-import rectangle from './../assets/images/Rectangle 404.png';
-import rectangle409 from './../assets/images/Rectangle 409.png'
-import rectangle411 from './../assets/images/Rectangle 411.png'
-import rectangle412 from './../assets/images/Rectangle 412.png'
-import rectangle416 from './../assets/images/Rectangle 416.png'
-import rectangle417 from './../assets/images/Rectangle 417.png'
-import rectangle405little from './../assets/images/Rectangle 405 (1).png'
-import rectangle407 from './../assets/images/Rectangle 407.png'
-import rectangle408 from './../assets/images/Rectangle 408.png'
-import rectangle409college from './../assets/images/Rectangle 409 (1).png'
 import contactImage from './../assets/images/3969587 2.png'
 import contactLine from './../assets/images/contact-line.png'
 import user from './../assets/icons/user.svg';
@@ -25,12 +12,15 @@ import message from './../assets/icons/message.svg';
 import { Link, useNavigate } from 'react-router-dom';
 import './Home.css';
 import Footer from './Footer';
+import InfrastructureCard from './InfrastructureCard';
+import PhotoGallery from './PhotoGallery';
+import AboutInstitution from './AboutInstitution';
 
 
 const InstuteOfEducation = () => {
     const navigate = useNavigate();
-    const handleHome = () =>{
-        navigate('/'); 
+    const handleHome = () => {
+        navigate('/');
     }
     return (
         <div>
@@ -62,130 +52,13 @@ const InstuteOfEducation = () => {
                         </div>
                     </div>
 
-                    <div className='margin-for-institute ml-[80px] mr-[80px]'>
-                        <div>
-                            <div className='mt-8 mb-8'>
-                                <h1 className='welcome'>Welcome to J.N Kaul Institute of Education</h1>
-                                <img src={rectangle} alt="" />
-                            </div>
+                    <AboutInstitution></AboutInstitution>
+                    <InfrastructureCard></InfrastructureCard>
 
-
-
-
-
-
-                            <div class="mb-[50px]">
-                                <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
-                                    <img src={studentTeacher} class="max-w-lg rounded-lg shadow-2xl" alt='' />
-                                    <div className='ml-6'>
-                                    <h1 className='about-sos'>About SOS</h1>
-                                    <p className='sos-para'>
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        
-                                    </p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="">
-                                <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
-                                    <img src={studentTeacher2} class="max-w-lg rounded-lg shadow-2xl" alt='' />
-                                    <div className='ml-6'>
-                                    <h1 className='about-sos'>About J.N. Kaul Institute of Education</h1>
-                                    <p className='sos-para'>
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam <br />
-                                        
-                                    </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='mt-16 pl-[80px] pr-[80px] pt-[50px] pb-[50px] middle-background'>
-                        <div className='flex justify-center'>
-                            <div>
-                                <h1 className='welcome'>Infrastructure and Facilities</h1>
-                                <img src={rectangle405} alt="" />
-                            </div>
-                        </div>
-
-                        <div className='flex justify-center mt-8'>
-
-                            <div class="card mx-8 p-4 card-size shadow-2xl">
-                                <figure class="">
-                                    <img className='w-full facility-picture' src={rectangle409} alt="" class="rounded-xl" />
-                                </figure>
-                                <div class="card-body">
-                                    <h1 className='infructructure'>Infrustructure</h1>
-                                    <p>SOS Institute of Education, Bhimtal campus situated in surrounded with beautiful ground and lush greenery, which consists of five huge classrooms, music room, library, computer lab, play ground. The whole campus covered with CCTV camera etc.</p>
-                                </div>
-                            </div>
-
-
-                            <div class="card mx-8 p-4 card-size shadow-2xl">
-                                <figure class="">
-                                    <img className='w-full facility-picture' src={rectangle411} alt="" class="rounded-xl" />
-                                </figure>
-                                <div class="card-body">
-                                    <h1 className='infructructure'>Classroom</h1>
-                                    <p>SOS Institute of Education, Bhimtal campus situated in surrounded with beautiful ground and lush greenery, which consists of five huge classrooms, music room, library, computer lab, play ground. The whole campus covered with CCTV camera etc.</p>
-                                </div>
-                            </div>
-
-                            <div class="card mx-8 p-4 card-size shadow-2xl">
-                                <figure class="">
-                                    <img className='w-full facility-picture' src={rectangle412} alt="" class="rounded-xl" />
-                                </figure>
-                                <div class="card-body">
-                                    <h1 className='infructructure'>Library</h1>
-                                    <p>SOS Institute of Education, Bhimtal campus situated in surrounded with beautiful ground and lush greenery, which consists of five huge classrooms, music room, library, computer lab, play ground. The whole campus covered with CCTV camera etc.</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                        <div className='flex justify-center mt-8'>
-
-                            <div class="card p-4 card-size mr-8 shadow-2xl">
-                                <figure class="">
-                                    <img className='w-full' src={rectangle416} alt="" class="rounded-xl" />
-                                </figure>
-                                <div class="card-body">
-                                    <h1 className='infructructure'>Lab</h1>
-                                    <p>SOS Institute of Education, Bhimtal campus situated in surrounded with beautiful ground and lush greenery, which consists of five huge classrooms, music room, library, computer lab, play ground. The whole campus covered with CCTV camera etc.</p>
-                                </div>
-                            </div>
-                            <div class="card card-size p-4 shadow-2xl">
-                                <figure class="">
-                                    <img className='w-full' src={rectangle417} alt="" class="rounded-xl" />
-                                </figure>
-                                <div class="card-body">
-                                    <h1 className='infructructure'>Music Room</h1>
-                                    <p>SOS Institute of Education, Bhimtal campus situated in surrounded with beautiful ground and lush greenery, which consists of five huge classrooms, music room, library, computer lab, play ground. The whole campus covered with CCTV camera etc.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    <PhotoGallery></PhotoGallery>
 
                     {/* Photo gallery */}
-                    <div className='mt-16 ml-[80px] mr-[80px]'>
+                    {/* <div className='mt-16 ml-[80px] mr-[80px]'>
                         <div className='flex justify-center'>
                             <div>
                                 <h1 className='welcome'>Photo Gallery</h1>
@@ -210,9 +83,7 @@ const InstuteOfEducation = () => {
                             </div>
                         </div>
 
-                    </div>
-
-
+                    </div> */}
 
 
                     {/* Contact with us */}
