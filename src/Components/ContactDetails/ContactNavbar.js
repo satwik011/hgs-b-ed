@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import './Navbar.css';
+import sosChildrenVillage from './../assets/images/sos_logo 3.png';
 
-const Navbar = () => {
-    const [overView, setOverview] = useState('setOverview');
+const ContactNavbar = () => {
+    const [overView, setOverview] = useState('');
     const [leadership, setLeadership] = useState('');
     const [programsOffered, setProgramsOffered] = useState('');
     const [alumni, setAlumni] = useState('');
@@ -12,11 +12,12 @@ const Navbar = () => {
     const [contactUs, setContactUs] = useState('');
     const [navbar, setNavbar] = useState(false);
     const navigate = useNavigate(); 
+
     const handleOverview = () => {
         setOverview('setOverview')
         setLeadership('')
         setProgramsOffered('')
-
+        navigate('/'); 
         setAlumni('')
         setAdmission('')
         setFacultiStaff('')
@@ -85,7 +86,7 @@ const Navbar = () => {
         setAlumni('')
         setAdmission('')
         setFacultiStaff('')
-        setContactUs('setContactUs'); 
+        setContactUs('setAwards'); 
         navigate('/contact'); 
     }
 
@@ -100,7 +101,7 @@ const Navbar = () => {
     window.addEventListener('scroll', activeNavbar);
 
     return (
-        <div className={`flex justify-center ${navbar === true ? 'block' : 'hidden'} bg-white for-making-sticky-navbar`}>
+        <div className={`flex justify-center bg-white for-making-sticky-navbar`}>
             <div class="navbar mx-[80] shadow-2xl flex justify-center">
             <div onClick={handleOverview} className={`items-center ${overView ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-2 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Overview</h1>
@@ -128,4 +129,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default ContactNavbar;

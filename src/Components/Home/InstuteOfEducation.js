@@ -22,18 +22,23 @@ import email from './../assets/icons/email.svg';
 import location from './../assets/icons/location.svg';
 import grade from './../assets/icons/grade.svg';
 import message from './../assets/icons/message.svg';
+import { Link, useNavigate } from 'react-router-dom';
 import './Home.css';
 import Footer from './Footer';
 
 
 const InstuteOfEducation = () => {
+    const navigate = useNavigate();
+    const handleHome = () =>{
+        navigate('/'); 
+    }
     return (
         <div>
             <div className=''>
                 <div>
                     <div className='kept-top background-image pb-[10px]'>
                         <div className='flex items-center ml-[80px] mr-[80px] mb-[50px]'>
-                            <img src={sosChildrenVillage} alt="" />
+                            <img className='children-village' onClick={handleHome} src={sosChildrenVillage} alt="" />
                             <div className='block mx-auto'>
                                 <div>
                                     <h1 className='instute'>INSTUTE OF EDUCATION</h1>
