@@ -21,42 +21,42 @@ const Contact = () => {
                                 <div class="card-body">
                                     <div class="form-control">
                                         <div className='flex items-center justify-center mb-8 contact-input'>
-                                            <img className='mx-4' src={user} alt="" />
+                                            <img className='mx-4 for-opacity' src={user} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Username' ></input>
                                         </div>
                                     </div>
                                     <div class="form-control">
                                         <div className='flex items-center justify-center mb-8 contact-input'>
-                                            <img className='mx-4' src={location} alt="" />
+                                            <img className='mx-4 for-opacity' src={location} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='City' ></input>
                                         </div>
                                     </div>
                                     <div class="form-control">
                                         <div className='flex items-center justify-center mb-8 contact-input'>
-                                            <img className='mx-4' src={email} alt="" />
+                                            <img className='mx-4 for-opacity' src={email} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Email' ></input>
                                         </div>
                                     </div>
                                     <div class="form-control">
                                         <div className='flex items-center justify-center mb-8 contact-input'>
-                                            <img className='mx-4' src={grade} alt="" />
+                                            <img className='mx-4 for-opacity' src={grade} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Grade' ></input>
                                         </div>
                                     </div>
                                     <div class="form-control">
                                         <div className='flex items-center justify-center mb-8 contact-input'>
-                                            <img className='mx-4' src={phone} alt="" />
+                                            <img className='mx-4 for-opacity' src={phone} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Phone Number' ></input>
                                         </div>
                                     </div>
                                     <div class="form-control">
                                         <div className='flex items-center justify-center mb-8 contact-input'>
-                                            <img className='mx-4' src={message} alt="" />
+                                            <img className='mx-4 for-opacity' src={message} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Message' ></input>
                                         </div>
                                     </div>
-                                    <div class="form-control mt-6">
-                                        <button class="btn for-background">Submit</button>
+                                    <div class="form-control">
+                                        <button class="for-background">Submit</button>
                                     </div>
                                 </div>
                             </div>
@@ -80,12 +80,11 @@ const Contact = () => {
                         <div className='mb-12'>
                             <h1 className='mb-2 text-2xl font-bold'>Socials</h1>
                             <div className='flex'>
-                            <i class="fa-brands mr-4 text-4xl fa-youtube"></i>
+                            {/* <i class="fa-brands mr-4 text-4xl fa-youtube"></i> */}
                             <a target='_blank' href="https://www.facebook.com/SOSJNKIE"><i class="fa-brands mr-4 text-4xl fa-facebook"></i></a>
-                            <i class="fa-brands mr-4 text-4xl fa-twitter"></i>
-                            <i class="fa-brands text-4xl fa-instagram"></i>
+                            {/* <i class="fa-brands mr-4 text-4xl fa-twitter"></i> */}
+                            {/* <i class="fa-brands text-4xl fa-instagram"></i> */}
                             </div>
-                            {/* <p className='text-xl'></p> */}
                         </div>
 
                     </div>

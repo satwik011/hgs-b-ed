@@ -6,13 +6,31 @@
 }
 
 .for-background {
-    font-family: 'Poppins';
+    /* font-family: 'Poppins';
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
     background: #2D4A9D;
-    border-radius: 10px;
+    border-radius: 10px; */
+    background: #0076BD;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 22px;
+    padding: 0.6rem 1rem;
+    border-radius: 3px;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    transition-property: color;
+    transition-duration: .3s;
+    border: 0;
+}
+.for-background:hover{
+    color: black;
 }
 
 .for-making-sticky-navbar {

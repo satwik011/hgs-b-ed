@@ -54,7 +54,6 @@ const InstuteOfEducation = () => {
 
                     <AboutInstitution></AboutInstitution>
                     <InfrastructureCard></InfrastructureCard>
-
                     <PhotoGallery></PhotoGallery>
 
                     {/* Photo gallery */}
@@ -74,11 +73,11 @@ const InstuteOfEducation = () => {
                                 <div>
                                     <div className='flex mb-12'>
                                         <div className='flex items-center justify-center mr-8 contact-input'>
-                                            <img className='mx-4' src={user} alt="" />
+                                            <img className='mx-4 for-opacity' src={user} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Username' ></input>
                                         </div>
                                         <div className='flex items-center justify-center contact-input'>
-                                            <img className='mx-4' src={location} alt="" />
+                                            <img className='mx-4 for-opacity' src={location} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='City' ></input>
                                         </div>
                                     </div>
@@ -86,11 +85,11 @@ const InstuteOfEducation = () => {
 
                                     <div className='flex mb-12'>
                                         <div className='flex items-center justify-center mr-8 contact-input'>
-                                            <img className='mx-4' src={email} alt="" />
+                                            <img className='mx-4 for-opacity' src={email} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Email' ></input>
                                         </div>
                                         <div className='flex items-center justify-center contact-input'>
-                                            <img className='mx-4' src={grade} alt="" />
+                                            <img className='mx-4 for-opacity' src={grade} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Grade' ></input>
                                         </div>
                                     </div>
@@ -98,17 +97,19 @@ const InstuteOfEducation = () => {
 
                                     <div className='flex mb-12'>
                                         <div className='flex items-center justify-center mr-8 contact-input'>
-                                            <img className='mx-4' src={phone} alt="" />
+                                            <img className='mx-4 for-opacity' src={phone} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Phone Number' ></input>
                                         </div>
                                         <div className='flex items-center justify-center mr-8 contact-input'>
-                                            <img className='mx-4' src={message} alt="" />
+                                            <img className='mx-4 for-opacity' src={message} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Message' ></input>
                                         </div>
                                     </div>
 
+                                    <div class="form-control">
+                                        <button class="for-background-home block mx-auto">Submit</button>
+                                    </div>
 
-                                    <button class="submit-button block mx-auto mt-10"> <span className='submit'>Submit</span> </button>
                                 </div>
                             </div>
 
