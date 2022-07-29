@@ -5,11 +5,13 @@ import email from './../assets/icons/email.svg';
 import location from './../assets/icons/location.svg';
 import grade from './../assets/icons/grade.svg';
 import message from './../assets/icons/message.svg';
-import ContactNavbar from './ContactNavbar';
+import Navbar from '../../Navbar/Navbar';
 
 const Contact = () => {
     return (
-        <div className='contuct-information'>
+        <div>
+            <Navbar></Navbar>
+            <div className='contuct-information'>
             <h1 className='flex justify-center mt-20 mb-8 text-5xl font-bold text-blue-600'>We'd love to hear from you.</h1>
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row-reverse">
@@ -89,6 +91,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

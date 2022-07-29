@@ -28,11 +28,11 @@ const Navbar = () => {
         setOverview('')
         setLeadership('setProgramsOffered')
         setProgramsOffered('')
-
         setAlumni('')
         setAdmission('')
         setFacultiStaff('')
         setContactUs('')
+        navigate('/leadership'); 
 
     }
     const handleProgramsOffered = () => {
@@ -102,8 +102,8 @@ const Navbar = () => {
     window.addEventListener('scroll', activeNavbar);
 
     return (
-        <div className={`flex justify-center ${navbar === true ? 'block' : 'hidden'} bg-white for-making-sticky-navbar`}>
-            <div class="navbar mx-[80] shadow-2xl flex justify-center">
+        <div className={`flex justify-center lg:mx-80 md:mx-12 mx-6 ${navbar === true ? 'block' : 'hidden'} bg-white for-making-sticky-navbar`}>
+            <div class="navbar shadow-2xl flex justify-center">
             <div onClick={handleOverview} className={`items-center ${overView ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-2 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Overview</h1>
             </div>

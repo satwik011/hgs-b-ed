@@ -1,0 +1,29 @@
+.leadership{
+    padding-left: 21.5px;
+    padding-right: 21.5px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    background-color: #081b24;
+    color: white;
+}
+.forTextHover{
+    cursor: pointer;
+    padding-left: 5px;
+    transition-duration: 500ms;
+}
+.forTextHover:hover{
+    background-color: #0076BD;
+}
+.picture-shadow{
+    border: 3px solid rgb(0, 118, 189);
+    box-shadow: rgb(0 0 0 / 25%) 10px 8px 4px;
+}
+.leadership-info{
+    background-color: #0076BD;
+    padding: 2rem;
+    margin-top: 2rem;
+    color: white;
+}
+.leadership-heading{
+    color: rgb(0, 118, 189);
+}

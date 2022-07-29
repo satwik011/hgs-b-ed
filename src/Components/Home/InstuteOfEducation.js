@@ -58,33 +58,6 @@ const InstuteOfEducation = () => {
                     <PhotoGallery></PhotoGallery>
 
                     {/* Photo gallery */}
-                    {/* <div className='mt-16 ml-[80px] mr-[80px]'>
-                        <div className='flex justify-center'>
-                            <div>
-                                <h1 className='welcome'>Photo Gallery</h1>
-                                <img src={rectangle405little} alt="" />
-                            </div>
-                        </div>
-
-                        <div className='flex justify-center mt-8'>
-                            <div className='flex'>
-                                <div className='gaping'>
-                                    <img className='gallery-photo' src={rectangle407} alt="" />
-                                </div>
-
-                                <div className='gaping'>
-                                    <img className='gallery-photo' src={rectangle408} alt="" />
-                                </div>
-
-
-                                <div className='gaping'>
-                                    <img className='gallery-photo' src={rectangle409college} alt="" />
-                                </div>
-                            </div>
-                        </div>
-
-                    </div> */}
-
 
                     {/* Contact with us */}
                     <div className='mt-16 ml-[80px] mr-[80px]'>
@@ -135,7 +108,7 @@ const InstuteOfEducation = () => {
                                     </div>
 
 
-                                    <button class="btn submit-button block mx-auto mt-10"> <span className='submit'>Submit</span> </button>
+                                    <button class="submit-button block mx-auto mt-10"> <span className='submit'>Submit</span> </button>
                                 </div>
                             </div>
 

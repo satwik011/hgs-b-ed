@@ -26,7 +26,7 @@ const AboutInstitution = () => {
 
 
                             <div class="mb-[50px]">
-                                <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
+                                <div class="flex justify-center flexProp flex-col lg:flex-row">
                                     <img src={studentTeacher2} class="max-w-lg rounded-lg shadow-2xl" alt='' />
                                     <div className='ml-6'>
                                         <h1 className='about-sos'>About J.N. Kaul Institute of Education</h1>
@@ -38,18 +38,6 @@ const AboutInstitution = () => {
                                 </div>
                             </div>
 
-
-                            <div class="mb-[50px]">
-                                <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
-                                    <img src={studentTeacher2} class="max-w-lg rounded-lg shadow-2xl" alt='' />
-                                    <div className='ml-6'>
-                                        <h1 className='about-sos'>ABOUT BHIMTAL</h1>
-                                        <p className='sos-para'>
-                                            SOS Children's Village Bhimtal is situated in a beautiful wooded landscape with many hills and lakes. The town of Bhimtal is more popularly known for its unique feature of island in the Lake. Bhimtal which falls  under Nainital District of Uttarakhand is about 22 kms away from here. The magnificent lake of this town is situated at an altitude of 1371.6 metres above sea level.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
 
                             <div class="mb-[50px]">
                                 <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
