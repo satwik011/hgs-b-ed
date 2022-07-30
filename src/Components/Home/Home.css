@@ -87,8 +87,11 @@
     font-weight: 700;
     font-size: 28px;
     line-height: 34px;
-    text-decoration-line: underline;
     color: #2D4A9D;
+}
+.see-more{
+    color: #2D4A9D;
+    cursor: pointer;
 }
 
 .infructure-card {
@@ -125,7 +128,7 @@
 .gallery-photo {
     height: 400px;
     border-radius: 10px;
-    width: 90%;
+    width: 92%; 
 }
 
 
@@ -174,7 +177,7 @@
 
 .Footer {
     width: 100%;
-    background: #2D4A9D;
+    background: #0076BD;
     color: #FFFF;
 }
 
@@ -288,7 +291,7 @@
     transition-property: color;
     transition-duration: .3s;
     border: 0;
-    width: 40%;
+    width: 30%;
 }
 .for-background-home-mobile{
     background: #0076BD;
@@ -305,13 +308,6 @@
     border: 0;
     width: 100%;
 }
-.for-background-home-mobile:hover{
-    color: black;
-}
-
-.for-background-home:hover {
-    color: black;
-}
 
 .divide {
     position: absolute;
@@ -320,4 +316,31 @@
     height: 4000px;
     margin: 0;
     z-index: 999;
+}
+.home-button{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    cursor: pointer;
+}
+.slick-arrow{
+    width: 20px;
+    background-color: coral;
+}
+.changed-picture{
+    background-color: coral;
+}
+
+.left-arrow-button{
+    z-index: 1;
+    position: absolute; 
+    left: 55px;
+    margin-top: 180px;
+}
+
+.right-arrow-button{
+    z-index: 1;
+    position: absolute;
+    right: 55px;
+    margin-top: 180px;
 }

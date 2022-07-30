@@ -5,6 +5,7 @@ import aboutUs from './../assets/images/admission-cover.JPG'
 import location from './../assets/icons/location.png'
 import email from './../assets/icons/email.png'
 import phone from './../assets/icons/footer.png'
+import sosChildrenVillage from './../assets/images/sos_logo 3.png';
 
 const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, setAlumni, setAdmission, setFacultiStaff, setContactUs }) => {
     const navigate = useNavigate();
@@ -37,9 +38,9 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
         setAlumni[1]('')
         setAdmission[1]('')
         setFacultiStaff[1]('')
-        setShowNavbar[1](false);
+        setShowNavbar[1](true);
         setContactUs[1]('')
-        navigate('/')
+        navigate('/programesOffered')
     }
     const handleAlumni = () => {
         setOverview[1]('')
@@ -87,6 +88,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
     }
     return (
         <div>
+            <img  onClick={handleOverView} className='w-48 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
             <img className='w-full' src={aboutUs} alt="" />
             <div className='flex justify-center'>
                 <div className='mt-6 ml-10'>
@@ -117,16 +119,16 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
                     </div>
                 </div>
                 <div>
-                    <div class="mb-[50px] ml-10 mt-2">
+                    <div class="mb-[50px] ml-6 mr-6 mt-2">
                         <div class="flex justify-center flexProp flex-col lg:flex-row">
-                            <div className='ml-6'>
+                            <div className=''>
                                 <h1 className='mt-4 mb-8 text-5xl leadership-heading'>Admission</h1>
                                 <h1 className='mb-2 text-3xl font-bold'>Admission Criteria</h1>
 
 
                                 <div className='mb-6'>
                                     <p className='block mx-auto mb-2 text-xl font-bold'>Kumaun University B.Ed Entrance Exam 2021</p>
-                                    <p className='mt-2 mr-6'>
+                                    <p className='mt-2'>
                                         Kumaun University will release notification for B.Ed admission 2021. The B.Ed entrance exam 2021 will beheld as per schedule. The candidates who qualify for the entrance test are then required to participate in the counseling.
                                     </p>
                                 </div>
@@ -134,7 +136,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold'>Kumaun University B.Ed 2021 Application Form</p>
-                                    <p className='mt-2 mr-6'>
+                                    <p className='mt-2 '>
                                         Candidates have to register themselves for the exam through the Kumaun University B.Ed 2021 application
                                         form. First and foremost they have to pay the application fees through prescribed mode only. It is advised that
                                         the candidates provide authentic information as that record will be forwarded to the university and once
@@ -187,7 +189,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold'>Kumaun University B.Ed 2021 Eligibility Criteria</p>
-                                    <p className='mt-2 mb-4 mr-6'>
+                                    <p className='mt-2 mb-4 '>
                                         It is highly recommended that the candidates candidates should ensure that they fill all the eligibility criteria
                                         laid down by the examination body. Students who fail to fulfill the criterion will be disqualified from the
                                         exam. Below we have provided in detail the eligibility criteria for both the courses.
@@ -232,7 +234,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold'>Kumaun University B.Ed 2021 Admit Card</p>
-                                    <p className='mt-2 mr-6'>
+                                    <p className='mt-2 '>
                                         Students who have successfully submitted their duly filled application form before the last scheduled date can
                                         download their admit cards for the exam. It is available on the official website for the candidates to download.
                                         It is mandatory that the candidates carry their admit cards on the day of examination. Candidates without a
@@ -243,7 +245,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold'>Kumaun University B.Ed 2021 Exam Scheme</p>
-                                    <p className='mt-2 mr-6'>
+                                    <p className='mt-2 '>
                                         The examination pattern of Kumaun University B.Ed Entrance Exam is based on the last year record. You
                                         can check it for the reference only as conducting body will release the latest one we will update here.
                                     </p>
@@ -252,7 +254,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold'>Kumaun University B.Ed 2021 Result</p>
-                                    <p className='mt-2 mr-6'>
+                                    <p className='mt-2 '>
                                         Kumaun University (KU) will be released the result for B.Ed entrance examination. The candidates can check
                                         the result online at kuadmission.com or kunainital.ac.in. To check Kumaun University B.Ed 2021 result, the
                                         candidates need to enter their login credentials like application number and email address.
@@ -262,7 +264,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold'>Kumaun University B.Ed 2021 Counselling</p>
-                                    <p className='mt-2 mr-6'>
+                                    <p className='mt-2 '>
                                         Kumaun University will be released the counselling notice for B.Ed admission. To participate in the
                                         counselling process, candidates first have to pay the counselling fee, then upload the documents and fill the
                                         choice. After choice filling, merit list will publish on the basis of merit and weightage marks. Shortlisted
@@ -274,7 +276,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold'>Kumaun University, Nainital B.Ed Courses List and Fees Details:</p>
 
-                                    <div class="overflow-x-auto mr-6">
+                                    <div class="overflow-x-auto ">
                                         <table class="table w-full">
 
                                             <thead>

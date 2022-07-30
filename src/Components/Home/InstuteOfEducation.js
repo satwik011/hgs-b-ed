@@ -28,9 +28,9 @@ const InstuteOfEducation = () => {
                 <div>
                     <div className='kept-top background-image pb-[10px]'>
                         <div className='flex items-center ml-[80px] mr-[80px] mb-[50px]'>
-                            <img className='children-village' onClick={handleHome} src={sosChildrenVillage} alt="" />
+                        <img  onClick={handleHome} className='w-48 lg:home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
                             <div className='block mx-auto'>
-                                <div>
+                                <div className='mt-[50px]'>
                                     <h1 className='instute'>INSTUTE OF EDUCATION</h1>
                                     <p className='flex justify-center bed-college'>B.ED.College, Bhimtal</p>
                                 </div>
@@ -41,8 +41,8 @@ const InstuteOfEducation = () => {
                         <div className='flex ml-[80px] mr-[80px] justify-center mb-[219px]'>
                             <div className='flex items-center'>
                                 <div className=''>
-                                    <p className='kaul-institute'>J.N KAUL INSTITUTE OF EDUCATION <br /> BHIMTAL NAINITAL, INDIA</p>
-                                    <h1 className='education-is-power'>Education is the most powerful <br /> weapon which you can use to <br /> change the world</h1>
+                                    <p className='kaul-institute'>J.N KAUL INSTITUTE OF EDUCATION BHIMTAL NAINITAL, INDIA</p>
+                                    <h1 className='education-is-power'>Education is the most powerful weapon which you can use to change the world</h1>
                                 </div>
 
                                 <div className='ml-[147px]'>
@@ -59,7 +59,7 @@ const InstuteOfEducation = () => {
                     {/* Photo gallery */}
 
                     {/* Contact with us */}
-                    <div className='mt-16'>
+                    <div className='mt-10'>
                         <div className='flex justify-center'>
                             <div>
                                 <h1 className='welcome'>Contact Us</h1>
@@ -68,12 +68,13 @@ const InstuteOfEducation = () => {
                         </div>
 
                         <div className='hidden lg:block md:block'>
-                        <div className='flex justify-between ml-[80px] mr-[80px] mt-8 mb-8'>
+                        <div className='flex justify-between items-center ml-[80px] mr-[80px] mt-4 mb-8'>
                             <div>
-                                <h1 className='mb-12 drop-details'>Drop us your details for quick response.</h1>
+                                <h1 className='mb-8 drop-details'>Drop us your details for quick response.</h1>
                                 <div>
-                                    <div className='flex mb-12'>
-                                        <div className='flex items-center justify-center mr-8 contact-input'>
+                                    <div className='flex'>
+                                    <div className='mb-8'>
+                                        <div className='flex items-center justify-center mb-8 contact-input'>
                                             <img className='mx-4 for-opacity' src={user} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Username' ></input>
                                         </div>
@@ -84,8 +85,8 @@ const InstuteOfEducation = () => {
                                     </div>
 
 
-                                    <div className='flex mb-12'>
-                                        <div className='flex items-center justify-center mr-8 contact-input'>
+                                    <div className='mb-8 ml-8 mr-8'>
+                                        <div className='flex items-center justify-center mb-8 contact-input'>
                                             <img className='mx-4 for-opacity' src={email} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Email' ></input>
                                         </div>
@@ -96,26 +97,27 @@ const InstuteOfEducation = () => {
                                     </div>
 
 
-                                    <div className='flex mb-12'>
-                                        <div className='flex items-center justify-center mr-8 contact-input'>
+                                    <div className='mb-8'>
+                                        <div className='flex items-center justify-center mb-8 contact-input'>
                                             <img className='mx-4 for-opacity' src={phone} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Phone Number' ></input>
                                         </div>
-                                        <div className='flex items-center justify-center mr-8 contact-input'>
+                                        <div className='flex items-center justify-center contact-input'>
                                             <img className='mx-4 for-opacity' src={message} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Message' ></input>
                                         </div>
                                     </div>
+                                    </div>
 
                                     <div class="form-control">
-                                        <button class="for-background-home block mx-auto">Submit</button>
+                                        <button class="for-background-home hover:shadow-2xl block mx-auto">Submit</button>
                                     </div>
 
                                 </div>
                             </div>
 
                             <div>
-                                <img className='container-fluid' src={contactImage} alt="" />
+                                <img className='' src={contactImage} alt="" />
                             </div>
                         </div>
                         </div>
@@ -132,7 +134,7 @@ const InstuteOfEducation = () => {
                                     <div class="card-body">
 
 
-                                    <div className='flex items-center justify-center mr-8 contact-input'>
+                                    <div className='flex items-center justify-center contact-input'>
                                             <img className='mx-4 for-opacity' src={user} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Username' ></input>
                                         </div>
@@ -142,7 +144,7 @@ const InstuteOfEducation = () => {
                                             <input className='pl-2 input-field' type="text" placeholder='City' ></input>
                                         </div>
 
-                                        <div className='flex items-center justify-center mr-8 contact-input'>
+                                        <div className='flex items-center justify-center contact-input'>
                                             <img className='mx-4 for-opacity' src={email} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Email' ></input>
                                         </div>
@@ -152,19 +154,19 @@ const InstuteOfEducation = () => {
                                             <input className='pl-2 input-field' type="text" placeholder='Grade' ></input>
                                         </div>
 
-                                        <div className='flex items-center justify-center mr-8 contact-input'>
+                                        <div className='flex items-center justify-center contact-input'>
                                             <img className='mx-4 for-opacity' src={phone} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Phone Number' ></input>
                                         </div>
 
-                                        <div className='flex items-center justify-center mr-8 contact-input'>
+                                        <div className='flex items-center justify-center contact-input'>
                                             <img className='mx-4 for-opacity' src={message} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Message' ></input>
                                         </div>
 
                                         
                                         <div class="form-control mt-6">
-                                            <button class="for-background-home-mobile">Login</button>
+                                            <button class="for-background-home-mobile hover:shadow-2xl">Login</button>
                                         </div>
                                     </div>
                                 </div>

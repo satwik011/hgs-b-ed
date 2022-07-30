@@ -8,6 +8,7 @@ import email from './../assets/icons/email.png'
 import phone from './../assets/icons/footer.png'
 import './Leadership.css';
 import Footer from '../Home/Footer';
+import sosChildrenVillage from './../assets/images/sos_logo 3.png';
 import { useNavigate } from 'react-router-dom';
 
 const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffered, setAlumni, setAdmission, setFacultiStaff, setContactUs}) => {
@@ -41,9 +42,9 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
         setAlumni[1]('')
         setAdmission[1]('')
         setFacultiStaff[1]('')
-        setShowNavbar[1](false); 
+        setShowNavbar[1](true); 
         setContactUs[1]('')
-        navigate('/')
+        navigate('/programesOffered')
     }
     const handleAlumni = () => {
         setOverview[1]('')
@@ -91,6 +92,7 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
     }
     return (
         <div>
+            <img  onClick={handleOverView} className='w-48 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
             <img className='w-full' src={aboutUs} alt="" />
             <div className='flex justify-center'>
                 <div className='mt-6 ml-10'>
@@ -121,7 +123,7 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
                     </div>
                 </div>
                 <div>
-                    <div class="mb-[50px] ml-10 mt-2">
+                    <div class="mb-[50px] ml-6 mr-6 mt-2">
                         <h1 className='mt-4 mb-8 text-5xl leadership-heading'>Leadership</h1>
                         <div class="flex justify-center flexProp flex-col lg:flex-row">
                             <img src={teacher1} class="max-w-lg rounded-lg picture-shadow" alt='' />
@@ -129,14 +131,14 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
                                 <h1 className='mb-2 text-3xl font-bold'>President</h1>
                                 <p className='mb-2 text-xl'>Mr. Jinsi</p>
                                 <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>
-                                <p className='mt-2 mr-6'>
+                                <p className='mt-2'>
                                     Mr. Jinsi is an electrical Engineer, having graduated from Punjab Engineering College, Chandigarh (Punjab University) in 1977.
 
                                     Presently runs Khushboo, a day care centre for children with severe Mental and Multiple disabilities, serving more than 110 children. He is Chairperson of Railway Children India, a Section 8 company, working with street children. He has over 41 years of work experience in the Automobile, Not for Profit and Education sectors. For over 21 years, he has held leadership positions with organisations such as Eicher, Hero Motors, Chase Manhattan, Force Motors, Tatra Trucks, New Holland Fiat Tractors, SOS Children’s Villages and School Of Inspired Leadership.
                                 </p>
                             </div>
                         </div>
-                        <p className='mt-2 mr-6'>
+                        <p className='mt-2'>
                             He has been a member of National level bodies such as National Human Rights Commission and Voluntary Action Network of India (VANI), the Apex body of NGO sector.
 
                             Currently he is a Management Consultant and serves as an Independent Director on the Boards of a few large organizations eg. Schaeffler India (A German MNC), Hero Cycles etc.
@@ -146,13 +148,13 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
                     </div>
 
                     {/* 2nd one */}
-                    <div class="mb-[50px] ml-10 mt-6">
+                    <div class="mb-[50px] ml-6 mr-6 mt-6">
                         <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
                             <div className=''>
                                 <h1 className='mb-2 text-3xl font-bold'>Secretary General</h1>
                                 <p className='mb-2 text-xl'>Mr.Sumanta Kar</p>
                                 <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>
-                                <p className='mt-2 mr-6'>
+                                <p className='mt-2'>
                                     Mr Sumanta Kar is the Secretary General of SOS Children’s Villages of India (SOSCVI), one of India’s biggest childcare NGOs and the largest self-implementing agency providing an end-to-end Group Foster Care for children without parental care.
 
                                     Mr Kar has over 30 years of experience in the field of alternative care. He joined SOSCVI in 1989 as a youth co-worker. Mr Kar has conceptualised and implemented several development projects at SOSCVI. He led SOSCVI’s tsunami operation in the southern states of India (2004-2007) - it was the largest ever-emergency programme undertaken by the NGO so far.
@@ -161,7 +163,7 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
                             </div>
                             <img src={teacher2} class="max-w-lg rounded-lg picture-shadow mr-6" alt='' />
                         </div>
-                        <p className='mt-2 mr-6'>
+                        <p className='mt-2'>
                             Education at SOS Hermann Gmeiner Schools has always meant Holistic Development of a student – we believe that each child entrusted to us will receive education in his finest form.  We also believe that Education is a preparation for life, that is enjoyable, interactive and an ongoing process to make the students confident young adults, committed citizens who are aware & sensitive with a positive attitude.
 
                             As a part of this continued adaptation into larger eco-system and nation building, all our Hermann Gmeiner Schools have been actively engaged in relating to; understanding and working with communities around our schools. We see this more as character building than mere social service.
@@ -175,19 +177,19 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
 
 
                     {/* 3rd */}
-                    <div class="mb-[50px] ml-10 mt-6">
+                    <div class="mb-[50px] ml-6 mr-6 mt-6">
                         <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
                             <img src={teacher3} class="max-w-lg rounded-lg picture-shadow" alt='' />
                             <div className='ml-6'>
                                 <h1 className='mb-2 text-3xl font-bold'>Head Education & Child Development</h1>
                                 <p className='mb-2 text-xl'>Mrs Debaroti Bose</p>
                                 <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>
-                                <p className='mt-2 mr-6'>
+                                <p className='mt-2'>
                                     An educationist with three decades of experience in the education field. She started her journey with Modern school, Barakhamba road as a teacher and in the following years, she has taken responsibilities as a Principal, Life skill trainer, Mentor and Author.
                                 </p>
                             </div>
                         </div>
-                        <p className='mt-2 mr-6'>
+                        <p className='mt-2'>
                             It is my belief that school should be the experience of a lifetime. Our school experience sets the stage for success later in life and provides a lifetime of positive memories for our students.
 
                             We are proud of our continuous goal of providing an excellent education for our students. . We have a dynamic, hardworking faculty who are involved in education to benefit the students.

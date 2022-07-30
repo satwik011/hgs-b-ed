@@ -9,6 +9,7 @@ import teacher4 from './../assets/images/alumni-teacher (4).png'
 import location from './../assets/icons/location.png'
 import email from './../assets/icons/email.png'
 import phone from './../assets/icons/footer.png'
+import sosChildrenVillage from './../assets/images/sos_logo 3.png';
 
 const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, setAlumni, setAdmission, setFacultiStaff, setContactUs }) => {
     const navigate = useNavigate();
@@ -41,9 +42,9 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
         setAlumni[1]('')
         setAdmission[1]('')
         setFacultiStaff[1]('')
-        setShowNavbar[1](false);
+        setShowNavbar[1](true);
         setContactUs[1]('')
-        navigate('/')
+        navigate('/programesOffered')
     }
     const handleAlumni = () => {
         setOverview[1]('')
@@ -91,6 +92,7 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
     }
     return (
         <div>
+            <img  onClick={handleOverView} className='w-48 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
             <img className='w-full' src={aboutUs} alt="" />
             <div className='flex justify-center'>
                 <div className='mt-6 ml-10'>
@@ -122,80 +124,69 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                 </div>
 
                 <div>
-                    <div class="mb-[50px] ml-10 mt-2">
-                        <h1 className='mt-4 mb-8 text-5xl leadership-heading'>Let The Alumni Speak</h1>
+                    <div class=" mt-6 mb-[50px] ml-6 mr-6">
+                        <h1 className='mt-2 mb-8 text-5xl leadership-heading'>Alumni</h1>
                         <div class="flex justify-center flexProp flex-col lg:flex-row">
                             <img src={teacher1} class="max-w-lg rounded-lg picture-shadow" alt='' />
                             <div className='ml-6'>
-                                <h1 className='mb-2 text-3xl font-bold'>Teacher</h1>
-                                <p className='mb-2 text-xl'>Ms. Shraddha Singh (Batch -2017-19)</p>
+                                <h1 className='mb-2 text-2xl font-bold'>Ms. Shraddha Singh (Batch -2017-19)</h1>
+                                <p className='mb-2 text-xl'>Teacher</p>
                                 <p className='mb-2 text-xl'>Jawahar Navoday Vidyalaya,Pota (Rajasthan)</p>
-                                <p className='mt-2 mr-6'>
+                                <p className='mt-2'>
                                     I have not only witnessed, but also experienced the bliss, with which this wonderful institution nurtures an individual. Each and every block of the institution act as a stepping stone for us, thus augmenting each and every one of their qualities- be it academic prowess in securing a high percentage or versatility on the stage and games field The institution under the able guidance of our Principal ma’am has the embellishment of a caring, loving and learning atmosphere and that makes all the difference. And today I’m working in Sherwood College, Nainital as the coordinator of English Department.
                                 </p>
                             </div>
                         </div>
-                        {/* <p className='mt-2 mr-6'>
-                            versatility on the stage and games field The institution under the able guidance of our Principal ma’am has the embellishment of a caring, loving and learning atmosphere and that makes all the difference. And today I’m working in Sherwood College, Nainital as the coordinator of English Department.
-                        </p> */}
+                        
                     </div>
 
                     {/* 2nd one */}
-                    <div class="mb-[50px] ml-10 mt-6">
+                    <div class=" mt-2 mb-[50px] ml-6 mr-6">
                         <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
                             <div className=''>
-                                <h1 className='mb-2 text-3xl font-bold'>Principal</h1>
-                                <p className='mb-2 text-xl'>Ms. Pooja Kuriya (Batch -2017-19)</p>
+                                <h1 className='mb-2 text-2xl font-bold'>Ms. Pooja Kuriya (Batch -2017-19)</h1>
+                                <p className='mb-2 text-xl'>Principal</p>
                                 <p className='mb-2 text-xl'>Mehra Public School Ramnagar</p>
-                                <p className='mt-2 mr-6'>
+                                <p className='mr-6'>
                                     I’m amongst the many students of the institution whose life changed not only academically but also mentally and emotionally after joining the Institute. The college focuses not only on making the finest of all teachers but also good humans and citizens. It’s the continuous toiling of the Principal and staff of the college that it has become one of the best and most revered colleges of education in the state. What I’m today, I totally owe to the hard work and values instilled by the institute in me, I m working as Lecturer English, Uttarakhand Education Department.
                                 </p>
                             </div>
-                            <img src={teacher2} class="max-w-lg rounded-lg picture-shadow mr-6" alt='' />
+                            <img src={teacher2} class="max-w-lg rounded-lg picture-shadow" alt='' />
                         </div>
-                        {/* <p className='mt-2 mr-6'>
-                            staff of the college that it has become one of the best and most revered colleges of education in the state. What I’m today, I totally owe to the hard work and values instilled by the institute in me, I m working as Lecturer English, Uttarakhand Education Department.
-                        </p> */}
+                        
                     </div>
 
 
                     {/* 3rd */}
-                    <div class="mb-[50px] ml-10 mt-6">
+                    <div class=" mt-2 mb-[50px] ml-6 mr-6">
                         <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
                             <img src={teacher3} class="max-w-lg rounded-lg picture-shadow" alt='' />
                             <div className='ml-6'>
-                                <h1 className='mb-2 text-3xl font-bold'>Assistant Professor (Through UKPSC)</h1>
-                                <p className='mb-2 text-xl'>Ms. Gauhar Fatima (Batch -2013-14) </p>
+                                <h1 className='mb-2 text-2xl font-bold'>Ms. Gauhar Fatima (Batch -2013-14) </h1>
+                                <p className='mb-2 text-xl'>Assistant Professor (Through UKPSC)</p>
                                 <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>
-                                <p className='mt-2 mr-6'>
+                                <p className='mt-2'>
                                     Certain milestones bring drastic changes in your life, coming to J. N. Kaul was one of them. The Institution didn't just work on our academics but ensured our participation in various co-curricular activities and community services which can prepare a teacher to cater the needs of their prospective career. Also we got ample of opportunities to use latest technologies which enabled us to stand with the ever-changing modern world and improve the teaching-learning process.
-                            As I joined JNKIE a completely different journey started because It was not a regular college which generally focuses on the academics and neglects the all round development of the students. From the first week of my admission I had to participate in the varied activities which I was not comfortable earlier on. But gradually I saw the difference in me and my friends we were more confident and active which is an relevant for every individual  to succeed in life, meanwhile I  qualified the NET/JRF examination In Education with the utmost support and guidance of the Principal and staff and right now doing my Ph. D. course work.
+                                    As I joined JNKIE a completely different journey started because It was not a regular college which generally focuses on the academics and neglects the all round development of the students. From the first week of my admission I had to participate in the varied activities which I was not comfortable earlier on. But gradually I saw the difference in me and my friends we were more confident and active which is an relevant for every individual  to succeed in life, meanwhile I  qualified the NET/JRF examination In Education with the utmost support and guidance of the Principal and staff and right now doing my Ph. D. course work.
                                 </p>
                             </div>
                         </div>
-                        {/* <p className='mt-2 mr-6'>
-                            Also we got ample of opportunities to use latest technologies which enabled us to stand with the ever-changing modern world and improve the teaching-learning process.
-                            As I joined JNKIE a completely different journey started because It was not a regular college which generally focuses on the academics and neglects the all round development of the students. From the first week of my admission I had to participate in the varied activities which I was not comfortable earlier on. But gradually I saw the difference in me and my friends we were more confident and active which is an relevant for every individual  to succeed in life, meanwhile I  qualified the NET/JRF examination In Education with the utmost support and guidance of the Principal and staff and right now doing my Ph. D. course work.
-                        </p> */}
                     </div>
 
 
                     {/* 4th */}
-                    <div class="mb-[50px] ml-10 mt-6">
+                    <div class=" mt-2 mb-[50px] ml-6 mr-6">
                         <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
-                            <div className=''>
-                                <h1 className='mb-2 text-3xl font-bold'>Teacher (Can be changed)</h1>
-                                <p className='mb-2 text-xl'>Mr. Himanshu Rawat (Batch -2015-17)</p>
+                            <div className='mr-6'>
+                                <h1 className='mb-2 text-2xl font-bold'>Mr. Himanshu Rawat (Batch -2015-17)</h1>
+                                <p className='mb-2 text-xl'>Teacher</p>
                                 <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>
-                                <p className='mt-2 mr-6'>
-                                It had  been a while  for  me after  leaving formal education  but coming  here just  not made  me a disciplined   person but  also motivated  me  to  explore  my capabilities, skills  and  talents. My   perception  towards the teaching profession especially with the experience during my practice teaching.
+                                <p className='mt-2'>
+                                    It had  been a while  for  me after  leaving formal education  but coming  here just  not made  me a disciplined   person but  also motivated  me  to  explore  my capabilities, skills  and  talents. My   perception  towards the teaching profession especially with the experience during my practice teaching.
                                 </p>
                             </div>
-                            <img src={teacher4} class="max-w-lg rounded-lg picture-shadow mr-6" alt='' />
+                            <img src={teacher4} class="max-w-lg rounded-lg picture-shadow" alt='' />
                         </div>
-                        {/* <p className='mt-2 mr-6'>
-                            staff of the college that it has become one of the best and most revered colleges of education in the state. What I’m today, I totally owe to the hard work and values instilled by the institute in me, I m working as Lecturer English, Uttarakhand Education Department.
-                        </p> */}
                     </div>
 
                 </div>

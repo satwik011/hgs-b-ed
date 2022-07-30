@@ -5,12 +5,29 @@ import email from './../assets/icons/email.svg';
 import location from './../assets/icons/location.svg';
 import grade from './../assets/icons/grade.svg';
 import message from './../assets/icons/message.svg';
+import aboutUs from './../assets/images/alumni-cover.JPG'
+import sosChildrenVillage from './../assets/images/sos_logo 3.png';
+import { useNavigate } from 'react-router-dom';
 
-const Contact = () => {
+const Contact = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, setAlumni, setAdmission, setFacultiStaff, setContactUs }) => {
+    const navigate = useNavigate();
+    const handleOverView = () => {
+        setOverview[1]('setOverview')
+        setLidership[1]('')
+        setProgramsOffered[1]('')
+        setAlumni[1]('')
+        setAdmission[1]('')
+        setFacultiStaff[1]('')
+        setContactUs[1]('')
+        setShowNavbar[1](false);
+        navigate('/')
+    }
     return (
         <div>
-            <div className='contuct-information'>
-            <h1 className='flex justify-center mt-20 mb-8 text-5xl font-bold text-blue-600'>We'd love to hear from you.</h1>
+            <img  onClick={handleOverView} className='w-48 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
+            <img className='w-full' src={aboutUs} alt="" />
+            <div className=''>
+            <h1 className='flex justify-center mt-20 mb-8 text-5xl font-bold love-to-hear'>We'd love to hear from you.</h1>
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <div className='lg:ml-28'>

@@ -34,9 +34,9 @@ const Navbar = ({setShowNavbar, setOverview, setLidership, setProgramsOffered, s
         setAlumni[1]('')
         setAdmission[1]('')
         setFacultiStaff[1]('')
-        setShowNavbar[1](false); 
+        setShowNavbar[1](true); 
         setContactUs[1]('')
-        navigate('/')
+        navigate('/programesOffered')
     }
     const handleAlumni = () =>{
         setOverview[1]('')
