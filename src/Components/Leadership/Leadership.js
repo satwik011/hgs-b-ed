@@ -10,27 +10,83 @@ import './Leadership.css';
 import Footer from '../Home/Footer';
 import { useNavigate } from 'react-router-dom';
 
-const Leadership = () => {
+const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffered, setAlumni, setAdmission, setFacultiStaff, setContactUs}) => {
     const navigate = useNavigate();
     const handleOverView = () => {
+        setOverview[1]('setOverview')
+        setLidership[1]('')
+        setProgramsOffered[1]('')
+        setAlumni[1]('')
+        setAdmission[1]('')
+        setFacultiStaff[1]('')
+        setContactUs[1]('')
+        setShowNavbar[1](false); 
         navigate('/')
     }
     const handleLeadership = () => {
+        setShowNavbar[1](true)
+        setOverview[1]('')
+        setLidership[1]('setLidership')
+        setProgramsOffered[1]('')
+        setAlumni[1]('')
+        setAdmission[1]('')
+        setFacultiStaff[1]('')
+        setContactUs[1]('')
         navigate('/leadership')
     }
     const handleProgramsOffered = () => {
-        navigate('/leadership')
+        setOverview[1]('')
+        setLidership[1]('')
+        setProgramsOffered[1]('setProgramsOffered')
+        setAlumni[1]('')
+        setAdmission[1]('')
+        setFacultiStaff[1]('')
+        setShowNavbar[1](false); 
+        setContactUs[1]('')
+        navigate('/')
     }
     const handleAlumni = () => {
-        navigate('/leadership')
+        setOverview[1]('')
+        setLidership[1]('')
+        setProgramsOffered[1]('')
+        setAlumni[1]('setAlumni')
+        setAdmission[1]('')
+        setFacultiStaff[1]('')
+        setShowNavbar[1](false); 
+        setContactUs[1]('')
+        navigate('/')
     }
     const handleAdmission = () => {
-        navigate('/leadership')
+        setOverview[1]('')
+        setLidership[1]('')
+        setProgramsOffered[1]('')
+        setAlumni[1]('')
+        setAdmission[1]('setAdmission[1]')
+        setShowNavbar[1](false); 
+        setFacultiStaff[1]('')
+        setContactUs[1]('')
+        navigate('/')
     }
     const handleFaculty = () => {
+        setOverview[1]('')
+        setLidership[1]('')
+        setProgramsOffered[1]('')
+        setAlumni[1]('')
+        setShowNavbar[1](false); 
+        setAdmission[1]('')
+        setFacultiStaff[1]('setFacultiStaff[1]')
+        setContactUs[1]('')
         navigate('/faculty')
     }
     const handleContact = () => {
+        setOverview[1]('')
+        setLidership[1]('')
+        setProgramsOffered[1]('')
+        setAlumni[1]('')
+        setShowNavbar[1](false); 
+        setAdmission[1]('')
+        setFacultiStaff[1]('')
+        setContactUs[1]('setContactUs[1]')
         navigate('/contact')
     }
     return (

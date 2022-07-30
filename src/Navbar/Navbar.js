@@ -2,127 +2,121 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Navbar.css';
 
-const Navbar = () => {
-    const [overView, setOverview] = useState('setOverview');
-    const [leadership, setLeadership] = useState('');
-    const [programsOffered, setProgramsOffered] = useState('');
-    const [alumni, setAlumni] = useState('');
-    const [admission, setAdmission] = useState('');
-    const [facultiStaff, setFacultiStaff] = useState('');
-    const [contactUs, setContactUs] = useState('');
-    const [navbar, setNavbar] = useState(false);
+const Navbar = ({setShowNavbar, setOverview, setLidership, setProgramsOffered, setAlumni, setAdmission, setFacultiStaff, setContactUs}) => {
     const navigate = useNavigate(); 
-    const handleOverview = () => {
-        setOverview('setOverview')
-        setLeadership('')
-        setProgramsOffered('')
-
-        setAlumni('')
-        setAdmission('')
-        setFacultiStaff('')
-        setContactUs('')
-        navigate('/'); 
-
+    const [navbar, setNavbar] = useState('');
+    const handleOverview = () =>{
+        setOverview[1]('setOverview')
+        setLidership[1]('')
+        setProgramsOffered[1]('')
+        setAlumni[1]('')
+        setAdmission[1]('')
+        setFacultiStaff[1]('')
+        setContactUs[1]('')
+        setShowNavbar[1](false); 
+        navigate('/')
     }
-    const handleLeadership = () => {
-        setOverview('')
-        setLeadership('setProgramsOffered')
-        setProgramsOffered('')
-        setAlumni('')
-        setAdmission('')
-        setFacultiStaff('')
-        setContactUs('')
-        navigate('/leadership'); 
-
+    const handleLeadership = () =>{
+        setShowNavbar[1](true)
+        setOverview[1]('')
+        setLidership[1]('setLidership')
+        setProgramsOffered[1]('')
+        setAlumni[1]('')
+        setAdmission[1]('')
+        setFacultiStaff[1]('')
+        setContactUs[1]('')
+        navigate('/leadership')
     }
-    const handleProgramsOffered = () => {
-        setOverview('')
-        setLeadership('')
-        setProgramsOffered('setPlacement')
-
-        setAlumni('')
-        setAdmission('')
-        setFacultiStaff('')
-        setContactUs('')
-
+    const handleProgramsOffered = () =>{
+        setOverview[1]('')
+        setLidership[1]('')
+        setProgramsOffered[1]('setProgramsOffered')
+        setAlumni[1]('')
+        setAdmission[1]('')
+        setFacultiStaff[1]('')
+        setShowNavbar[1](false); 
+        setContactUs[1]('')
+        navigate('/')
     }
-    const handleAlumni = () => {
-        setOverview('')
-        setLeadership('')
-        setProgramsOffered('')
-
-        setAlumni('setAdmissionRequirment')
-        setAdmission('')
-        setFacultiStaff('')
-        setContactUs('')
-
+    const handleAlumni = () =>{
+        setOverview[1]('')
+        setLidership[1]('')
+        setProgramsOffered[1]('')
+        setAlumni[1]('setAlumni')
+        setAdmission[1]('')
+        setFacultiStaff[1]('')
+        setShowNavbar[1](false); 
+        setContactUs[1]('')
+        navigate('/')
     }
-    const handleAdmission = () => {
-        setOverview('')
-        setLeadership('')
-        setProgramsOffered('')
-
-        setAlumni('')
-        setAdmission('setKeyInfo')
-        setFacultiStaff('')
-        setContactUs('')
-
+    const handleAdmission = () =>{
+        setOverview[1]('')
+        setLidership[1]('')
+        setProgramsOffered[1]('')
+        setAlumni[1]('')
+        setAdmission[1]('setAdmission[1]')
+        setShowNavbar[1](false); 
+        setFacultiStaff[1]('')
+        setContactUs[1]('')
+        navigate('/')
     }
-    const handleFacultiStaff = () => {
-        setOverview('')
-        setLeadership('')
-        setProgramsOffered('')
-
-        setAlumni('')
-        setAdmission('')
-        setFacultiStaff('setLife')
-        setContactUs('')
+    const handleFacultiStaff = () =>{
+        setOverview[1]('')
+        setLidership[1]('')
+        setProgramsOffered[1]('')
+        setAlumni[1]('')
+        setShowNavbar[1](false); 
+        setAdmission[1]('')
+        setFacultiStaff[1]('setFacultiStaff[1]')
+        setContactUs[1]('')
         navigate('/faculty')
+    }
+    const handleContactUs = () =>{
+        setOverview[1]('')
+        setLidership[1]('')
+        setProgramsOffered[1]('')
+        setAlumni[1]('')
+        setShowNavbar[1](false); 
+        setAdmission[1]('')
+        setFacultiStaff[1]('')
+        setContactUs[1]('setContactUs[1]')
+        navigate('/contact')
+    }
 
-    }
-    const handleContactUs = () => {
-        setOverview('')
-        setLeadership('')
-        setProgramsOffered('')
-        setAlumni('')
-        setAdmission('')
-        setFacultiStaff('')
-        setContactUs('setContactUs'); 
-        navigate('/contact'); 
-    }
-
-    const activeNavbar = () => {
-        if (window.scrollY >= 200) {
-            setNavbar(true);
+        const activeNavbar = () => {
+            if (window.scrollY >= 200) {
+                setNavbar(true);
+            }
+            else {
+                setNavbar('');
+            }
         }
-        else {
-            setNavbar(false);
-        }
-    }
-    window.addEventListener('scroll', activeNavbar);
+        window.addEventListener('scroll', activeNavbar);
+        console.log('navbar',navbar)
+        console.log('show navbar',setShowNavbar[0])
 
     return (
-        <div className={`flex justify-center lg:mx-80 md:mx-12 mx-6 ${navbar === true ? 'block' : 'hidden'} bg-white for-making-sticky-navbar`}>
+        <div className={`flex justify-center lg:mx-80 md:mx-12 mx-6 ${(navbar === true) ? 'block' : 'hidden'} ${setShowNavbar[0] === true ? 'hidden' : 'block'} bg-white for-making-sticky-navbar`}>
             <div class="navbar shadow-2xl flex justify-center">
-            <div onClick={handleOverview} className={`items-center ${overView ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-2 navbar-topic`}>
+            <div onClick={handleOverview} className={`items-center ${setOverview[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Overview</h1>
             </div>
-            <div onClick={handleLeadership} className={`items-center ${leadership ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-2 navbar-topic`}>
+            <div onClick={handleLeadership} className={`items-center ${setLidership[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Leadership</h1>
             </div>
-            <div onClick={handleProgramsOffered} className={`items-center ${programsOffered ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-2 navbar-topic`}>
+            <div onClick={handleProgramsOffered} className={`items-center ${setProgramsOffered[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Programs Offered</h1>
             </div>
-            <div onClick={handleAlumni} className={`items-center ${alumni ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-2 navbar-topic`}>
+            <div onClick={handleAlumni} className={`items-center ${setAlumni[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Alumni</h1>
             </div>
-            <div onClick={handleAdmission} className={`items-center ${admission ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-2 navbar-topic`}>
+            <div onClick={handleAdmission} className={`items-center ${setAdmission[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Admissions</h1>
             </div>
-            <div onClick={handleFacultiStaff} className={`items-center ${facultiStaff ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-2 navbar-topic`}>
+            <div onClick={handleFacultiStaff} className={`items-center ${setFacultiStaff[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Faculty & Staff</h1>
             </div>
-            <div onClick={handleContactUs} className={`items-center ${contactUs ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-2 navbar-topic`}>
+            <div onClick={handleContactUs} className={`items-center ${setContactUs[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Contact Us</h1>
             </div>
             </div>

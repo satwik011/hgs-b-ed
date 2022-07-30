@@ -20,7 +20,6 @@ import './FacultyStafTable.css';
 const FacultyAndStaf = () => {
     return (
         <div className='mb-8'>
-            <Navbar></Navbar>
             <h1 className='flex justify-center mt-12 mb-6 text-4xl font-bold text-blue-600'>Details of Teaching Staff</h1>
             <p className='flex justify-center mb-8 text-xl'>LECTURERS/TEACHING STAFF (AS PER NCTE NORMS)</p>
             <div class="overflow-x-auto md:mx-2 lg:mx-8">

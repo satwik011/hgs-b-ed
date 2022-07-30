@@ -10,7 +10,6 @@ import Navbar from '../../Navbar/Navbar';
 const Contact = () => {
     return (
         <div>
-            <Navbar></Navbar>
             <div className='contuct-information'>
             <h1 className='flex justify-center mt-20 mb-8 text-5xl font-bold text-blue-600'>We'd love to hear from you.</h1>
             <div class="hero">
