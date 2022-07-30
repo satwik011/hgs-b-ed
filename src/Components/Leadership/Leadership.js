@@ -52,9 +52,9 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
         setAlumni[1]('setAlumni')
         setAdmission[1]('')
         setFacultiStaff[1]('')
-        setShowNavbar[1](false); 
+        setShowNavbar[1](true); 
         setContactUs[1]('')
-        navigate('/')
+        navigate('/alumni')
     }
     const handleAdmission = () => {
         setOverview[1]('')
@@ -62,10 +62,10 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
         setProgramsOffered[1]('')
         setAlumni[1]('')
         setAdmission[1]('setAdmission[1]')
-        setShowNavbar[1](false); 
+        setShowNavbar[1](true); 
         setFacultiStaff[1]('')
         setContactUs[1]('')
-        navigate('/')
+        navigate('/admission')
     }
     const handleFaculty = () => {
         setOverview[1]('')
@@ -122,7 +122,7 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
                 </div>
                 <div>
                     <div class="mb-[50px] ml-10 mt-2">
-                        <h1 className='mb-4 text-5xl leadership-heading'>Leadership</h1>
+                        <h1 className='mt-4 mb-8 text-5xl leadership-heading'>Leadership</h1>
                         <div class="flex justify-center flexProp flex-col lg:flex-row">
                             <img src={teacher1} class="max-w-lg rounded-lg picture-shadow" alt='' />
                             <div className='ml-6'>

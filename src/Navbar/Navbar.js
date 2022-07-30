@@ -45,9 +45,9 @@ const Navbar = ({setShowNavbar, setOverview, setLidership, setProgramsOffered, s
         setAlumni[1]('setAlumni')
         setAdmission[1]('')
         setFacultiStaff[1]('')
-        setShowNavbar[1](false); 
+        setShowNavbar[1](true); 
         setContactUs[1]('')
-        navigate('/')
+        navigate('/alumni')
     }
     const handleAdmission = () =>{
         setOverview[1]('')
@@ -58,7 +58,7 @@ const Navbar = ({setShowNavbar, setOverview, setLidership, setProgramsOffered, s
         setShowNavbar[1](false); 
         setFacultiStaff[1]('')
         setContactUs[1]('')
-        navigate('/')
+        navigate('/admission')
     }
     const handleFacultiStaff = () =>{
         setOverview[1]('')
@@ -97,7 +97,7 @@ const Navbar = ({setShowNavbar, setOverview, setLidership, setProgramsOffered, s
 
     return (
         <div className={`flex justify-center lg:mx-80 md:mx-12 mx-6 ${(navbar === true) ? 'block' : 'hidden'} ${setShowNavbar[0] === true ? 'hidden' : 'block'} bg-white for-making-sticky-navbar`}>
-            <div class="navbar shadow-2xl flex justify-center">
+            <div class="navbar shadow-2xl flex justify-between">
             <div onClick={handleOverview} className={`items-center ${setOverview[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Overview</h1>
             </div>
