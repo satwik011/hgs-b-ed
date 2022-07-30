@@ -5,7 +5,6 @@ import email from './../assets/icons/email.svg';
 import location from './../assets/icons/location.svg';
 import grade from './../assets/icons/grade.svg';
 import message from './../assets/icons/message.svg';
-import Navbar from '../../Navbar/Navbar';
 
 const Contact = () => {
     return (

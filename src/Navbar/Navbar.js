@@ -55,7 +55,7 @@ const Navbar = ({setShowNavbar, setOverview, setLidership, setProgramsOffered, s
         setProgramsOffered[1]('')
         setAlumni[1]('')
         setAdmission[1]('setAdmission[1]')
-        setShowNavbar[1](false); 
+        setShowNavbar[1](true); 
         setFacultiStaff[1]('')
         setContactUs[1]('')
         navigate('/admission')
@@ -92,31 +92,29 @@ const Navbar = ({setShowNavbar, setOverview, setLidership, setProgramsOffered, s
             }
         }
         window.addEventListener('scroll', activeNavbar);
-        console.log('navbar',navbar)
-        console.log('show navbar',setShowNavbar[0])
 
     return (
-        <div className={`flex justify-center lg:mx-80 md:mx-12 mx-6 ${(navbar === true) ? 'block' : 'hidden'} ${setShowNavbar[0] === true ? 'hidden' : 'block'} bg-white for-making-sticky-navbar`}>
-            <div class="navbar shadow-2xl flex justify-between">
-            <div onClick={handleOverview} className={`items-center ${setOverview[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
+        <div className={`flex justify-center lg:mx-[80px] md:mx-12 mx-6 ${(navbar === true) ? 'block' : 'hidden'} ${setShowNavbar[0] === true ? 'hidden' : 'block'} bg-white for-making-sticky-navbar`}>
+            <div class="navbar shadow-2xl flex justify-around">
+            <div onClick={handleOverview} className={`items-center ${setOverview[0] ? 'for-background' : 'not-selected'} lg:px-4  py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Overview</h1>
             </div>
-            <div onClick={handleLeadership} className={`items-center ${setLidership[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
+            <div onClick={handleLeadership} className={`items-center ${setLidership[0] ? 'for-background' : 'not-selected'} lg:px-4  py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Leadership</h1>
             </div>
-            <div onClick={handleProgramsOffered} className={`items-center ${setProgramsOffered[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
+            <div onClick={handleProgramsOffered} className={`items-center ${setProgramsOffered[0] ? 'for-background' : 'not-selected'} lg:px-4  py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Programs Offered</h1>
             </div>
-            <div onClick={handleAlumni} className={`items-center ${setAlumni[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
+            <div onClick={handleAlumni} className={`items-center ${setAlumni[0] ? 'for-background' : 'not-selected'} lg:px-4  py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Alumni</h1>
             </div>
-            <div onClick={handleAdmission} className={`items-center ${setAdmission[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
+            <div onClick={handleAdmission} className={`items-center ${setAdmission[0] ? 'for-background' : 'not-selected'} lg:px-4  py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Admissions</h1>
             </div>
-            <div onClick={handleFacultiStaff} className={`items-center ${setFacultiStaff[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
+            <div onClick={handleFacultiStaff} className={`items-center ${setFacultiStaff[0] ? 'for-background' : 'not-selected'} lg:px-4  py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Faculty & Staff</h1>
             </div>
-            <div onClick={handleContactUs} className={`items-center ${setContactUs[0] ? 'for-background' : 'not-selected'} px-4 mr-[32px] py-4 navbar-topic`}>
+            <div onClick={handleContactUs} className={`items-center ${setContactUs[0] ? 'for-background' : 'not-selected'} lg:px-4 py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Contact Us</h1>
             </div>
             </div>

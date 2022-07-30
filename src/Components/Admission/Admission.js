@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Footer from '../Home/Footer';
-import aboutUs from './../assets/images/about-us-leadership.jpeg'
+import aboutUs from './../assets/images/admission-cover.JPG'
 import location from './../assets/icons/location.png'
 import email from './../assets/icons/email.png'
 import phone from './../assets/icons/footer.png'
@@ -102,11 +102,11 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
 
                     <div className='leadership-info'>
-                        <div className='flex '>
+                        <div className='flex items-center justify-center'>
                             <img className='mr-4' src={location} alt="" />
                             <p className='flex forTextHover'>J N Kaul Institute of Education Bhimtal SOS Complex, Tallital Bhimtal Nainital, Uttrakhand, India, 263136</p>
                         </div>
-                        <div className='flex my-4'>
+                        <div className='flex items-center justify-center my-4'>
                             <img className='ml-2 mr-4' src={email} alt="" />
                             <p className='flex forTextHover'>Principal.bhimtalbed@soscvindia.org </p>
                         </div>
@@ -311,17 +311,17 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                                 <tr className='hover'>
                                                     <th className='table-data'>University Name</th>
-                                                    <td className='underline table-data'>Kumaun University</td>
+                                                    <td className='table-data'><span className='underline'>Kumaun University</span></td>
                                                 </tr>
 
                                                 <tr className='hover'>
                                                     <th className='table-data'>Official Website</th>
-                                                    <td className='underline table-data'>https://www.kunainital.ac.in/</td>
+                                                    <td className='table-data'><span className='underline'>https://www.kunainital.ac.in/</span></td>
                                                 </tr>
 
                                                 <tr className='hover'>
                                                     <th className='table-data'>Admission 2021-22</th>
-                                                    <td className='underline table-data'>Kumaun University Admission 2021</td>
+                                                    <td className='table-data'><span className='underline'>Kumaun University Admission 2021</span></td>
                                                 </tr>
                                             </tbody>
                                         </table>

@@ -19,7 +19,7 @@ const Footer = () => {
                 </div>
 
 
-                <div>
+                <div className='margin'>
                     <span class="footer-heading mb-[20px]">Get In Touch</span>
                     <a class="link link-hover flex justify-center items-center mb-[40px]">
                         <img className='mr-[24px]' src={phone} alt="" />
@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
 
 
-                <div>
+                <div className='margin'>
                     <span class="footer-heading mb-[20px]">Our Services</span>
                     <a class="link link-hover flex justify-center items-center mb-[40px]">
                         
@@ -58,7 +58,7 @@ const Footer = () => {
                 </div>
 
 
-                <div>
+                <div className='margin'>
                     <span class="footer-heading mb-[20px]">Quick Link</span>
                     <a class="link link-hover flex justify-center items-center mb-[40px]">
                         

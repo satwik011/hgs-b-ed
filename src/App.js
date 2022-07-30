@@ -17,6 +17,7 @@ function App() {
   const [admission, setAdmission] = useState(''); 
   const [facultiStaff, setFacultiStaff] = useState(''); 
   const [contactUs, setContactUs] = useState('');
+  console.log(showNavbar); 
   return (
     <div className="">
       <Navbar setShowNavbar={[showNavbar, setShowNavbar]} setOverview={[overView, setOverview]} setLidership={[leadership, setLidership]} setProgramsOffered={[programsOffered, setProgramsOffered]} setAlumni={[alumni, setAlumni]} setAdmission={[admission, setAdmission]} setFacultiStaff={[facultiStaff, setFacultiStaff]} setContactUs={[contactUs, setContactUs]}></Navbar>

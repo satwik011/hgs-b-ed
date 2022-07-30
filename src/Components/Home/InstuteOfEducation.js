@@ -32,7 +32,7 @@ const InstuteOfEducation = () => {
                             <div className='block mx-auto'>
                                 <div>
                                     <h1 className='instute'>INSTUTE OF EDUCATION</h1>
-                                    <p className='bed-college'>B.ED.College, Bhimtal</p>
+                                    <p className='flex justify-center bed-college'>B.ED.College, Bhimtal</p>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ const InstuteOfEducation = () => {
                     {/* Photo gallery */}
 
                     {/* Contact with us */}
-                    <div className='mt-16 ml-[80px] mr-[80px]'>
+                    <div className='mt-16'>
                         <div className='flex justify-center'>
                             <div>
                                 <h1 className='welcome'>Contact Us</h1>
@@ -67,7 +67,8 @@ const InstuteOfEducation = () => {
                             </div>
                         </div>
 
-                        <div className='flex justify-around mt-8 mb-8'>
+                        <div className='hidden lg:block md:block'>
+                        <div className='flex justify-between ml-[80px] mr-[80px] mt-8 mb-8'>
                             <div>
                                 <h1 className='mb-12 drop-details'>Drop us your details for quick response.</h1>
                                 <div>
@@ -116,7 +117,58 @@ const InstuteOfEducation = () => {
                             <div>
                                 <img className='container-fluid' src={contactImage} alt="" />
                             </div>
+                        </div>
+                        </div>
 
+
+                        {/* For Mobile device */}
+                        <div class="hero block lg:hidden md:hidden">
+                            <div class="hero-content flex-col lg:flex-row-reverse">
+                                <div class="text-center lg:text-left">
+                                <img className='container-fluid' src={contactImage} alt="" />
+                                </div>
+
+                                <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                                    <div class="card-body">
+
+
+                                    <div className='flex items-center justify-center mr-8 contact-input'>
+                                            <img className='mx-4 for-opacity' src={user} alt="" />
+                                            <input className='pl-2 input-field' type="text" placeholder='Username' ></input>
+                                        </div>
+
+                                        <div className='flex items-center justify-center contact-input'>
+                                            <img className='mx-4 for-opacity' src={location} alt="" />
+                                            <input className='pl-2 input-field' type="text" placeholder='City' ></input>
+                                        </div>
+
+                                        <div className='flex items-center justify-center mr-8 contact-input'>
+                                            <img className='mx-4 for-opacity' src={email} alt="" />
+                                            <input className='pl-2 input-field' type="text" placeholder='Email' ></input>
+                                        </div>
+
+                                        <div className='flex items-center justify-center contact-input'>
+                                            <img className='mx-4 for-opacity' src={grade} alt="" />
+                                            <input className='pl-2 input-field' type="text" placeholder='Grade' ></input>
+                                        </div>
+
+                                        <div className='flex items-center justify-center mr-8 contact-input'>
+                                            <img className='mx-4 for-opacity' src={phone} alt="" />
+                                            <input className='pl-2 input-field' type="text" placeholder='Phone Number' ></input>
+                                        </div>
+
+                                        <div className='flex items-center justify-center mr-8 contact-input'>
+                                            <img className='mx-4 for-opacity' src={message} alt="" />
+                                            <input className='pl-2 input-field' type="text" placeholder='Message' ></input>
+                                        </div>
+
+                                        
+                                        <div class="form-control mt-6">
+                                            <button class="for-background-home-mobile">Login</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>

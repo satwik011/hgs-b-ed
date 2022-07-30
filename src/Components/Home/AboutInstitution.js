@@ -2,6 +2,7 @@ import React from 'react';
 import rectangle from './../assets/images/Rectangle 404.png';
 import studentTeacher from './../assets/images/image 12.png';
 import studentTeacher2 from './../assets/images/image 13.png';
+import studentTaboutBhimtal from './../assets/images/about-bhimtal.png';
 
 const AboutInstitution = () => {
     return (
@@ -13,8 +14,8 @@ const AboutInstitution = () => {
                             </div>
 
                             <div class="mb-[50px]">
-                                <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
-                                    <img src={studentTeacher} class="max-w-lg rounded-lg shadow-2xl" alt='' />
+                                <div class="flex justify-center flexProp flex-col lg:flex-row">
+                                    <img src={studentTaboutBhimtal} class="max-w-lg rounded-lg shadow-2xl" alt='' />
                                     <div className='ml-6'>
                                         <h1 className='about-sos'>About SOS</h1>
                                         <p className='sos-para'>
@@ -40,7 +41,7 @@ const AboutInstitution = () => {
 
 
                             <div class="mb-[50px]">
-                                <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
+                                <div class="flex justify-center flexProp flex-col lg:flex-row">
                                     <img src={studentTeacher2} class="max-w-lg rounded-lg shadow-2xl" alt='' />
                                     <div className='ml-6'>
                                         <h1 className='about-sos'>VISION & MISSION</h1>
