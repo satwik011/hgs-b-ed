@@ -69,7 +69,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
         setLidership[1]('')
         setProgramsOffered[1]('')
         setAlumni[1]('')
-        setShowNavbar[1](false);
+        setShowNavbar[1](true);
         setAdmission[1]('')
         setFacultiStaff[1]('setFacultiStaff[1]')
         setContactUs[1]('')
@@ -88,7 +88,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
     }
     return (
         <div>
-            <img  onClick={handleOverView} className='w-48 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
+            <img  onClick={handleOverView} className='w-20 lg:w-48 md:24 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
             <img className='w-full' src={aboutUs} alt="" />
             <div className='flex justify-center'>
                 <div className='mt-6 ml-10'>
@@ -109,8 +109,8 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
                             <p className='flex forTextHover'>J N Kaul Institute of Education Bhimtal SOS Complex, Tallital Bhimtal Nainital, Uttrakhand, India, 263136</p>
                         </div>
                         <div className='flex items-center justify-center my-4'>
-                            <img className='ml-2 mr-4' src={email} alt="" />
-                            <p className='flex forTextHover'>Principal.bhimtalbed@soscvindia.org </p>
+                            <img className='mr-4' src={email} alt="" />
+                            <p className='flex forTextHover'>Principal.bhimtalbed@sos<br />cvindia.org </p>
                         </div>
                         <div className='flex'>
                             <img className='mr-4' src={phone} alt="" />
@@ -122,8 +122,8 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
                     <div class="mb-[50px] ml-6 mr-6 mt-2">
                         <div class="flex justify-center flexProp flex-col lg:flex-row">
                             <div className=''>
-                                <h1 className='mt-4 mb-8 text-5xl leadership-heading'>Admission</h1>
-                                <h1 className='mb-2 text-3xl font-bold'>Admission Criteria</h1>
+                                <h1 className='mt-4 mb-8 text-4xl leadership-heading'>Admission</h1>
+                                <h1 className='mb-2 text-2xl font-bold'>Admission Criteria</h1>
 
 
                                 <div className='mb-6'>

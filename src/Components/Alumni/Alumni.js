@@ -73,7 +73,7 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
         setLidership[1]('')
         setProgramsOffered[1]('')
         setAlumni[1]('')
-        setShowNavbar[1](false);
+        setShowNavbar[1](true);
         setAdmission[1]('')
         setFacultiStaff[1]('setFacultiStaff[1]')
         setContactUs[1]('')
@@ -92,10 +92,11 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
     }
     return (
         <div>
-            <img  onClick={handleOverView} className='w-48 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
+            <img  onClick={handleOverView} className='w-20 lg:w-48 md:24 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
             <img className='w-full' src={aboutUs} alt="" />
-            <div className='flex justify-center'>
-                <div className='mt-6 ml-10'>
+            <div className='flex flex-col justify-between md:flex-row'>
+                <div className='flex justify-center mt-6 ml-6 md:grid lg:grid'>
+                    <div>
                     <div className='leadership'>
                         <p onClick={handleOverView} className='flex items-center h-12 my-2 forTextHover'>Overview</p>
                         <p onClick={handleLeadership} className='flex items-center h-12 my-2 forTextHover'>Leadership</p>
@@ -113,13 +114,14 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                             <p className='flex forTextHover'>J N Kaul Institute of Education Bhimtal SOS Complex, Tallital Bhimtal Nainital, Uttrakhand, India, 263136</p>
                         </div>
                         <div className='flex items-center justify-center my-4'>
-                            <img className='ml-2 mr-4' src={email} alt="" />
-                            <p className='flex forTextHover'>Principal.bhimtalbed@soscvindia.org </p>
+                            <img className='mr-4' src={email} alt="" />
+                            <p className='flex forTextHover'>Principal.bhimtalbed@sos<br />cvindia.org </p>
                         </div>
                         <div className='flex'>
                             <img className='mr-4' src={phone} alt="" />
                             <p className='flex forTextHover'>05942-247999</p>
                         </div>
+                    </div>
                     </div>
                 </div>
 

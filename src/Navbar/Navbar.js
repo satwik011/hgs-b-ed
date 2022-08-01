@@ -65,7 +65,7 @@ const Navbar = ({setShowNavbar, setOverview, setLidership, setProgramsOffered, s
         setLidership[1]('')
         setProgramsOffered[1]('')
         setAlumni[1]('')
-        setShowNavbar[1](false); 
+        setShowNavbar[1](true); 
         setAdmission[1]('')
         setFacultiStaff[1]('setFacultiStaff[1]')
         setContactUs[1]('')
@@ -92,7 +92,6 @@ const Navbar = ({setShowNavbar, setOverview, setLidership, setProgramsOffered, s
             }
         }
         window.addEventListener('scroll', activeNavbar);
-
     return (
         <div className={`flex justify-center curve-navbar lg:mx-[80px] md:mx-12 mx-6 ${(navbar === true) ? 'block' : 'hidden'} ${setShowNavbar[0] === true ? 'hidden' : 'block'} bg-white for-making-sticky-navbar`}>
             <div class="navbar shadow-2xl flex justify-around">

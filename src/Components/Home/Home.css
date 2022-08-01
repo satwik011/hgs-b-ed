@@ -10,20 +10,10 @@
     color: #121212;
 }
 
-.background-image {
-    /* background-image: url('../assets/images/background.png'); */
-    background: #EAF3FA;
-    border-radius: 0 0 100% 100%/0 0 100% 100%;
-    /* transform: scale(1.5); */
+.kept-top{
+    position: absolute;
+    top: 30px;
 
-
-    /* background-image: url('../assets/images/background.png');
-    background: #EAF3FA;
-    background-repeat: no-repeat;
-    background-size: 220vh 80vh;
-    margin: 0;
-    padding: 0;
-    border: 2px solid white; */
 }
 
 .children-village {
@@ -319,8 +309,8 @@
 }
 .home-button{
     position: absolute;
-    top: 50px;
-    left: 80px;
+    top: 30px;
+    left: 50px;
     cursor: pointer;
 }
 .slick-arrow{
@@ -348,4 +338,8 @@
 .teachers-picture{
     width: 200px;
     height: 200px;
+}
+.about-institution-picture{
+    width: 350px;
+    height: 280px;
 }

@@ -8,6 +8,7 @@ import phone from './../assets/icons/phone.svg';
 import email from './../assets/icons/email.svg';
 import location from './../assets/icons/location.svg';
 import grade from './../assets/icons/grade.svg';
+import background from '../assets/images/background.png';
 import message from './../assets/icons/message.svg';
 import { Link, useNavigate } from 'react-router-dom';
 import './Home.css';
@@ -26,9 +27,11 @@ const InstuteOfEducation = () => {
         <div>
             <div className=''>
                 <div>
-                    <div className='kept-top background-image pb-[10px]'>
+                <img className='w-full' src={background} alt="" />
+                <img  onClick={handleHome} className='w-20 lg:w-48 md:24 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
+                    <div className='kept-top pb-[10px]'>
                         <div className='flex items-center ml-[80px] mr-[80px] mb-[50px]'>
-                        <img  onClick={handleHome} className='w-48 lg:home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
+                        
                             <div className='block mx-auto'>
                                 <div className='mt-[50px]'>
                                     <h1 className='instute'>INSTUTE OF EDUCATION</h1>

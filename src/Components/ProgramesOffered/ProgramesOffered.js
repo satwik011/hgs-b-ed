@@ -69,7 +69,7 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
         setLidership[1]('')
         setProgramsOffered[1]('')
         setAlumni[1]('')
-        setShowNavbar[1](false);
+        setShowNavbar[1](true);
         setAdmission[1]('')
         setFacultiStaff[1]('setFacultiStaff[1]')
         setContactUs[1]('')
@@ -88,10 +88,11 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
     }
     return (
         <div>
-            <img  onClick={handleOverView} className='w-48 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
+            <img onClick={handleOverView} className='w-20 lg:w-48 md:24 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
             <img className='w-full' src={aboutUs} alt="" />
-            <div className='flex justify-center'>
-                <div className='mt-6 ml-10'>
+            <div className='flex flex-col justify-between md:flex-row'>
+                <div className='flex justify-center mt-6 ml-6 md:grid lg:grid'>
+                    <div>
                     <div className='leadership'>
                         <p onClick={handleOverView} className='flex items-center h-12 my-2 forTextHover'>Overview</p>
                         <p onClick={handleLeadership} className='flex items-center h-12 my-2 forTextHover'>Leadership</p>
@@ -106,39 +107,40 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
                     <div className='leadership-info'>
                         <div className='flex items-center justify-center'>
                             <img className='mr-4' src={location} alt="" />
-                            <p className='flex forTextHover'>J N Kaul Institute of Education Bhimtal SOS Complex, Tallital Bhimtal Nainital, Uttrakhand, India, 263136</p>
+                            <p className='flex forTexthover-table'>J N Kaul Institute of Education Bhimtal SOS Complex, Tallital Bhimtal Nainital, Uttrakhand, India, 263136</p>
                         </div>
                         <div className='flex items-center justify-center my-4'>
-                            <img className='ml-2 mr-4' src={email} alt="" />
-                            <p className='flex forTextHover'>Principal.bhimtalbed@soscvindia.org </p>
+                            <img className='mr-4' src={email} alt="" />
+                            <p className='flex forTexthover-table'>Principal.bhimtalbed@sos<br />cvindia.org </p>
                         </div>
                         <div className='flex'>
                             <img className='mr-4' src={phone} alt="" />
-                            <p className='flex forTextHover'>05942-247999</p>
+                            <p className='flex forTexthover-table'>05942-247999</p>
                         </div>
                     </div>
+                    </div>
                 </div>
+
                 <div>
                     <div class="mb-[50px] ml-6 mr-6 mt-2">
-                        <div class="flex justify-center flexProp flex-col lg:flex-row">
-                            <div className=''>
-                                <h1 className='mt-4 mb-8 text-5xl leadership-heading'>Course Details (B.Ed Programme)</h1>
-                                <div className='mb-6'>
-                                    <p className='block mx-auto mb-2'>The Bachelor of Education (B.Ed.) programe is a two year (four semesters) professional course that prepares teachers for upper primary or middle level (classes VI- VIII), secondary level (classes IX-X) and senior secondary level (classes XI-XII).
-                                        The B.Ed. programme runs for a duration of two academic years (four semesters). Students are permitted to complete the programme  in two years from the date of admission to the programme..There shall be at least two hundred working days each year, exclusive of the period of examination and admission.
-                                        The basic unit size for the programme shall be of fifty students. Increase in intake for an institution shall be subject to the approval of NCTE, state government and Kumaun University.
-                                        Candidate with at least fifty percent (50%) marks either in the Bachelor’s Degree and/or in the Master’s Degree in relevant subject are eligible for the B.Ed Programme. Candidates belonging to SC/ST category must have obtained at least 45% marks in above or other equivalent examination. Reservation and relaxation, if any, for SC/ST/OBC and other applicable categories shall be given as per the rules of state government.
-                                        Admission shall be made on merit of marks obtained in the B.Ed. Common Entrance Test (CET), to be conducted by Kumaun University. The institution shall charge only such fee as prescribed by Kumaun University and/ or approved by state government.
-                                    </p>
-                                </div>
-                                <h1 className='text-2xl font-bold'>Subject Details of B.Ed. Programme (For four Semester)</h1>
-                                <div className='mb-6'>
-                                    <p className='flex justify-center mb-2 text-xl font-bold'> Semester-I</p>
+                        <h1 className='mt-4 mb-8 text-4xl leadership-heading'>Course Details (B.Ed Programme)</h1>
+                        <div className='mb-6'>
+                            <p className='block mx-auto mb-2'>The Bachelor of Education (B.Ed.) programe is a two year (four semesters) professional course that prepares teachers for upper primary or middle level (classes VI- VIII), secondary level (classes IX-X) and senior secondary level (classes XI-XII).
+                                The B.Ed. programme runs for a duration of two academic years (four semesters). Students are permitted to complete the programme  in two years from the date of admission to the programme..There shall be at least two hundred working days each year, exclusive of the period of examination and admission.
+                                The basic unit size for the programme shall be of fifty students. Increase in intake for an institution shall be subject to the approval of NCTE, state government and Kumaun University.
+                                Candidate with at least fifty percent (50%) marks either in the Bachelor’s Degree and/or in the Master’s Degree in relevant subject are eligible for the B.Ed Programme. Candidates belonging to SC/ST category must have obtained at least 45% marks in above or other equivalent examination. Reservation and relaxation, if any, for SC/ST/OBC and other applicable categories shall be given as per the rules of state government.
+                                Admission shall be made on merit of marks obtained in the B.Ed. Common Entrance Test (CET), to be conducted by Kumaun University. The institution shall charge only such fee as prescribed by Kumaun University and/ or approved by state government.
+                            </p>
+                        </div>
 
-                                    <div class="overflow-x-auto">
-                                        <table class="table w-full">
+                        <div className='w-full gap-5'>
+
+                            
+                        <div class="overflow-x-auto">
+                        <p className='flex justify-center mb-2 text-xl font-bold'> Semester-I</p>
+                                        <table class=" w-full">
                                             <thead>
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='text-xl normal-case table-data'>Course Code</th>
 
                                                     <th className='text-xl normal-case table-data'>Name of the course</th>
@@ -151,85 +153,81 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>B-101</th>
 
-                                                    <td className='table-data'>Philosophical and sociological perspectives of Education</td>
+                                                    <td className='table-data'><span className='flex justify-center'>Philosophical and sociological perspectives of Education</span></td>
 
-                                                    <td className='table-data'>30</td>
+                                                    <td className='table-data'><span className='flex justify-center '>30</span></td>
 
-                                                    <td className='table-data'>70</td>
+                                                    <td className='table-data'><span className='flex justify-center'>30</span></td>
 
-                                                    <td className='table-data'>3</td>
+                                                    <td className='table-data'><span className='flex justify-center'>3</span></td>
                                                 </tr>
 
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>B-102</th>
 
-                                                    <td className='table-data'>Psychology of Development & Learning</td>
+                                                    <td className='table-data'><span className='flex justify-center'>Psychology of Development & Learning</span></td>
 
-                                                    <td className='table-data'>30</td>
+                                                    <td className='table-data'><span className='flex justify-center'>30</span></td>
 
-                                                    <td className='table-data'>70</td>
+                                                    <td className='table-data'><span className='flex justify-center'>70</span></td>
 
-                                                    <td className='table-data'>3</td>
+                                                    <td className='table-data'><span className='flex justify-center'>3</span></td>
                                                 </tr>
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>B-103</th>
 
-                                                    <td className='table-data'>Principles and Methods of Teaching</td>
+                                                    <td className='table-data'><span className='flex justify-center'>Principles and Methods of Teaching</span></td>
 
-                                                    <td className='table-data'>30</td>
+                                                    <td className='table-data'><span className='flex justify-center'>30</span></td>
 
-                                                    <td className='table-data'>70</td>
+                                                    <td className='table-data'><span className='flex justify-center'>70</span></td>
 
-                                                    <td className='table-data'>3</td>
+                                                    <td className='table-data'><span className='flex justify-center'>3</span></td>
                                                 </tr>
 
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>EPC-104</th>
 
-                                                    <td className='table-data'>Language Across the Curriculum</td>
+                                                    <td className='table-data'><span className='flex justify-center'>Language Across the Curriculum</span></td>
 
-                                                    <td className='table-data'>25</td>
+                                                    <td className='table-data'><span className='flex justify-center'>25</span></td>
 
-                                                    <td className='table-data'>--</td>
+                                                    <td className='table-data'><span className='flex justify-center'>--</span></td>
 
-                                                    <td className='table-data'>--</td>
+                                                    <td className='table-data'><span className='flex justify-center'>--</span></td>
                                                 </tr>
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>EPC-105</th>
 
-                                                    <td className='table-data'>Psychological Tests</td>
+                                                    <td className='table-data'><span className='flex justify-center'>Psychological Tests</span></td>
 
-                                                    <td className='table-data'>25</td>
+                                                    <td className='table-data'><span className='flex justify-center'>25</span></td>
 
-                                                    <td className='table-data'>--</td>
+                                                    <td className='table-data'><span className='flex justify-center'>--</span></td>
 
-                                                    <td className='table-data'>--</td>
+                                                    <td className='table-data'><span className='flex justify-center'>--</span></td>
                                                 </tr>
 
                                             </tbody>
                                         </table>
-                                        {/* <p>For detail information about Kumaun</p>
-                                        <ul>
-                                            <li>Download B.ED Information Brochure</li>
-                                        </ul> */}
+                                        
                                     </div>
-                                </div>
 
 
 
-                                {/* Table for semester 2 */}
-                                <div className='mb-6'>
+
+                                    <div className='mt-6 mb-6'>
                                     <p className='flex justify-center mb-2 text-xl font-bold'> Semester-II</p>
 
                                     <div class="overflow-x-auto">
-                                        <table class="table w-full">
+                                        <table class=" w-full">
                                             <thead>
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='text-xl normal-case table-data'>Course Code</th>
 
                                                     <th className='text-xl normal-case table-data'>Name of the course</th>
@@ -242,70 +240,71 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>B-201</th>
 
-                                                    <td className='table-data'>Pedagogy of two School subjects</td>
+                                                    <td className='table-data'><span className='flex justify-center'>Pedagogy of two School subjects</span></td>
 
-                                                    <td className='table-data'>30+30=60</td>
+                                                    <td className='table-data'><span className='flex justify-center'>30+30=60</span></td>
 
-                                                    <td className='table-data'>70+70=140</td>
+                                                    <td className='table-data'><span className='flex justify-center'>70+70=140</span></td>
 
                                                     <td className='table-data'>
-                                                        <p>30</p>
-                                                        <p>30</p>
+                                                        <span className='flex justify-center'><p></p>
+                                                        <p>30</p></span>
+                                                        
                                                     </td>
                                                 </tr>
 
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>B-202</th>
 
-                                                    <td className='table-data'>School Administration and Management</td>
+                                                    <td className='table-data'><span className='flex justify-center'>School Administration and Management</span></td>
 
-                                                    <td className='table-data'>30</td>
+                                                    <td className='table-data'><span className='flex justify-center'><span className='flex justify-center'>30</span></span></td>
 
-                                                    <td className='table-data'>70</td>
+                                                    <td className='table-data'><span className='flex justify-center'>70</span></td>
 
-                                                    <td className='table-data'>3</td>
+                                                    <td className='table-data'><span className='flex justify-center'>3</span></td>
                                                 </tr>
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>B-203</th>
 
-                                                    <td className='table-data'>Educational Technology and ICT</td>
+                                                    <td className='table-data'><span className='flex justify-center'>Educational Technology and ICT</span></td>
 
-                                                    <td className='table-data'>30</td>
+                                                    <td className='table-data'><span className='flex justify-center'>30</span></td>
 
-                                                    <td className='table-data'>70</td>
+                                                    <td className='table-data'><span className='flex justify-center'>70</span></td>
 
-                                                    <td className='table-data'>3</td>
+                                                    <td className='table-data'><span className='flex justify-center'>3</span></td>
                                                 </tr>
 
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>EPC-204</th>
 
-                                                    <td className='table-data'>Technology Enabled Learning</td>
+                                                    <td className='table-data'><span className='flex justify-center'>Technology Enabled Learning</span></td>
 
-                                                    <td className='table-data'>25</td>
+                                                    <td className='table-data'><span className='flex justify-center'>25</span></td>
 
-                                                    <td className='table-data'>--</td>
+                                                    <td className='table-data'><span className='flex justify-center'>--</span></td>
 
-                                                    <td className='table-data'>--</td>
+                                                    <td className='table-data'><span className='flex justify-center'>--</span></td>
                                                 </tr>
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>EPC-205</th>
 
-                                                    <td className='table-data'>Simulated, Micro and Supervised Teaching</td>
+                                                    <td className='table-data'><span className='flex justify-center'>Simulated, Micro and Supervised Teaching</span></td>
 
-                                                    <td className='table-data'>25</td>
+                                                    <td className='table-data'><span className='flex justify-center'>25</span></td>
 
-                                                    <td className='table-data'>--</td>
+                                                    <td className='table-data'><span className='flex justify-center'>--</span></td>
 
-                                                    <td className='table-data'>--</td>
+                                                    <td className='table-data'><span className='flex justify-center'>--</span></td>
                                                 </tr>
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'></th>
 
                                                     <th className='table-data'>TOTAL</th>
@@ -321,22 +320,18 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
 
                                             </tbody>
                                         </table>
-                                        {/* <p>For detail information about Kumaun</p>
-                                        <ul>
-                                            <li>Download B.ED Information Brochure</li>
-                                        </ul> */}
+                                        
                                     </div>
                                 </div>
 
 
-                                {/* Table for semester 3 */}
-                                <div className='mb-6'>
+                                <div className='mb-6 '>
                                     <p className='flex justify-center mb-2 text-xl font-bold'>  Semester-III</p>
 
                                     <div class="overflow-x-auto">
-                                        <table class="table w-full">
+                                        <table class=" w-full">
                                             <thead>
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='text-xl normal-case table-data'>Course Code</th>
 
                                                     <th className='text-xl normal-case table-data'>Name of the course</th>
@@ -349,48 +344,53 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>
+                                                        
                                                         <p>B-301-A</p>
                                                         <p>B-301-B</p>
                                                     </th>
 
                                                     <td className='table-data'>
-                                                        <p>Pre-internship and School </p>
+                                                        <span className='flex justify-center'><div><p>Pre-internship and School </p>
                                                         <p>Observation</p>
-                                                        <p>Internship</p>
+                                                        <p>Internship</p></div></span>
                                                     </td>
 
                                                     <td className='table-data'>
-                                                        <p>25</p>
-                                                        <p>75</p>
-                                                    </td>
-
-                                                    <td className='table-data'><p>--</p>
-                                                        <p>250</p>
+                                                        <span className='flex justify-center'><div><p>25</p>
+                                                        <p>75</p></div></span>
+                                                        
                                                     </td>
 
                                                     <td className='table-data'>
-                                                        <p>--</p>
-                                                        <p>--</p>
+                                                        <span className='flex justify-center'><div><p>--</p>
+                                                        <p>250</p></div></span>
+                                                        
+                                                    </td>
+
+                                                    <td className='table-data'>
+                                                        <span className='flex justify-center'><div><p>--</p>
+                                                        <p>--</p></div></span>
+                                                        
                                                     </td>
                                                 </tr>
 
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>B-302-A</th>
 
-                                                    <td className='table-data'>Gender, School and Society</td>
+                                                    <td className='table-data'><span className='flex justify-center'>Gender, School and Society</span></td>
 
-                                                    <td className='table-data'>15</td>
+                                                    <td className='table-data'><span className='flex justify-center'>15</span></td>
 
-                                                    <td className='table-data'>35</td>
+                                                    <td className='table-data'><span className='flex justify-center'>35</span></td>
 
-                                                    <td className='table-data'>2</td>
+                                                    <td className='table-data'><span className='flex justify-center'>2</span></td>
                                                 </tr>
 
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>
                                                         <p>B-302-B.1</p>
                                                         <p>B-302-B.2
@@ -402,7 +402,7 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
                                                     </th>
 
                                                     <td className='table-data'>
-                                                        <p>(Any one out of following three)
+                                                        <span className='flex justify-center'><div><p>(Any one out of following three)
                                                         </p>
                                                         <p>Teacher and Environmental Education
                                                         </p>
@@ -411,31 +411,32 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
                                                         <p>Value and Peace Education
                                                         </p>
                                                         <p>Basic Statistics
-                                                        </p>
+                                                        </p></div></span>
+                                                        
                                                     </td>
 
-                                                    <td className='table-data'>15</td>
+                                                    <td className='table-data'><span className='flex justify-center'>15</span></td>
 
-                                                    <td className='table-data'>35</td>
+                                                    <td className='table-data'><span className='flex justify-center'>35</span></td>
 
-                                                    <td className='table-data'>2</td>
+                                                    <td className='table-data'><span className='flex justify-center'>2</span></td>
                                                 </tr>
 
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>EPC-303</th>
 
-                                                    <td className='table-data'>Community Work</td>
+                                                    <td className='table-data'><span className='flex justify-center'>Community Work</span></td>
 
-                                                    <td className='table-data'>25</td>
+                                                    <td className='table-data'><span className='flex justify-center'>25</span></td>
 
-                                                    <td className='table-data'>--</td>
+                                                    <td className='table-data'><span className='flex justify-center'>--</span></td>
 
-                                                    <td className='table-data'>--</td>
+                                                    <td className='table-data'><span className='flex justify-center'>--</span></td>
                                                 </tr>
 
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'></th>
 
                                                     <th className='table-data'>TOTAL</th>
@@ -454,14 +455,13 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
                                 </div>
 
 
-
-                                <div className='mb-6'>
+                                <div className='mb-6 '>
                                     <p className='flex justify-center mb-2 text-xl font-bold'>  Semester-IV</p>
 
                                     <div class="overflow-x-auto">
-                                        <table class="table w-full">
+                                        <table class=" w-full">
                                             <thead>
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='text-xl normal-case table-data'>Course Code</th>
 
                                                     <th className='text-xl normal-case table-data'>Name of the course</th>
@@ -474,116 +474,137 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>
+                                                       
                                                         B-401
                                                     </th>
 
                                                     <td className='table-data'>
-                                                        Education in Contemporary Indian Society
+                                                        <span className='flex justify-center'>Education in Contemporary Indian Society</span>
+                                                        
                                                     </td>
 
                                                     <td className='table-data'>
-                                                        30
-                                                    </td>
-
-                                                    <td className='table-data'>70
+                                                        <span className='flex justify-center'>30</span>
+                                                        
                                                     </td>
 
                                                     <td className='table-data'>
-                                                        3
+                                                        <span className='flex justify-center'>70</span>
+                                                    </td>
+
+                                                    <td className='table-data'>
+                                                        <span className='flex justify-center'>3</span>
+                                                        
                                                     </td>
                                                 </tr>
 
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>
                                                         B-402
                                                     </th>
 
                                                     <td className='table-data'>
-                                                        School Curriculum Development
+                                                        <span className='flex justify-center'>School Curriculum Development</span>
+                                                        
                                                     </td>
 
                                                     <td className='table-data'>
-                                                        30
-                                                    </td>
-
-                                                    <td className='table-data'>70
+                                                        <span className='flex justify-center'>30</span>
+                                                        
                                                     </td>
 
                                                     <td className='table-data'>
-                                                        3
+                                                        <span className='flex justify-center'>70</span>
+                                                    </td>
+
+                                                    <td className='table-data'>
+                                                        <span className='flex justify-center'>3</span>
+                                                        
                                                     </td>
                                                 </tr>
 
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>
                                                         B-403
                                                     </th>
 
                                                     <td className='table-data'>
-                                                        Measurement and Evaluation
+                                                        <span className='flex justify-center'>Measurement and Evaluation</span>
+                                                        
                                                     </td>
 
                                                     <td className='table-data'>
-                                                        30
-                                                    </td>
-
-                                                    <td className='table-data'>70
+                                                        <span className='flex justify-center'>30</span>
+                                                        
                                                     </td>
 
                                                     <td className='table-data'>
-                                                        3
+                                                        <span className='flex justify-center'>70</span>
+                                                    </td>
+
+                                                    <td className='table-data'>
+                                                        <span className='flex justify-center'>3</span>
+                                                        
                                                     </td>
                                                 </tr>
 
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>
                                                         B-404
                                                     </th>
 
                                                     <td className='table-data'>
-                                                        Inclusion in School Education
+                                                        <span className='flex justify-center'>Inclusion in School Education</span>
+                                                        
                                                     </td>
 
                                                     <td className='table-data'>
-                                                        30
-                                                    </td>
-
-                                                    <td className='table-data'>70
+                                                        <span className='flex justify-center'>30</span>
+                                                        
                                                     </td>
 
                                                     <td className='table-data'>
-                                                        3
+                                                        <span className='flex justify-center'>70</span>
+                                                    </td>
+
+                                                    <td className='table-data'>
+                                                        <span className='flex justify-center'>3</span>
+                                                        
                                                     </td>
                                                 </tr>
 
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'>
                                                         EPC-405
                                                     </th>
 
                                                     <td className='table-data'>
-                                                        Joyful Learning : Program Anandam
+                                                        <span className='flex justify-center'>Joyful Learning : Program Anandam</span>
+                                                        
                                                     </td>
 
                                                     <td className='table-data'>
-                                                        25
-                                                    </td>
-
-                                                    <td className='table-data'>--
+                                                        <span className='flex justify-center'>25</span>
+                                                        
                                                     </td>
 
                                                     <td className='table-data'>
-                                                        --
+                                                        <span className='flex justify-center'>--</span>
+                                                    </td>
+
+                                                    <td className='table-data'>
+                                                        <span className='flex justify-center'>--</span>
+                                                        
                                                     </td>
                                                 </tr>
 
-                                                <tr className='hover'>
+                                                <tr className='hover-table'>
                                                     <th className='table-data'></th>
 
                                                     <th className='table-data'>TOTAL</th>
@@ -600,11 +621,13 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
                                         </table>
 
                                     </div>
-                                </div>
-                            </div>
+                                </div> 
+                        
                         </div>
-                    </div>
 
+
+
+                    </div>
                 </div>
             </div>
             <Footer></Footer>

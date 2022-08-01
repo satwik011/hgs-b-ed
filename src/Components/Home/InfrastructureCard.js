@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import rectangle405 from './../assets/images/Rectangle 405.png';
 import rectangle411 from './../assets/images/Rectangle 411.png'
-import rectangle412 from './../assets/images/Rectangle 412.png'
-import rectangle417 from './../assets/images/Rectangle 417.png'
-import library from './../assets/images/institute-image/library.JPG'
 import ict from './../assets/images/institute-image/ICT1.JPG'
 import PSYCHOLOGY from './../assets/images/institute-image/PSYCHOLOGY LAB.JPG';
 import scienceLab from './../assets/images/institute-image/SCIENCE LAB.JPG'
@@ -116,7 +113,7 @@ const InfrastructureCard = () => {
         }
     }
     return (
-        <div className='mt-16 pl-[80px] pr-[80px] pt-[50px] pb-[50px] middle-background'>
+        <div className='mt-16 middle-background'>
             <div className='flex justify-center'>
                 <div>
                     <h1 className='welcome'>Infrastructure and Facilities</h1>
@@ -127,7 +124,7 @@ const InfrastructureCard = () => {
             </p>
 
             <div className='flex justify-center mt-8'>
-                <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-x-48 gap-y-12'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-x-24 gap-y-12'>
                     <div class={`card p-4 ${classroom === false ? 'card-size' : 'large-card'} shadow-xl hover:shadow-2xl`}>
                         <figure class="">
                             <img style={{height: '280px'}} className='w-full h-full facility-picture' src={rectangle411} alt="" class="rounded-xl" />

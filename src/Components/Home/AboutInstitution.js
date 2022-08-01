@@ -15,7 +15,7 @@ const AboutInstitution = () => {
 
                             <div class="mb-[50px]">
                                 <div class="flex justify-center flexProp flex-col lg:flex-row">
-                                    <img src={studentTaboutBhimtal} class="max-w-lg rounded-lg shadow-2xl" alt='' />
+                                    <img src={studentTaboutBhimtal} class="about-institution-picture rounded-lg shadow-2xl" alt='' />
                                     <div className='ml-6'>
                                         <h1 className='about-sos'>About SOS</h1>
                                         <p className='sos-para'>
@@ -28,7 +28,7 @@ const AboutInstitution = () => {
 
                             <div class="mb-[50px]">
                                 <div class="flex justify-center flexProp flex-col lg:flex-row">
-                                    <img src={studentTeacher2} class="max-w-lg rounded-lg shadow-2xl" alt='' />
+                                    <img src={studentTeacher2} class="about-institution-picture rounded-lg shadow-2xl" alt='' />
                                     <div className='ml-6'>
                                         <h1 className='about-sos'>About J.N. Kaul Institute of Education</h1>
                                         <p className='sos-para'>
@@ -42,7 +42,7 @@ const AboutInstitution = () => {
 
                             <div class="mb-[50px]">
                                 <div class="flex justify-center flexProp flex-col lg:flex-row">
-                                    <img src={studentTeacher2} class="max-w-lg rounded-lg shadow-2xl" alt='' />
+                                    <img src={studentTeacher2} class="about-institution-picture rounded-lg shadow-2xl" alt='' />
                                     <div className='ml-6'>
                                         <h1 className='about-sos'>VISION & MISSION</h1>
                                         <p className='sos-para'>

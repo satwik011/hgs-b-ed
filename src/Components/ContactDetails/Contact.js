@@ -5,92 +5,9 @@ import email from './../assets/icons/email.svg';
 import location from './../assets/icons/location.svg';
 import grade from './../assets/icons/grade.svg';
 import message from './../assets/icons/message.svg';
-import sosChildrenVillage from './../assets/images/sos_logo 3.png';
-import { useNavigate } from 'react-router-dom';
-import teacher1 from './../assets/images/alumni-teacher (1).png'
-import teacher2 from './../assets/images/alumni-teacher (2).png'
-import teacher3 from './../assets/images/alumni-teacher (3).png'
-import teacher4 from './../assets/images/alumni-teacher (4).png'
+import Footer from '../Home/Footer';
 
-const Contact = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, setAlumni, setAdmission, setFacultiStaff, setContactUs }) => {
-    const navigate = useNavigate();
-    const handleOverView = () => {
-        setOverview[1]('setOverview')
-        setLidership[1]('')
-        setProgramsOffered[1]('')
-        setAlumni[1]('')
-        setAdmission[1]('')
-        setFacultiStaff[1]('')
-        setContactUs[1]('')
-        setShowNavbar[1](false);
-        navigate('/')
-    }
-    const handleLeadership = () => {
-        setShowNavbar[1](true)
-        setOverview[1]('')
-        setLidership[1]('setLidership')
-        setProgramsOffered[1]('')
-        setAlumni[1]('')
-        setAdmission[1]('')
-        setFacultiStaff[1]('')
-        setContactUs[1]('')
-        navigate('/leadership')
-    }
-    const handleProgramsOffered = () => {
-        setOverview[1]('')
-        setLidership[1]('')
-        setProgramsOffered[1]('setProgramsOffered')
-        setAlumni[1]('')
-        setAdmission[1]('')
-        setFacultiStaff[1]('')
-        setShowNavbar[1](true);
-        setContactUs[1]('')
-        navigate('/programesOffered')
-    }
-    const handleAlumni = () => {
-        setOverview[1]('')
-        setLidership[1]('')
-        setProgramsOffered[1]('')
-        setAlumni[1]('setAlumni')
-        setAdmission[1]('')
-        setFacultiStaff[1]('')
-        setShowNavbar[1](true);
-        setContactUs[1]('')
-        navigate('/alumni')
-    }
-    const handleAdmission = () => {
-        setOverview[1]('')
-        setLidership[1]('')
-        setProgramsOffered[1]('')
-        setAlumni[1]('')
-        setAdmission[1]('setAdmission[1]')
-        setShowNavbar[1](true);
-        setFacultiStaff[1]('')
-        setContactUs[1]('')
-        navigate('/admission')
-    }
-    const handleFaculty = () => {
-        setOverview[1]('')
-        setLidership[1]('')
-        setProgramsOffered[1]('')
-        setAlumni[1]('')
-        setShowNavbar[1](false);
-        setAdmission[1]('')
-        setFacultiStaff[1]('setFacultiStaff[1]')
-        setContactUs[1]('')
-        navigate('/faculty')
-    }
-    const handleContact = () => {
-        setOverview[1]('')
-        setLidership[1]('')
-        setProgramsOffered[1]('')
-        setAlumni[1]('')
-        setShowNavbar[1](false);
-        setAdmission[1]('')
-        setFacultiStaff[1]('')
-        setContactUs[1]('setContactUs[1]')
-        navigate('/contact')
-    }
+const Contact = () => {
 
     return (
         <div>
@@ -174,6 +91,7 @@ const Contact = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered,
                 </div>
             </div>
         </div>
+        <Footer></Footer>
         </div>
     );
 };

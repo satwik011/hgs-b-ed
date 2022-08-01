@@ -1,4 +1,5 @@
 .leadership{
+    width: 300px;
     padding-left: 21.5px;
     padding-right: 21.5px;
     padding-top: 6px;
@@ -19,6 +20,7 @@
     box-shadow: rgb(0 0 0 / 25%) 10px 8px 4px;
 }
 .leadership-info{
+    width: 300px;
     background-color: #0076BD;
     padding: 2rem;
     margin-top: 2rem;
@@ -26,4 +28,11 @@
 }
 .leadership-heading{
     color: rgb(0, 118, 189);
+    font-family: 'Poppins';
+}
+.hover-table{
+    height: 60px;
+}
+.hover-table:hover{
+    background-color: aliceblue;
 }

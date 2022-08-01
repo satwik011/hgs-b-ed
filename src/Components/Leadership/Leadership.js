@@ -73,7 +73,7 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
         setLidership[1]('')
         setProgramsOffered[1]('')
         setAlumni[1]('')
-        setShowNavbar[1](false); 
+        setShowNavbar[1](true); 
         setAdmission[1]('')
         setFacultiStaff[1]('setFacultiStaff[1]')
         setContactUs[1]('')
@@ -92,10 +92,11 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
     }
     return (
         <div>
-            <img  onClick={handleOverView} className='w-48 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
+            <img  onClick={handleOverView} className='w-20 lg:w-48 md:24 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
             <img className='w-full' src={aboutUs} alt="" />
-            <div className='flex justify-center'>
-                <div className='mt-6 ml-10'>
+            <div className='flex flex-col justify-between md:flex-row'>
+                <div className='flex justify-center mt-6 ml-6 md:grid lg:grid'>
+                    <div>
                     <div className='leadership'>
                         <p onClick={handleOverView} className='flex items-center h-12 my-2 forTextHover'>Overview</p>
                         <p onClick={handleLeadership} className='flex items-center h-12 my-2 forTextHover'>Leadership</p>
@@ -113,21 +114,26 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
                             <p className='flex forTextHover'>J N Kaul Institute of Education Bhimtal SOS Complex, Tallital Bhimtal Nainital, Uttrakhand, India, 263136</p>
                         </div>
                         <div className='flex items-center justify-center my-4'>
-                            <img className='ml-2 mr-4' src={email} alt="" />
-                            <p className='flex forTextHover'>Principal.bhimtalbed@soscvindia.org </p>
+                            <img className='mr-4' src={email} alt="" />
+                            <p className='flex forTextHover'>Principal.bhimtalbed@sos<br />cvindia.org </p>
                         </div>
                         <div className='flex'>
                             <img className='mr-4' src={phone} alt="" />
                             <p className='flex forTextHover'>05942-247999</p>
                         </div>
                     </div>
+                    </div>
                 </div>
+
+
+
+                {/* Main */}
                 <div>
                     <div class="mb-[50px] ml-6 mr-6 mt-2">
-                        <h1 className='mt-4 mb-8 text-5xl leadership-heading'>Leadership</h1>
+                        <h1 className='mt-4 mb-8 text-4xl leadership-heading'>Leadership</h1>
                         <div class="flex justify-center flexProp flex-col lg:flex-row">
-                            <img src={teacher1} class="teachers-picture rounded-lg picture-shadow" alt='' />
-                            <div className='ml-6'>
+                            <img src={teacher1} class="teachers-picture rounded-lg flex lg:block md:block mx-auto picture-shadow" alt='' />
+                            <div className='mt-4 lg:ml-6 md:ml-6'>
                                 <h1 className='mb-2 text-3xl font-bold'>President</h1>
                                 <p className='mb-2 text-xl'>Mr. Jinsi</p>
                                 <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>
@@ -148,9 +154,9 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
                     </div>
 
                     {/* 2nd one */}
-                    <div class="mb-[50px] ml-6 mr-6 mt-6">
+                    <div class="mb-[50px] ml-6 mr-6 mt-6 hidden md:block lg:block">
                         <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
-                            <div className=''>
+                            <div className='mt-4'>
                                 <h1 className='mb-2 text-3xl font-bold'>Secretary General</h1>
                                 <p className='mb-2 text-xl'>Mr.Sumanta Kar</p>
                                 <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>
@@ -176,11 +182,44 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
                     </div>
 
 
+
+
+                    <div class="mb-[50px] ml-6 mr-6 mt-6 block md:hidden lg:hidden">
+                        <div class="flex justify-center items-center lg:block md:block mx-auto flexProp flex-col lg:flex-row">
+                        <img src={teacher2} class="teachers-picture rounded-lg picture-shadow mr-6" alt='' />
+                            <div className='mt-4'>
+                                <h1 className='mb-2 text-3xl font-bold'>Secretary General</h1>
+                                <p className='mb-2 text-xl'>Mr.Sumanta Kar</p>
+                                <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>
+                                <p className='mt-2'>
+                                    Mr Sumanta Kar is the Secretary General of SOS Children’s Villages of India (SOSCVI), one of India’s biggest childcare NGOs and the largest self-implementing agency providing an end-to-end Group Foster Care for children without parental care.
+
+                                    Mr Kar has over 30 years of experience in the field of alternative care. He joined SOSCVI in 1989 as a youth co-worker. Mr Kar has conceptualised and implemented several development projects at SOSCVI. He led SOSCVI’s tsunami operation in the southern states of India (2004-2007) - it was the largest ever-emergency programme undertaken by the NGO so far.
+
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <p className='mt-2'>
+                            Education at SOS Hermann Gmeiner Schools has always meant Holistic Development of a student – we believe that each child entrusted to us will receive education in his finest form.  We also believe that Education is a preparation for life, that is enjoyable, interactive and an ongoing process to make the students confident young adults, committed citizens who are aware & sensitive with a positive attitude.
+
+                            As a part of this continued adaptation into larger eco-system and nation building, all our Hermann Gmeiner Schools have been actively engaged in relating to; understanding and working with communities around our schools. We see this more as character building than mere social service.
+                            Child safeguarding remains a top priority and children are nurtured through a theme-based curriculum and experiential learning.
+
+                            Our teachers and Principals play a pivotal role in the development of each child. Our alumni are our brand ambassadors, who leave a lasting footprint in whatever profession they choose to pursue. We are also thankful to the parents of our students for their very active support and faith in us.
+
+                            I congratulate all the students, teachers and Principals of SOS Hermann Gmeiner Schools for the remarkable academic results achieved in 2020 and for consistently raising the bar for ourselves year after year.  It is a matter of pride for us to be a part of this exemplary and committed group of schools, which truly exist for the children and their holistic transformation.’’ May every child shine and realize her/his full potential and follow her/his dreams.”
+                        </p>
+                    </div>
+
+
+
+
                     {/* 3rd */}
                     <div class="mb-[50px] ml-6 mr-6 mt-6">
                         <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
-                            <img src={teacher3} class="teachers-picture rounded-lg picture-shadow" alt='' />
-                            <div className='ml-6'>
+                            <img src={teacher3} class="teachers-picture flex lg:block md:block mx-auto rounded-lg picture-shadow" alt='' />
+                            <div className='mt-4 lg:ml-6 md:ml-6'>
                                 <h1 className='mb-2 text-3xl font-bold'>Head Education & Child Development</h1>
                                 <p className='mb-2 text-xl'>Mrs Debaroti Bose</p>
                                 <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>

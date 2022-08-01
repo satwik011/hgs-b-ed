@@ -6,16 +6,16 @@ import location from './../assets/icons/location.png';
 const Footer = () => {
     return (
         <div>
-            <footer class="footer p-10 Footer text-base-content">
-                <div className='margin'>
+            <footer class="footer p-10 Footer grid md:flex lg:flex justify-around text-base-content">
+                <div className=''>
                     <span class="footer-heading mb-[20px]">About Us</span>
                     <a class="link link-hover contact-info mb-[40px]">Sed ut perspiciatis unde</a>
                     <a class="link link-hover contact-info mb-[40px]">omnis iste natus error</a>
                     <a class="link link-hover contact-info mb-[40px]">sit voluptatem accusantium doloremque</a>
                 </div>
 
-
-                <div className='margin'>
+                {/* ml-2 md:ml-10 lg:ml-2 */}
+                <div className=''>
                     <span class="footer-heading mb-[20px]">Get In Touch</span>
                     <a class="link link-hover flex justify-center items-center mb-[40px]">
                         <img className='mr-[24px]' src={phone} alt="" />
@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
 
 
-                <div className='margin'>
+                <div className=''>
                     <span class="footer-heading mb-[20px]">Our Services</span>
                     <a class="link link-hover flex justify-center items-center mb-[40px]">
                         
@@ -54,7 +54,7 @@ const Footer = () => {
                 </div>
 
 
-                <div className='margin'>
+                <div className=''>
                     <span class="footer-heading mb-[20px]">Quick Link</span>
                     <a class="link link-hover flex justify-center items-center mb-[40px]">
                         
