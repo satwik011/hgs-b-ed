@@ -127,9 +127,9 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                     <div class=" mt-6 mb-[50px] ml-6 mr-6">
                         <h1 className='mt-2 mb-8 text-5xl leadership-heading'>Alumni</h1>
                         <div class="flex justify-center flexProp flex-col lg:flex-row">
-                            <img src={teacher1} class="max-w-lg rounded-lg picture-shadow" alt='' />
+                            <img src={teacher1} class="teachers-picture rounded-lg picture-shadow" alt='' />
                             <div className='ml-6'>
-                                <h1 className='mb-2 text-2xl font-bold'>Ms. Shraddha Singh (Batch -2017-19)</h1>
+                                <h1 className='mb-2 text-2xl font-bold'>Shraddha Singh (Batch -2017-19)</h1>
                                 <p className='mb-2 text-xl'>Teacher</p>
                                 <p className='mb-2 text-xl'>Jawahar Navoday Vidyalaya,Pota (Rajasthan)</p>
                                 <p className='mt-2'>
@@ -144,14 +144,14 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                     <div class=" mt-2 mb-[50px] ml-6 mr-6">
                         <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
                             <div className=''>
-                                <h1 className='mb-2 text-2xl font-bold'>Ms. Pooja Kuriya (Batch -2017-19)</h1>
+                                <h1 className='mb-2 text-2xl font-bold'>Pooja Kuriya (Batch -2017-19)</h1>
                                 <p className='mb-2 text-xl'>Principal</p>
                                 <p className='mb-2 text-xl'>Mehra Public School Ramnagar</p>
                                 <p className='mr-6'>
                                     I’m amongst the many students of the institution whose life changed not only academically but also mentally and emotionally after joining the Institute. The college focuses not only on making the finest of all teachers but also good humans and citizens. It’s the continuous toiling of the Principal and staff of the college that it has become one of the best and most revered colleges of education in the state. What I’m today, I totally owe to the hard work and values instilled by the institute in me, I m working as Lecturer English, Uttarakhand Education Department.
                                 </p>
                             </div>
-                            <img src={teacher2} class="max-w-lg rounded-lg picture-shadow" alt='' />
+                            <img src={teacher2} class="teachers-picture rounded-lg picture-shadow" alt='' />
                         </div>
                         
                     </div>
@@ -160,9 +160,9 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                     {/* 3rd */}
                     <div class=" mt-2 mb-[50px] ml-6 mr-6">
                         <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
-                            <img src={teacher3} class="max-w-lg rounded-lg picture-shadow" alt='' />
+                            <img src={teacher3} class="teachers-picture rounded-lg picture-shadow" alt='' />
                             <div className='ml-6'>
-                                <h1 className='mb-2 text-2xl font-bold'>Ms. Gauhar Fatima (Batch -2013-14) </h1>
+                                <h1 className='mb-2 text-2xl font-bold'>Gauhar Fatima (Batch -2013-14) </h1>
                                 <p className='mb-2 text-xl'>Assistant Professor (Through UKPSC)</p>
                                 <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>
                                 <p className='mt-2'>
@@ -178,14 +178,14 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                     <div class=" mt-2 mb-[50px] ml-6 mr-6">
                         <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
                             <div className='mr-6'>
-                                <h1 className='mb-2 text-2xl font-bold'>Mr. Himanshu Rawat (Batch -2015-17)</h1>
+                                <h1 className='mb-2 text-2xl font-bold'>Himanshu Rawat (Batch -2015-17)</h1>
                                 <p className='mb-2 text-xl'>Teacher</p>
                                 <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>
                                 <p className='mt-2'>
                                     It had  been a while  for  me after  leaving formal education  but coming  here just  not made  me a disciplined   person but  also motivated  me  to  explore  my capabilities, skills  and  talents. My   perception  towards the teaching profession especially with the experience during my practice teaching.
                                 </p>
                             </div>
-                            <img src={teacher4} class="max-w-lg rounded-lg picture-shadow" alt='' />
+                            <img src={teacher4} class="teachers-picture rounded-lg picture-shadow" alt='' />
                         </div>
                     </div>
 

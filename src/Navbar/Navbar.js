@@ -94,7 +94,7 @@ const Navbar = ({setShowNavbar, setOverview, setLidership, setProgramsOffered, s
         window.addEventListener('scroll', activeNavbar);
 
     return (
-        <div className={`flex justify-center lg:mx-[80px] md:mx-12 mx-6 ${(navbar === true) ? 'block' : 'hidden'} ${setShowNavbar[0] === true ? 'hidden' : 'block'} bg-white for-making-sticky-navbar`}>
+        <div className={`flex justify-center curve-navbar lg:mx-[80px] md:mx-12 mx-6 ${(navbar === true) ? 'block' : 'hidden'} ${setShowNavbar[0] === true ? 'hidden' : 'block'} bg-white for-making-sticky-navbar`}>
             <div class="navbar shadow-2xl flex justify-around">
             <div onClick={handleOverview} className={`items-center ${setOverview[0] ? 'for-background' : 'not-selected'} lg:px-4  py-4 navbar-topic`}>
                 <h1 className='text-xl font-bold '>Overview</h1>

@@ -9,13 +9,9 @@ const Footer = () => {
             <footer class="footer p-10 Footer text-base-content">
                 <div className='margin'>
                     <span class="footer-heading mb-[20px]">About Us</span>
-                    <a class="link link-hover contact-info">Sed ut perspiciatis unde</a>
-                    <a class="link link-hover contact-info">omnis iste natus error</a>
-                    <a class="link link-hover contact-info">sit voluptatem accusantium doloremque</a>
-                    <a class="link link-hover contact-info">laudantium, totam rem aperiam</a>
-                    <a class="link link-hover contact-info">eaque ipsa quae ab illo</a>
-                    <a class="link link-hover contact-info">inventore veritatis et quasi architecto</a>
-                    <a class="link link-hover contact-info">beatae vitae dicta sunt explicabo.</a>
+                    <a class="link link-hover contact-info mb-[40px]">Sed ut perspiciatis unde</a>
+                    <a class="link link-hover contact-info mb-[40px]">omnis iste natus error</a>
+                    <a class="link link-hover contact-info mb-[40px]">sit voluptatem accusantium doloremque</a>
                 </div>
 
 

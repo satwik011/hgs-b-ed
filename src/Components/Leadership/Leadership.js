@@ -126,7 +126,7 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
                     <div class="mb-[50px] ml-6 mr-6 mt-2">
                         <h1 className='mt-4 mb-8 text-5xl leadership-heading'>Leadership</h1>
                         <div class="flex justify-center flexProp flex-col lg:flex-row">
-                            <img src={teacher1} class="max-w-lg rounded-lg picture-shadow" alt='' />
+                            <img src={teacher1} class="teachers-picture rounded-lg picture-shadow" alt='' />
                             <div className='ml-6'>
                                 <h1 className='mb-2 text-3xl font-bold'>President</h1>
                                 <p className='mb-2 text-xl'>Mr. Jinsi</p>
@@ -161,7 +161,7 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 </p>
                             </div>
-                            <img src={teacher2} class="max-w-lg rounded-lg picture-shadow mr-6" alt='' />
+                            <img src={teacher2} class="teachers-picture rounded-lg picture-shadow mr-6" alt='' />
                         </div>
                         <p className='mt-2'>
                             Education at SOS Hermann Gmeiner Schools has always meant Holistic Development of a student – we believe that each child entrusted to us will receive education in his finest form.  We also believe that Education is a preparation for life, that is enjoyable, interactive and an ongoing process to make the students confident young adults, committed citizens who are aware & sensitive with a positive attitude.
@@ -179,7 +179,7 @@ const Leadership = ({setShowNavbar, setOverview, setLidership, setProgramsOffere
                     {/* 3rd */}
                     <div class="mb-[50px] ml-6 mr-6 mt-6">
                         <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
-                            <img src={teacher3} class="max-w-lg rounded-lg picture-shadow" alt='' />
+                            <img src={teacher3} class="teachers-picture rounded-lg picture-shadow" alt='' />
                             <div className='ml-6'>
                                 <h1 className='mb-2 text-3xl font-bold'>Head Education & Child Development</h1>
                                 <p className='mb-2 text-xl'>Mrs Debaroti Bose</p>

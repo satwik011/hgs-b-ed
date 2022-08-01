@@ -25,6 +25,7 @@
     color: #FFFFFF;
     background: #2D4A9D;
     border-radius: 10px; */
+    font-family: 'Poppins';
     background: #0076BD;
     color: #fff;
     font-size: 1.3rem;
@@ -64,5 +65,10 @@
     font-size: 20px;
     line-height: 30px;
     color: #2D4A9D;
-
+}
+.contact{
+    height: 120vh;
+}
+.curve-navbar{
+    border-radius: 10px;
 }
