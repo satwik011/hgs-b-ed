@@ -143,7 +143,7 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                 {/* This is table */}
                 <div className='w-full'>
                     <div class="mb-[50px] ml-6 mr-6 mt-2">
-                    <h1 style={{color: '#0076BD'}} className='flex mt-6 mb-6 ml-8 text-3xl font-bold leadership-heading updated-font-family'>Details of Teaching Staff</h1>
+                    <h1 style={{color: '#0076BD'}} className='flex mt-6 mb-6 ml-8 text-4xl font-bold leadership-heading updated-font-family'>Details of Teaching Staff</h1>
                     <p className='flex mb-2 ml-8 text-xl updated-font-family'>LECTURERS/TEACHING STAFF (AS PER NCTE NORMS)</p>
                     <div class="overflow-x-auto md:mx-2 lg:mx-8">
                 <table class="w-full">

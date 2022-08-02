@@ -116,9 +116,12 @@
 }
 
 .gallery-photo {
-    height: 400px;
+    height: 350px;
     border-radius: 10px;
     width: 92%; 
+}
+.slider-image{
+    border: 0;
 }
 
 
@@ -218,6 +221,28 @@
     width: 400px;
     height: 570px;
 }
+.large-card-psychology{
+    width: 400px;
+    height: 550px;
+}
+.larger-card-science{
+    width: 400px;
+    height: 675px;
+}
+
+.larger-card-seminer{
+    width: 400px;
+    height: 685px;
+}
+
+.larger-card-lab{
+    width: 400px;
+    height: 800px;
+}
+.larger-card-art{
+    width: 400px;
+    height: 680px;
+}
 
 .larger-card {
     width: 400px;
@@ -252,16 +277,6 @@
 
 .table-picture {
     width: 20vh;
-}
-
-.unseen {
-    display: none;
-    transition-duration: 1000ms;
-}
-
-.seen {
-    transition-duration: 1000ms;
-    display: block;
 }
 
 .for-opacity {

@@ -127,7 +127,7 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
 
                 <div>
                     <div class=" mt-6 mb-[50px] ml-6 mr-6">
-                        <h1 className='mt-2 mb-8 text-5xl leadership-heading updated-font-family'>Alumni</h1>
+                        <h1 className='mt-2 mb-8 text-4xl leadership-heading updated-font-family'>Alumni</h1>
                         <div class="flex justify-center flexProp flex-col lg:flex-row">
                             <img src={teacher1} class="teachers-picture  picture-shadow" alt='' />
                             <div className='ml-6'>

@@ -65,7 +65,7 @@ const PhotoGallery = () => {
     }
     return (
         <div className='mr-[30px] ml-[80px]'>
-            <div className=''>
+            <div className='slider-picture'>
                 <div className='flex justify-center my-8'>
                 <div>
                     <h1 className='text-4xl photoGallery-heading updated-font-family'>Photo Gallery</h1>
@@ -77,49 +77,63 @@ const PhotoGallery = () => {
                 
                 <i onClick={handleNext} style={{color:'#0076BD'}} class="fa-solid text-5xl right-arrow-button fa-circle-chevron-right"></i>
                 <Slider ref={sliderRef} {...settings}>
-                    <div className=''>
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo1} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo2} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo3} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo4} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo5} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo6} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo7} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo8} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo9} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo10} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo11} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo12} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo13} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo14} alt="" />
                     </div>
-                    <div className=''>
+
+                    <div className='bg-white'>
                         <img className='gallery-photo' src={photo15} alt="" />
                     </div>
                 </Slider>

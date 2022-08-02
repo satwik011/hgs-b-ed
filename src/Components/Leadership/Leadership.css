@@ -29,7 +29,13 @@
 .leadership-heading{
     color: rgb(0, 118, 189);
     font-family: 'Poppins';
+    font-weight: 500;
 }
+.font-bold-heading{
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .hover-table{
     height: 60px;
 }
