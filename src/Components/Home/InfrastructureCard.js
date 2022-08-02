@@ -113,27 +113,27 @@ const InfrastructureCard = () => {
         }
     }
     return (
-        <div className='mt-16 middle-background'>
+        <div className='py-8 mt-16 middle-background'>
             <div className='flex justify-center'>
                 <div>
-                    <h1 className='welcome'>Infrastructure and Facilities</h1>
-                    <img src={rectangle405} alt="" />
+                    <h1 className='welcome updated-font-family'>Infrastructure and Facilities</h1>
+                    <img className='w-[380px]' src={rectangle405} alt="" />
                 </div>
             </div>
-            <p className='mx-24 mt-4 text-xl '>SOS Institute of Education, Bhimtal campus situated in surrounded with beautiful ground and lush greenery, which consists of five huge classrooms, music room, library, computer lab, play ground. The whole campus covered with CCTV camera etc.
+            <p className='block mt-4 text-xl lg:mx-56 md:mx-28 updated-font-family'>SOS Institute of Education, Bhimtal campus situated in surrounded with beautiful ground and lush greenery, which consists of five huge classrooms, music room, library, computer lab, play ground. The whole campus covered with CCTV camera etc.
             </p>
 
             <div className='flex justify-center mt-8'>
-                <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-x-24 gap-y-12'>
+                <div className='grid grid-cols-1 gap-12 lg:grid-cols-3 md:grid-cols-2 lg:gap-x-16 md:gap-x-16 gap-y-12'>
                     <div class={`card p-4 ${classroom === false ? 'card-size' : 'large-card'} shadow-xl hover:shadow-2xl`}>
                         <figure class="">
                             <img style={{height: '280px'}} className='w-full h-full facility-picture' src={rectangle411} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure'>Classroom</h1>
-                            <p>The Institute consists of 5 spacious & well ventilated classrooms with facilities like study table, chairs, furniture <span className={`${classroom === false ? 'unseen' : 'seen'}`}>and all the basis utilities like water, electricity etc. for students & teachers and in every classroom CCTV camera has been installed.</span> 
+                            <h1 className='infructructure updated-font-family'>Classroom</h1>
+                            <p className='updated-font-family'>The Institute consists of 5 spacious & well ventilated classrooms with facilities like study table, chairs, furniture <span className={`updated-font-family ${classroom === false ? 'unseen' : 'seen'}`}>and all the basis utilities like water, electricity etc. for students & teachers and in every classroom CCTV camera has been installed.</span> 
                             {
-                                !classroom ? <span onClick={handleClassroom} class="see-more">See More</span> : <span onClick={handleClassroom} class="see-more">See Less</span>
+                                !classroom ? <span onClick={handleClassroom} class="see-more udated-font-family">See More</span> : <span onClick={handleClassroom} class="see-more udated-font-family">See Less</span>
                             }
                             </p>
                         </div>
@@ -145,10 +145,10 @@ const InfrastructureCard = () => {
                             <img style={{height: '280px'}} className='w-full h-full facility-picture' src={ict} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure'>ICT Resource Center</h1>
-                            <p>Information and communication technology deals in the usage of tools and techniques to enhance the <span className={`${ictCard === false ? 'unseen' : 'seen'}`}>effectiveness of teaching learning process. ICT Lab is well equipped with multimedia development machines, software and devices to use classroom setting for teaching.</span>  
+                            <h1 className='infructructure updated-font-family'>ICT Resource Center</h1>
+                            <p className='updated-font-family'>Information and communication technology deals in the usage of tools and techniques to enhance the <span className={`updated-font-family ${ictCard === false ? 'unseen' : 'seen'}`}>effectiveness of teaching learning process. ICT Lab is well equipped with multimedia development machines, software and devices to use classroom setting for teaching.</span>  
                             {
-                                !ictCard ? <span onClick={handleICTresource} class="see-more">See More</span> : <span onClick={handleICTresource} class="see-more">See Less</span>
+                                !ictCard ? <span onClick={handleICTresource} class="see-more udated-font-family">See More</span> : <span onClick={handleICTresource} class="see-more udated-font-family">See Less</span>
                             }
                             
                             </p>
@@ -161,10 +161,10 @@ const InfrastructureCard = () => {
                             <img style={{height: '280px'}} className='w-full h-full facility-picture' src={PSYCHOLOGY} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure'>Psychology Lab</h1>
-                            <p>The teacher should not only understand children but also be aware of their expectations, potentialities <span className={`${psychology === false ? 'unseen' : 'seen'}`}>and For this psychology Lab is rich in all types of psychological tests and tools used to understand child psychology and for research.</span> 
+                            <h1 className='infructructure updated-font-family'>Psychology Lab</h1>
+                            <p className='updated-font-family'>The teacher should not only understand children but also be aware of their expectations, potentialities <span className={`updated-font-family ${psychology === false ? 'unseen' : 'seen'}`}>and For this psychology Lab is rich in all types of psychological tests and tools used to understand child psychology and for research.</span> 
                             {
-                                !psychology ? <span onClick={handlePsychologyLab} class="see-more">See More</span> : <span onClick={handlePsychologyLab} class="see-more">See Less</span>
+                                !psychology ? <span onClick={handlePsychologyLab} class="see-more udated-font-family">See More</span> : <span onClick={handlePsychologyLab} class="see-more udated-font-family">See Less</span>
                             }
                              </p>
                         </div>
@@ -175,10 +175,10 @@ const InfrastructureCard = () => {
                             <img style={{height: '280px'}} className='w-full h-full facility-picture' src={scienceLab} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure'>Science & Mathematics Lab</h1>
-                            <p>Science and mathematics are not mere disciplines of study but also a way of life. Science & mathematics <span className={`${science === false ? 'unseen' : 'seen'}`}>education at school and institute level has to focus not only on development of understanding and skills but also on the development of scientific temper among learners. The lab is well equipped with sufficient apparatus, charts, models, teaching aids and other material for conducting numbers of experiment activities and demonstrations of physics, chemistry, biology and mathematics at secondary level.</span> 
+                            <h1 className='infructructure updated-font-family'>Science & Mathematics Lab</h1>
+                            <p className='updated-font-family'>Science and mathematics are not mere disciplines of study but also a way of life. Science & mathematics <span className={`updated-font-family ${science === false ? 'unseen' : 'seen'}`}>education at school and institute level has to focus not only on development of understanding and skills but also on the development of scientific temper among learners. The lab is well equipped with sufficient apparatus, charts, models, teaching aids and other material for conducting numbers of experiment activities and demonstrations of physics, chemistry, biology and mathematics at secondary level.</span> 
                             {
-                                !science ? <span onClick={handleScienceMathematicsLab} class="see-more">See More</span> : <span onClick={handleScienceMathematicsLab} class="see-more">See Less</span>
+                                !science ? <span onClick={handleScienceMathematicsLab} class="see-more udated-font-family">See More</span> : <span onClick={handleScienceMathematicsLab} class="see-more udated-font-family">See Less</span>
                             }
                             </p>
                         </div>
@@ -190,10 +190,10 @@ const InfrastructureCard = () => {
                             <img style={{height: '280px'}} className='w-full h-full facility-picture' src={libraryCum} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure'>Library Cum Resoutrce Center (The Library)</h1>
-                            <p>The library of the institute is fully equipped with meticulously chosen large number of Indian and foreign <span className={`${libraryCumCard === false ? 'unseen' : 'seen'}`}>text-books and reference-books to provide the pupil teachers with in-depth and thorough knowledge and strong intellectual support to help them in their studies. The library also has many national and international educational resources, documentation section and newspaper clippings. The institute is committed to make its library a knowledge hub. It is constantly being upgraded and enriched with new books according to the syllabus and new technology. The students are provided with the facility of a book bank through which they can borrow the required text books for the session. The library has an open access system to all its members. </span>
+                            <h1 className='infructructure updated-font-family'>Library Cum Resoutrce Center (The Library)</h1>
+                            <p className='updated-font-family'>The library of the institute is fully equipped with meticulously chosen large number of Indian and foreign <span className={`updated-font-family ${libraryCumCard === false ? 'unseen' : 'seen'}`}>text-books and reference-books to provide the pupil teachers with in-depth and thorough knowledge and strong intellectual support to help them in their studies. The library also has many national and international educational resources, documentation section and newspaper clippings. The institute is committed to make its library a knowledge hub. It is constantly being upgraded and enriched with new books according to the syllabus and new technology. The students are provided with the facility of a book bank through which they can borrow the required text books for the session. The library has an open access system to all its members. </span>
                             {
-                                !libraryCumCard ? <span onClick={handleLibraryCumResoutrce} class="see-more">See More</span> : <span onClick={handleLibraryCumResoutrce} class="see-more">See Less</span>
+                                !libraryCumCard ? <span onClick={handleLibraryCumResoutrce} class="see-more udated-font-family">See More</span> : <span onClick={handleLibraryCumResoutrce} class="see-more udated-font-family">See Less</span>
                             }
                              </p>
                         </div>
@@ -205,12 +205,12 @@ const InfrastructureCard = () => {
                             <img style={{height: '280px'}} className='w-full h-full facility-picture' src={health} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure'>Health and Physical Education Resource Center </h1>
-                            <p>The Institute is well equipped with the Health and Physical Education Resource Centre where pupil learn <span className={`${healthCard === false ? 'unseen' : 'seen'}`}>to meditate. They learn to live a healthy life .They are taught yoga which helps in remaining physically and mentally healthy because inside a healthy body remains a healthy mind.
+                            <h1 className='infructructure updated-font-family'>Health and Physical Education Resource Center </h1>
+                            <p className='updated-font-family'>The Institute is well equipped with the Health and Physical Education Resource Centre where pupil learn <span className={`updated-font-family ${healthCard === false ? 'unseen' : 'seen'}`}>to meditate. They learn to live a healthy life .They are taught yoga which helps in remaining physically and mentally healthy because inside a healthy body remains a healthy mind.
                             Pupil teachers also have Gym classes which help them to remain physically fit.
                             Physical Education has been considered as an essential part of human life from times immemorial. Physical Exercise & ‘Yoga’ has been emphasized in India not only to keep fit but also to prevent & cure the physical ailment. </span>
                             {
-                                !healthCard ? <span onClick={handleHealthandPhysical} class="see-more">See More</span> : <span onClick={handleHealthandPhysical} class="see-more">See Less</span>
+                                !healthCard ? <span onClick={handleHealthandPhysical} class="see-more udated-font-family">See More</span> : <span onClick={handleHealthandPhysical} class="see-more udated-font-family">See Less</span>
                             }
                             
                             </p>
@@ -224,11 +224,11 @@ const InfrastructureCard = () => {
                             <img style={{height: '280px'}} className='w-full h-full facility-picture' src={art} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure'>Art and Craft Resource Center</h1>
-                            <p>The Institute is having it’s own Art and craft Resource centre where pupil teacher learns to be creative and <span className={`${artCraft === false ? 'unseen' : 'seen'}`}>make creative things which not only helps in widening their horizons but also in developing creative faculties.
+                            <h1 className='infructructure updated-font-family'>Art and Craft Resource Center</h1>
+                            <p className='updated-font-family'>The Institute is having it’s own Art and craft Resource centre where pupil teacher learns to be creative and <span className={`updated-font-family ${artCraft === false ? 'unseen' : 'seen'}`}>make creative things which not only helps in widening their horizons but also in developing creative faculties.
                             This is housed in a well-designed spacious room with adequate electricity, tools, equipment, furniture's raw materials' reference materials, books, periodicals and motivational works. Students can utilize all these for their creative works of arts and crafts, drawing an paintings etc. </span>
                             {
-                                !artCraft ? <span onClick={handleArtandCraftResource} class="see-more">See More</span> : <span onClick={handleArtandCraftResource} class="see-more">See Less</span>
+                                !artCraft ? <span onClick={handleArtandCraftResource} class="see-more udated-font-family">See More</span> : <span onClick={handleArtandCraftResource} class="see-more udated-font-family">See Less</span>
                             }
                             
                             </p>
@@ -242,10 +242,10 @@ const InfrastructureCard = () => {
                             <img style={{height: '280px'}} className='w-full h-full facility-picture' src={seminer} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure'>Seminar Room</h1>
-                            <p>The Seminar Room is situated on the ground Floor of the Institute. It is used heavily during term for teaching / supervisions and <span className={`${seminerCard === false ? 'unseen' : 'seen'}`}>other meetings. When it is not booked, the Room can be used for quiet study. The Room is equipped with a data projector, Wi-Fi system, tv and video, overhead projector, slide projector and screen, which may be used for seminar, conferences, panel discussions and academic purposes during staffed hours only. A laptop for use with the data-projector is available from the issue desk. It consists of well-furnished furniture well ventilated and spacious room. </span>
+                            <h1 className='infructructure updated-font-family'>Seminar Room</h1>
+                            <p className='updated-font-family'>The Seminar Room is situated on the ground Floor of the Institute. It is used heavily during term for teaching / supervisions and <span className={`updated-font-family ${seminerCard === false ? 'unseen' : 'seen'}`}>other meetings. When it is not booked, the Room can be used for quiet study. The Room is equipped with a data projector, Wi-Fi system, tv and video, overhead projector, slide projector and screen, which may be used for seminar, conferences, panel discussions and academic purposes during staffed hours only. A laptop for use with the data-projector is available from the issue desk. It consists of well-furnished furniture well ventilated and spacious room. </span>
                             {
-                                !seminerCard ? <span onClick={handleSeminarRoom} class="see-more">See More</span> : <span onClick={handleSeminarRoom} class="see-more">See Less</span>
+                                !seminerCard ? <span onClick={handleSeminarRoom} class="see-more udated-font-family">See More</span> : <span onClick={handleSeminarRoom} class="see-more udated-font-family">See Less</span>
                             }
                             
                             </p>
@@ -259,10 +259,10 @@ const InfrastructureCard = () => {
                             <img style={{height: '280px'}} className='w-full h-full facility-picture' src={playGround} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure'>Playground</h1>
-                            <p>The Institute has playgrounds for many outdoor games like volleyball, Basketball etc. It has facility for indoor <span className={`${playgroundCard === false ? 'unseen' : 'seen'}`}> games like  Badminton Chess and Table-Tennis etc. </span>
+                            <h1 className='infructructure updated-font-family'>Playground</h1>
+                            <p className='updated-font-family'>The Institute has playgrounds for many outdoor games like volleyball, Basketball etc. It has facility for indoor <span className={`updated-font-family ${playgroundCard === false ? 'unseen' : 'seen'}`}> games like  Badminton Chess and Table-Tennis etc. </span>
                             {
-                                !playgroundCard ? <span onClick={handlePlayground} class="see-more">See More</span> : <span onClick={handlePlayground} class="see-more">See Less</span>
+                                !playgroundCard ? <span onClick={handlePlayground} class="see-more udated-font-family">See More</span> : <span onClick={handlePlayground} class="see-more udated-font-family">See Less</span>
                             } 
                             
                             </p>
@@ -276,16 +276,16 @@ const InfrastructureCard = () => {
             </div>
                 {/* Last two card */}
                 <div className='flex justify-center mt-12'>
-                <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-x-48 gap-y-12'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-y-12 lg:gap-x-16 md:gap-x-16'>
                 <div class={`card p-4 ${building === false ? 'card-size' : 'large-card'} shadow-xl hover:shadow-2xl`}>
                         <figure class="">
                             <img style={{height: '280px'}} className='w-full h-full facility-picture' src={bildersRoom} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure'>Building Room</h1>
-                            <p>The institute is proud to have the facility for indoor games like Billiards. It will help our people teacher to keep <span className={`${building === false ? 'unseen' : 'seen'}`}>at par with the changing face of education.</span>
+                            <h1 className='infructructure updated-font-family'>Building Room</h1>
+                            <p className='updated-font-family'>The institute is proud to have the facility for indoor games like Billiards. It will help our people teacher to keep <span className={`updated-font-family ${building === false ? 'unseen' : 'seen'}`}>at par with the changing face of education.</span>
                             {
-                                !building ? <span onClick={handleBuildingRoom} class="see-more">See More</span> : <span onClick={handleBuildingRoom} class="see-more">See Less</span>
+                                !building ? <span onClick={handleBuildingRoom} class="see-more udated-font-family">See More</span> : <span onClick={handleBuildingRoom} class="see-more udated-font-family">See Less</span>
                             } 
                             
                             </p>
@@ -299,10 +299,10 @@ const InfrastructureCard = () => {
                             <img style={{height: '280px'}} className='w-full h-full' src={music} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure'>Music Room</h1>
-                            <p>There are several musical instruments in the music room for students in which the students took classes of <span className={`${musicCard === false ? 'unseen' : 'seen'}`}>music and practices for various cultural programs.</span>
+                            <h1 className='infructructure updated-font-family'>Music Room</h1>
+                            <p className='updated-font-family'>There are several musical instruments in the music room for students in which the students took classes of <span className={`updated-font-family ${musicCard === false ? 'unseen' : 'seen'}`}>music and practices for various cultural programs.</span>
                             {
-                                !musicCard ? <span onClick={handleMusicRoom} class="see-more">See More</span> : <span onClick={handleMusicRoom} class="see-more">See Less</span>
+                                !musicCard ? <span onClick={handleMusicRoom} class="see-more udated-font-family">See More</span> : <span onClick={handleMusicRoom} class="see-more udated-font-family">See Less</span>
                             } 
                             </p>
                         </div>

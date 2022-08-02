@@ -42,14 +42,16 @@
     transition-duration: .3s;
     border: 0;
 }
-.love-to-hear{
+
+.love-to-hear {
     color: #0076BD;
 }
 
 .for-making-sticky-navbar {
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 1;
+    
 }
 
 .navbar-button {
@@ -66,9 +68,9 @@
     line-height: 30px;
     color: #2D4A9D;
 }
-.contact{
-    height: 120vh;
-}
-.curve-navbar{
+
+.curve-navbar {
+    background-color: aliceblue;
     border-radius: 10px;
+    color:#0076BD; 
 }

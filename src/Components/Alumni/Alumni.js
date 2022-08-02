@@ -98,28 +98,28 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                 <div className='flex justify-center mt-6 ml-6 md:grid lg:grid'>
                     <div>
                     <div className='leadership'>
-                        <p onClick={handleOverView} className='flex items-center h-12 my-2 forTextHover'>Overview</p>
-                        <p onClick={handleLeadership} className='flex items-center h-12 my-2 forTextHover'>Leadership</p>
-                        <p onClick={handleProgramsOffered} className='flex items-center h-12 my-2 forTextHover'>Programs Offered</p>
-                        <p onClick={handleAlumni} className='flex items-center h-12 my-2 forTextHover'>Alumni</p>
-                        <p onClick={handleAdmission} className='flex items-center h-12 my-2 forTextHover'>Admission</p>
-                        <p onClick={handleFaculty} className='flex items-center h-12 my-2 forTextHover'>Faculty & Staff</p>
-                        <p onClick={handleContact} className='flex items-center h-12 my-2 forTextHover'>Contact Us</p>
+                        <p onClick={handleOverView} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Overview</p>
+                        <p onClick={handleLeadership} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Leadership</p>
+                        <p onClick={handleProgramsOffered} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Programs Offered</p>
+                        <p onClick={handleAlumni} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Alumni</p>
+                        <p onClick={handleAdmission} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Admission</p>
+                        <p onClick={handleFaculty} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Faculty & Staff</p>
+                        <p onClick={handleContact} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Contact Us</p>
                     </div>
 
 
                     <div className='leadership-info'>
                         <div className='flex items-center justify-center'>
                             <img className='mr-4' src={location} alt="" />
-                            <p className='flex forTextHover'>J N Kaul Institute of Education Bhimtal SOS Complex, Tallital Bhimtal Nainital, Uttrakhand, India, 263136</p>
+                            <p className='flex forTextHover updated-font-family'>J N Kaul Institute of Education Bhimtal SOS Complex, Tallital Bhimtal Nainital, Uttrakhand, India, 263136</p>
                         </div>
-                        <div className='flex items-center justify-center my-4'>
+                        <div className='flex items-center justify-center my-4 mr-6'>
                             <img className='mr-4' src={email} alt="" />
-                            <p className='flex forTextHover'>Principal.bhimtalbed@sos<br />cvindia.org </p>
+                            <p className='flex forTextHover updated-font-family'>Principal.bhimtalbed@sos<br />cvindia.org </p>
                         </div>
                         <div className='flex'>
                             <img className='mr-4' src={phone} alt="" />
-                            <p className='flex forTextHover'>05942-247999</p>
+                            <p className='flex forTextHover updated-font-family'>05942-247999</p>
                         </div>
                     </div>
                     </div>
@@ -127,14 +127,14 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
 
                 <div>
                     <div class=" mt-6 mb-[50px] ml-6 mr-6">
-                        <h1 className='mt-2 mb-8 text-5xl leadership-heading'>Alumni</h1>
+                        <h1 className='mt-2 mb-8 text-5xl leadership-heading updated-font-family'>Alumni</h1>
                         <div class="flex justify-center flexProp flex-col lg:flex-row">
-                            <img src={teacher1} class="teachers-picture rounded-lg picture-shadow" alt='' />
+                            <img src={teacher1} class="teachers-picture  picture-shadow" alt='' />
                             <div className='ml-6'>
-                                <h1 className='mb-2 text-2xl font-bold'>Shraddha Singh (Batch -2017-19)</h1>
-                                <p className='mb-2 text-xl'>Teacher</p>
-                                <p className='mb-2 text-xl'>Jawahar Navoday Vidyalaya,Pota (Rajasthan)</p>
-                                <p className='mt-2'>
+                                <h1 className='mb-2 text-2xl font-bold updated-font-family'>Shraddha Singh (Batch -2017-19)</h1>
+                                <p className='mb-2 text-xl updated-font-family'>Teacher</p>
+                                <p className='mb-2 text-xl updated-font-family'>Jawahar Navoday Vidyalaya,Pota (Rajasthan)</p>
+                                <p className='mt-2 updated-font-family'>
                                     I have not only witnessed, but also experienced the bliss, with which this wonderful institution nurtures an individual. Each and every block of the institution act as a stepping stone for us, thus augmenting each and every one of their qualities- be it academic prowess in securing a high percentage or versatility on the stage and games field The institution under the able guidance of our Principal ma’am has the embellishment of a caring, loving and learning atmosphere and that makes all the difference. And today I’m working in Sherwood College, Nainital as the coordinator of English Department.
                                 </p>
                             </div>
@@ -144,16 +144,16 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
 
                     {/* 2nd one */}
                     <div class=" mt-2 mb-[50px] ml-6 mr-6">
-                        <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
+                        <div class="flex justify-center flexProp flex-col lg:flex-row">
                             <div className=''>
-                                <h1 className='mb-2 text-2xl font-bold'>Pooja Kuriya (Batch -2017-19)</h1>
-                                <p className='mb-2 text-xl'>Principal</p>
-                                <p className='mb-2 text-xl'>Mehra Public School Ramnagar</p>
-                                <p className='mr-6'>
+                                <h1 className='mb-2 text-2xl font-bold updated-font-family'>Pooja Kuriya (Batch -2017-19)</h1>
+                                <p className='mb-2 text-xl updated-font-family'>Principal</p>
+                                <p className='mb-2 text-xl updated-font-family'>Mehra Public School Ramnagar</p>
+                                <p className='mr-6 updated-font-family'>
                                     I’m amongst the many students of the institution whose life changed not only academically but also mentally and emotionally after joining the Institute. The college focuses not only on making the finest of all teachers but also good humans and citizens. It’s the continuous toiling of the Principal and staff of the college that it has become one of the best and most revered colleges of education in the state. What I’m today, I totally owe to the hard work and values instilled by the institute in me, I m working as Lecturer English, Uttarakhand Education Department.
                                 </p>
                             </div>
-                            <img src={teacher2} class="teachers-picture rounded-lg picture-shadow" alt='' />
+                            <img src={teacher2} class="teachers-picture  picture-shadow" alt='' />
                         </div>
                         
                     </div>
@@ -161,13 +161,13 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
 
                     {/* 3rd */}
                     <div class=" mt-2 mb-[50px] ml-6 mr-6">
-                        <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
-                            <img src={teacher3} class="teachers-picture rounded-lg picture-shadow" alt='' />
+                        <div class="flex justify-center flexProp flex-col lg:flex-row">
+                            <img src={teacher3} class="teachers-picture  picture-shadow" alt='' />
                             <div className='ml-6'>
-                                <h1 className='mb-2 text-2xl font-bold'>Gauhar Fatima (Batch -2013-14) </h1>
-                                <p className='mb-2 text-xl'>Assistant Professor (Through UKPSC)</p>
-                                <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>
-                                <p className='mt-2'>
+                                <h1 className='mb-2 text-2xl font-bold updated-font-family'>Gauhar Fatima (Batch -2013-14) </h1>
+                                <p className='mb-2 text-xl updated-font-family'>Assistant Professor (Through UKPSC)</p>
+                                <p className='mb-2 text-xl updated-font-family'>SOS Children’s Villages of India</p>
+                                <p className='mt-2 updated-font-family'>
                                     Certain milestones bring drastic changes in your life, coming to J. N. Kaul was one of them. The Institution didn't just work on our academics but ensured our participation in various co-curricular activities and community services which can prepare a teacher to cater the needs of their prospective career. Also we got ample of opportunities to use latest technologies which enabled us to stand with the ever-changing modern world and improve the teaching-learning process.
                                     As I joined JNKIE a completely different journey started because It was not a regular college which generally focuses on the academics and neglects the all round development of the students. From the first week of my admission I had to participate in the varied activities which I was not comfortable earlier on. But gradually I saw the difference in me and my friends we were more confident and active which is an relevant for every individual  to succeed in life, meanwhile I  qualified the NET/JRF examination In Education with the utmost support and guidance of the Principal and staff and right now doing my Ph. D. course work.
                                 </p>
@@ -178,22 +178,21 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
 
                     {/* 4th */}
                     <div class=" mt-2 mb-[50px] ml-6 mr-6">
-                        <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
+                        <div class="flex justify-center flexProp flex-col lg:flex-row">
                             <div className='mr-6'>
-                                <h1 className='mb-2 text-2xl font-bold'>Himanshu Rawat (Batch -2015-17)</h1>
-                                <p className='mb-2 text-xl'>Teacher</p>
-                                <p className='mb-2 text-xl'>SOS Children’s Villages of India</p>
-                                <p className='mt-2'>
+                                <h1 className='mb-2 text-2xl font-bold updated-font-family'>Himanshu Rawat (Batch -2015-17)</h1>
+                                <p className='mb-2 text-xl updated-font-family'>Teacher</p>
+                                <p className='mb-2 text-xl updated-font-family'>SOS Children’s Villages of India</p>
+                                <p className='mt-2 updated-font-family'>
                                     It had  been a while  for  me after  leaving formal education  but coming  here just  not made  me a disciplined   person but  also motivated  me  to  explore  my capabilities, skills  and  talents. My   perception  towards the teaching profession especially with the experience during my practice teaching.
                                 </p>
                             </div>
-                            <img src={teacher4} class="teachers-picture rounded-lg picture-shadow" alt='' />
+                            <img src={teacher4} class="teachers-picture  picture-shadow" alt='' />
                         </div>
                     </div>
 
                 </div>
             </div>
-            <Footer></Footer>
         </div>
     );
 };

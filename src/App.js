@@ -5,6 +5,7 @@ import Admission from './Components/Admission/Admission';
 import Alumni from './Components/Alumni/Alumni';
 import Contact from './Components/ContactDetails/Contact';
 import FacultyAndStaf from './Components/FacultyAndStaff/FacultyAndStaf';
+import Footer from './Components/Home/Footer';
 import Home from './Components/Home/Home';
 import Leadership from './Components/Leadership/Leadership';
 import ProgramesOffered from './Components/ProgramesOffered/ProgramesOffered';
@@ -20,7 +21,8 @@ function App() {
   const [contactUs, setContactUs] = useState('');
   console.log(showNavbar); 
   return (
-    <div className="">
+    <div>
+      <div className="">
       <Navbar setShowNavbar={[showNavbar, setShowNavbar]} setOverview={[overView, setOverview]} setLidership={[leadership, setLidership]} setProgramsOffered={[programsOffered, setProgramsOffered]} setAlumni={[alumni, setAlumni]} setAdmission={[admission, setAdmission]} setFacultiStaff={[facultiStaff, setFacultiStaff]} setContactUs={[contactUs, setContactUs]}></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
@@ -37,6 +39,8 @@ function App() {
 
         <Route path='/programesOffered' element={<ProgramesOffered setShowNavbar={[showNavbar, setShowNavbar]} setOverview={[overView, setOverview]} setLidership={[leadership, setLidership]} setProgramsOffered={[programsOffered, setProgramsOffered]} setAlumni={[alumni, setAlumni]} setAdmission={[admission, setAdmission]} setFacultiStaff={[facultiStaff, setFacultiStaff]} setContactUs={[contactUs, setContactUs]}></ProgramesOffered>} ></Route>
       </Routes>
+    </div>
+    <Footer setShowNavbar={[showNavbar, setShowNavbar]} setOverview={[overView, setOverview]} setLidership={[leadership, setLidership]} setProgramsOffered={[programsOffered, setProgramsOffered]} setAlumni={[alumni, setAlumni]} setAdmission={[admission, setAdmission]} setFacultiStaff={[facultiStaff, setFacultiStaff]} setContactUs={[contactUs, setContactUs]}></Footer>
     </div>
   );
 }

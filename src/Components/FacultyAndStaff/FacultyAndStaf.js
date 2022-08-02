@@ -109,31 +109,31 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
             <img  onClick={handleOverView} className='w-20 lg:w-48 md:24 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
             <img className='w-full' src={aboutUs} alt="" />
             <div className='flex flex-col justify-between md:flex-row'>
-                <div className='flex justify-center mt-6 ml-6 md:grid lg:grid'>
+                <div className='flex justify-center mt-6 ml-6 updated-font-family md:grid lg:grid'>
                 <div>
                     <div className='leadership'>
-                        <p onClick={handleOverView} className='flex items-center h-12 my-2 forTextHover'>Overview</p>
-                        <p onClick={handleLeadership} className='flex items-center h-12 my-2 forTextHover'>Leadership</p>
-                        <p onClick={handleProgramsOffered} className='flex items-center h-12 my-2 forTextHover'>Programs Offered</p>
-                        <p onClick={handleAlumni} className='flex items-center h-12 my-2 forTextHover'>Alumni</p>
-                        <p onClick={handleAdmission} className='flex items-center h-12 my-2 forTextHover'>Admission</p>
-                        <p onClick={handleFaculty} className='flex items-center h-12 my-2 forTextHover'>Faculty & Staff</p>
-                        <p onClick={handleContact} className='flex items-center h-12 my-2 forTextHover'>Contact Us</p>
+                        <p onClick={handleOverView} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Overview</p>
+                        <p onClick={handleLeadership} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Leadership</p>
+                        <p onClick={handleProgramsOffered} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Programs Offered</p>
+                        <p onClick={handleAlumni} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Alumni</p>
+                        <p onClick={handleAdmission} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Admission</p>
+                        <p onClick={handleFaculty} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Faculty & Staff</p>
+                        <p onClick={handleContact} className='flex items-center h-12 my-2 forTextHover updated-font-family'>Contact Us</p>
                     </div>
 
 
                     <div className='leadership-info'>
                         <div className='flex items-center justify-center'>
                             <img className='mr-4' src={location} alt="" />
-                            <p className='flex forTextHover'>J N Kaul Institute of Education Bhimtal SOS Complex, Tallital Bhimtal Nainital, Uttrakhand, India, 263136</p>
+                            <p className='flex forTextHover updated-font-family'>J N Kaul Institute of Education Bhimtal SOS Complex, Tallital Bhimtal Nainital, Uttrakhand, India, 263136</p>
                         </div>
-                        <div className='flex items-center justify-center my-4'>
+                        <div className='flex items-center justify-center my-4 mr-6'>
                             <img className='mr-4' src={email} alt="" />
-                            <p className='flex forTextHover'>Principal.bhimtalbed@sos<br />cvindia.org </p>
+                            <p className='flex forTextHover updated-font-family'>Principal.bhimtalbed@sos<br />cvindia.org </p>
                         </div>
                         <div className='flex'>
                             <img className='mr-4' src={phone} alt="" />
-                            <p className='flex forTextHover'>05942-247999</p>
+                            <p className='flex forTextHover updated-font-family'>05942-247999</p>
                         </div>
                     </div>
                 </div>
@@ -143,8 +143,8 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                 {/* This is table */}
                 <div className='w-full'>
                     <div class="mb-[50px] ml-6 mr-6 mt-2">
-                    <h1 style={{color: '#0076BD'}} className='flex justify-center mt-6 mb-6 text-4xl font-bold leadership-heading'>Details of Teaching Staff</h1>
-                    <p className='flex justify-center mb-2 text-xl'>LECTURERS/TEACHING STAFF (AS PER NCTE NORMS)</p>
+                    <h1 style={{color: '#0076BD'}} className='flex mt-6 mb-6 ml-8 text-3xl font-bold leadership-heading updated-font-family'>Details of Teaching Staff</h1>
+                    <p className='flex mb-2 ml-8 text-xl updated-font-family'>LECTURERS/TEACHING STAFF (AS PER NCTE NORMS)</p>
                     <div class="overflow-x-auto md:mx-2 lg:mx-8">
                 <table class="w-full">
                     <thead>
@@ -169,86 +169,86 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                     <tbody>
                         <tr>
                             <th className='table-data'>1</th>
-                            <td className='table-data fixed-width-name'> <span className='flex justify-center'> Ms. Beena Negi</span></td>
+                            <td className='table-data fixed-width-name'> <span className='flex justify-center updated-font-family'> Ms. Beena Negi</span></td>
                             <td className='table-data'>
-                                <span className='flex justify-center'><div class="avatar"> <span className='flex justify-center'> <div class="w-32 rounded">
+                                <span className='flex justify-center updated-font-family'><div class="avatar"> <span className='flex justify-center updated-font-family'> <div class="w-32 rounded">
                                         <img className='w-32 table-picture' src={teacher14} alt="Avatar Tailwind CSS Component" />
                                     </div></span>
                                     
                                 </div></span>
                                 
                             </td>
-                            <td className='table-data'> <span className='flex justify-center'> GEN</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> Assistant <br></br> Professor</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 70.11%</span></td>
-                            <td className='table-data'> <span className='flex justify-center'>76 </span></td>
-                            <td className='table-data'> <span className='flex justify-center'>YES </span></td>
-                            <td className='table-data'> <span className='flex justify-center'> GEO,
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> GEN</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> Assistant <br></br> Professor</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 70.11%</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'>76 </span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'>YES </span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> GEO,
                                 EDUCATIO
                                 N</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> SOCIAL <br></br>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> SOCIAL <br></br>
                                 STUDIES</span></td>
-                            <td className='table-data'> <span className='flex justify-center'>No</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> NET,
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'>No</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> NET,
                                 USET</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> </span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> </span></td>
                         </tr>
                         
                         <tr>
-                            <th className='table-data'> <span className='flex justify-center'> 2</span></th>
-                            <td className='table-data fixed-width-name'> <span className='flex justify-center'> Ms. Sonal
+                            <th className='table-data'> <span className='flex justify-center updated-font-family'> 2</span></th>
+                            <td className='table-data fixed-width-name'> <span className='flex justify-center updated-font-family'> Ms. Sonal
                                 Shukla</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> <div class="avatar">
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> <div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher15} alt="Avatar Tailwind CSS Component" />
                                     </div>
                                 </div></span>
                                 
                             </td>
-                            <td className='table-data'> <span className='flex justify-center'> GEN</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> Assistant<br></br>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> GEN</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> Assistant<br></br>
                                 Professor</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 60</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 65</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span>-</td>
-                            <td className='table-data'> <span className='flex justify-center'> M.A,
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 60</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 65</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> --</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> M.A,
                                 POLITICAL<br></br>
                                 SCIENCE,</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> HINDI,<br></br>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> HINDI,<br></br>
                                 ECONOMICS</span></td>
-                            <td className='table-data'> <span className='flex justify-center'>- </span></td>
-                            <td className='table-data'> <span className='flex justify-center'>YES </span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 4 YEARS</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'>- </span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'>YES </span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 4 YEARS</span></td>
                         </tr>
                         <tr>
-                            <th className='table-data'> <span className='flex justify-center'> </span>3</th>
-                            <td className='table-data fixed-width-name'> <span className='flex justify-center'> Mr. Vipin
+                            <th className='table-data'> <span className='flex justify-center updated-font-family'> </span>3</th>
+                            <td className='table-data fixed-width-name'> <span className='flex justify-center updated-font-family'> Mr. Vipin
                                 Kumar</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> <div class="avatar">
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> <div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher1} alt="Avatar Tailwind CSS Component" />
                                     </div>
                                 </div></span>
                                 
                             </td>
-                            <td className='table-data'> <span className='flex justify-center'> OBC</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> Assistant<br></br>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> OBC</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> Assistant<br></br>
                                 Professor</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 73</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 77</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> ENGLISH</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> English</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> NO</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> YES</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 2
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 73</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 77</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> -</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> ENGLISH</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> English</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> NO</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> YES</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 2
                                 YEARS</span></td>
                         </tr>
                         <tr>
-                            <th className='table-data'> <span className='flex justify-center'> 4</span></th>
-                            <td className='table-data fixed-width-name'> <span className='flex justify-center'> Ms. Lata
+                            <th className='table-data'> <span className='flex justify-center updated-font-family'> 4</span></th>
+                            <td className='table-data fixed-width-name'> <span className='flex justify-center updated-font-family'> Ms. Lata
                                 Shahi</span></td>
-                            <td className='table-data'> <span className='flex justify-center'><div class="avatar">
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'><div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher13} alt="Avatar Tailwind CSS Component" />
                                     </div>
@@ -256,27 +256,27 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                 
 
                             </td>
-                            <td className='table-data'> <span className='flex justify-center'> GEN</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> Assistant <br></br>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> GEN</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> Assistant <br></br>
                                 Professor</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 74</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 75</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 58
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 74</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 75</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> -</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 58
                                 ENGLISH</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> English</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span></td>
-                            <td className='table-data'> <span className='flex justify-center'>YES </span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> English</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> -</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'>YES </span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> -</span></td>
                         </tr>
 
 
                         <tr>
-                            <th className='table-data'> <span className='flex justify-center'> 5</span></th>
-                            <td className='table-data fixed-width-name'> <span className='flex justify-center'>Mr.
+                            <th className='table-data'> <span className='flex justify-center updated-font-family'> 5</span></th>
+                            <td className='table-data fixed-width-name'> <span className='flex justify-center updated-font-family'>Mr.
                                 Himanshu
                                 Fartyal </span></td>
-                            <td className='table-data'> <span className='flex justify-center'> <div class="avatar">
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> <div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher12} alt="Avatar Tailwind CSS Component" />
                                     </div>
@@ -284,27 +284,27 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                 
 
                             </td>
-                            <td className='table-data'> <span className='flex justify-center'>GEN </span></td>
-                            <td className='table-data'> <span className='flex justify-center'> Assistant <br></br>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'>GEN </span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> Assistant <br></br>
                                 Professor</span></td>
-                            <td className='table-data'> <span className='flex justify-center'>72 </span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 66</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> PHYSICAL<br></br>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'>72 </span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 66</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> -</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> -</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> PHYSICAL<br></br>
                                 EDUCATION</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 6 Years</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> -</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> -</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 6 Years</span></td>
                         </tr>
 
 
 
                         <tr>
-                            <th className='table-data'> <span className='flex justify-center'> 6</span></th>
-                            <td className='table-data fixed-width-name'> <span className='flex justify-center'> Dr. Yogita
+                            <th className='table-data'> <span className='flex justify-center updated-font-family'> 6</span></th>
+                            <td className='table-data fixed-width-name'> <span className='flex justify-center updated-font-family'> Dr. Yogita
                                 Verma</span></td>
-                            <td className='table-data'> <span className='flex justify-center'><div class="avatar">
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'><div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher2} alt="Avatar Tailwind CSS Component" />
                                     </div>
@@ -312,24 +312,24 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                  </span>
                                 
                             </td>
-                            <td className='table-data'> <span className='flex justify-center'> OBC</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> Lecturer <br></br>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> OBC</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> Lecturer <br></br>
                                 (Fine Art)</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 62.2%</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 57.5</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> FINE ARTS</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> FINE ARTS</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> YES</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 62.2%</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 57.5</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> -</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> FINE ARTS</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> FINE ARTS</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> YES</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> -</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> -</span></td>
                         </tr>
 
 
                         <tr>
                             <th className='table-data'>7</th>
-                            <td className='table-data fixed-width-name'> <span className='flex justify-center'> Mr.Rajendra Khati</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> <div class="avatar">
+                            <td className='table-data fixed-width-name'> <span className='flex justify-center updated-font-family'> Mr.Rajendra Khati</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> <div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher11} alt="Avatar Tailwind CSS Component" />
                                     </div>
@@ -337,24 +337,24 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                 
 
                             </td>
-                            <td className='table-data'> <span className='flex justify-center'> GEN</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> Assistant <br></br>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> GEN</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> Assistant <br></br>
                                 Professor</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 67</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 78</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> -</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 56 POL.<br></br>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 67</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 78</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> -</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 56 POL.<br></br>
                                 SCIENCE</span></td>
-                            <td className='table-data'> <span className='flex justify-center'>SST </span></td>
-                            <td className='table-data'> <span className='flex justify-center'> NO</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> YES USET</span></td>
-                            <td className='table-data'> <span className='flex justify-center'> 1.5 Years</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'>SST </span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> NO</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> YES USET</span></td>
+                            <td className='table-data'> <span className='flex justify-center updated-font-family'> 1.5 Years</span></td>
                         </tr>
                         <tr>
-                            <th className='table-data'> <span className='flex justify-center'> 8</span></th>
-                            <td className='table-data fixed-width-name'><span className='flex justify-center'>Mr. Manoj
+                            <th className='table-data'> <span className='flex justify-center updated-font-family'> 8</span></th>
+                            <td className='table-data fixed-width-name'><span className='flex justify-center updated-font-family'>Mr. Manoj
                                 Kumar</span></td>
-                            <td className='table-data'><span className='flex justify-center'><div class="avatar">
+                            <td className='table-data'><span className='flex justify-center updated-font-family'><div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher3} alt="Avatar Tailwind CSS Component" />
                                     </div>
@@ -362,23 +362,23 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                 
 
                             </td>
-                            <td className='table-data'><span className='flex justify-center'>SC</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Assistant<br></br>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>SC</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Assistant<br></br>
                                 Professor</span></td>
-                            <td className='table-data'><span className='flex justify-center'>60</span></td>
-                            <td className='table-data'><span className='flex justify-center'>72</span></td>
-                            <td className='table-data'><span className='flex justify-center'>60</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>EDUCATION</span></td>
-                            <td className='table-data'><span className='flex justify-center'>NO</span></td>
-                            <td className='table-data'><span className='flex justify-center'>YES</span></td>
-                            <td className='table-data'><span className='flex justify-center'>1 Year</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>60</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>72</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>60</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>EDUCATION</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>NO</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>YES</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>1 Year</span></td>
                         </tr>
                         <tr>
-                            <th className='table-data'><span className='flex justify-center'>9</span></th>
-                            <td className='table-data fixed-width-name'><span className='flex justify-center'>Ms. Deepali
+                            <th className='table-data'><span className='flex justify-center updated-font-family'>9</span></th>
+                            <td className='table-data fixed-width-name'><span className='flex justify-center updated-font-family'>Ms. Deepali
                                 Gupta</span></td>
-                            <td className='table-data'><span className='flex justify-center'><div class="avatar">
+                            <td className='table-data'><span className='flex justify-center updated-font-family'><div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher9} alt="Avatar Tailwind CSS Component" />
                                     </div>
@@ -386,24 +386,24 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                 
 
                             </td>
-                            <td className='table-data'><span className='flex justify-center'>GEN</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Assistant <br></br>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>GEN</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Assistant <br></br>
                                 Professor</span></td>
-                            <td className='table-data'><span className='flex justify-center'>70</span></td>
-                            <td className='table-data'><span className='flex justify-center'>72</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Zoology</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Science</span></td>
-                            <td className='table-data'><span className='flex justify-center'>NO</span></td>
-                            <td className='table-data'><span className='flex justify-center'>YES</span></td>
-                            <td className='table-data'><span className='flex justify-center'>3 YEARS</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>70</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>72</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Zoology</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Science</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>NO</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>YES</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>3 YEARS</span></td>
                         </tr>
                         <tr>
-                            <th className='table-data'><span className='flex justify-center'>10</span></th>
-                            <td className='table-data fixed-width-name'><span className='flex justify-center'>Ms.
+                            <th className='table-data'><span className='flex justify-center updated-font-family'>10</span></th>
+                            <td className='table-data fixed-width-name'><span className='flex justify-center updated-font-family'>Ms.
                                 Akansha
                                 Shaily</span></td>
-                            <td className='table-data'><span className='flex justify-center'><div class="avatar">
+                            <td className='table-data'><span className='flex justify-center updated-font-family'><div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher10} alt="Avatar Tailwind CSS Component" />
                                     </div>
@@ -411,28 +411,28 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                 
 
                             </td>
-                            <td className='table-data'><span className='flex justify-center'>SC</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Assistant<br></br>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>SC</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Assistant<br></br>
                                 Professor</span></td>
-                            <td className='table-data'><span className='flex justify-center'>71.22%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>73%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Political
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>71.22%</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>73%</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Political
                                 Science<br></br>
                                 Education
                                 68%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Physical
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Physical
                                 Science,<br></br>
                                 Mathematics</span></td>
-                            <td className='table-data'><span className='flex justify-center'>NO</span></td>
-                            <td className='table-data'><span className='flex justify-center'>NET</span></td>
-                            <td className='table-data'><span className='flex justify-center'>10 Months</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>NO</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>NET</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>10 Months</span></td>
                         </tr>
                         <tr>
-                            <th className='table-data'><span className='flex justify-center'>11</span></th>
-                            <td className='table-data fixed-width-name'><span className='flex justify-center'>Ms. Deepika
+                            <th className='table-data'><span className='flex justify-center updated-font-family'>11</span></th>
+                            <td className='table-data fixed-width-name'><span className='flex justify-center updated-font-family'>Ms. Deepika
                                 Dhanik</span></td>
-                            <td className='table-data'><span className='flex justify-center'><div class="avatar">
+                            <td className='table-data'><span className='flex justify-center updated-font-family'><div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher4} alt="Avatar Tailwind CSS Component" />
                                     </div>
@@ -440,26 +440,26 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                 
 
                             </td>
-                            <td className='table-data'><span className='flex justify-center'>GEN</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Assistant <br></br>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>GEN</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Assistant <br></br>
                                 Professor</span></td>
-                            <td className='table-data'><span className='flex justify-center'>73%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>80%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Chemistry<br></br>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>73%</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>80%</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Chemistry<br></br>
                                 Education
                                 70%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Physical
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Physical
                                 Science,<br></br>
                                 Mathematics</span></td>
-                            <td className='table-data'><span className='flex justify-center'>No</span></td>
-                            <td className='table-data'><span className='flex justify-center'>NET</span></td>
-                            <td className='table-data'><span className='flex justify-center'>1 Month</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>No</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>NET</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>1 Month</span></td>
                         </tr>
                         <tr>
-                            <th className='table-data'><span className='flex justify-center'>12</span></th>
-                            <td className='table-data fixed-width-name'><span className='flex justify-center'>Dr. Binita Rai</span></td>
-                            <td className='table-data'><span className='flex justify-center'><div class="avatar">
+                            <th className='table-data'><span className='flex justify-center updated-font-family'>12</span></th>
+                            <td className='table-data fixed-width-name'><span className='flex justify-center updated-font-family'>Dr. Binita Rai</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'><div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher8} alt="Avatar Tailwind CSS Component" />
                                     </div>
@@ -467,13 +467,13 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                 
 
                             </td>
-                            <td className='table-data'><span className='flex justify-center'>GEN</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Assistant<br></br>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>GEN</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Assistant<br></br>
                                 Professor</span></td>
-                            <td className='table-data'><span className='flex justify-center'>68%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>63.66%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Yes</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Pol. Science
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>68%</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>63.66%</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Yes</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Pol. Science
                                 51.22%<br></br>
                                 Education
                                 57.44<br></br>
@@ -481,18 +481,18 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                 57.66%<br></br>
                                 Sociology
                                 63%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>English</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Yes</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>8 Years</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>English</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Yes</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>8 Years</span></td>
                         </tr>
 
                         <tr>
-                            <th className='table-data'><span className='flex justify-center'>13</span></th>
-                            <td className='table-data fixed-width-name'><span className='flex justify-center'>Dr.
+                            <th className='table-data'><span className='flex justify-center updated-font-family'>13</span></th>
+                            <td className='table-data fixed-width-name'><span className='flex justify-center updated-font-family'>Dr.
                                 Gokulanand
                                 Tiwari</span></td>
-                            <td className='table-data'><span className='flex justify-center'><div class="avatar">
+                            <td className='table-data'><span className='flex justify-center updated-font-family'><div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher5} alt="Avatar Tailwind CSS Component" />
                                     </div>
@@ -500,25 +500,25 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                 
 
                             </td>
-                            <td className='table-data'><span className='flex justify-center'>GEN</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Assistant<br></br>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>GEN</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Assistant<br></br>
                                 Professor</span></td>
-                            <td className='table-data'><span className='flex justify-center'>65.7%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>73%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Sanskrit 68%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Hindi,
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>65.7%</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>73%</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Sanskrit 68%</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Hindi,
                                 Sanskrit</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Yes</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Yes</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
                         </tr>
 
                         <tr>
-                            <th className='table-data'><span className='flex justify-center'>14</span></th>
-                            <td className='table-data fixed-width-name'><span className='flex justify-center'>Ms. Shalini
+                            <th className='table-data'><span className='flex justify-center updated-font-family'>14</span></th>
+                            <td className='table-data fixed-width-name'><span className='flex justify-center updated-font-family'>Ms. Shalini
                                 Bharti</span></td>
-                            <td className='table-data'><span className='flex justify-center'><div class="avatar">
+                            <td className='table-data'><span className='flex justify-center updated-font-family'><div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher6} alt="Avatar Tailwind CSS Component" />
                                     </div>
@@ -526,25 +526,25 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                 
 
                             </td>
-                            <td className='table-data'><span className='flex justify-center'>SC</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Assistant<br></br>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>SC</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Assistant<br></br>
                                 Professor</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Music Vocal
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Music Vocal
                                 62.8%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Music</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>1 Year</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Music</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>1 Year</span></td>
                         </tr>
 
                         <tr>
-                            <th className='table-data'><span className='flex justify-center'>15</span></th>
-                            <td className='table-data fixed-width-name'><span className='flex justify-center'>Mr. Neeraj
+                            <th className='table-data'><span className='flex justify-center updated-font-family'>15</span></th>
+                            <td className='table-data fixed-width-name'><span className='flex justify-center updated-font-family'>Mr. Neeraj
                                 Kumar</span></td>
-                            <td className='table-data'><span className='flex justify-center'><div class="avatar">
+                            <td className='table-data'><span className='flex justify-center updated-font-family'><div class="avatar">
                                     <div class="w-32 rounded">
                                         <img className='w-32' src={teacher7} alt="Avatar Tailwind CSS Component" />
                                     </div>
@@ -552,18 +552,18 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                 
 
                             </td>
-                            <td className='table-data'><span className='flex justify-center'>SC</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Assistant<br></br>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>SC</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Assistant<br></br>
                                 Professor</span></td>
-                            <td className='table-data'><span className='flex justify-center'>62%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Visual Art
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>62%</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Visual Art
                                 70%</span></td>
-                            <td className='table-data'><span className='flex justify-center'>Visual Art</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>-</span></td>
-                            <td className='table-data'><span className='flex justify-center'>1.1 Year</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>Visual Art</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>-</span></td>
+                            <td className='table-data'><span className='flex justify-center updated-font-family'>1.1 Year</span></td>
                         </tr>
 
                         
@@ -610,7 +610,6 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                 </div>
             </div>
         </div>
-        <Footer></Footer>
         </div>
     );
 };

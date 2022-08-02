@@ -33,6 +33,9 @@
 .hover-table{
     height: 60px;
 }
+.hover-table-top-row{
+    background-color: aliceblue;
+}
 .hover-table:hover{
     background-color: aliceblue;
 }

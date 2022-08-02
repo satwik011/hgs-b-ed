@@ -1,6 +1,6 @@
 import React from 'react';
 import sosChildrenVillage from './../assets/images/sos_logo 3.png';
-import studyImage from './../assets/images/10088-removebg-preview 1.png';
+import studyImage from './../assets/images/new-home-photo.png';
 import contactImage from './../assets/images/3969587 2.png'
 import contactLine from './../assets/images/contact-line.png'
 import user from './../assets/icons/user.svg';
@@ -29,26 +29,25 @@ const InstuteOfEducation = () => {
                 <div>
                 <img className='w-full' src={background} alt="" />
                 <img  onClick={handleHome} className='w-20 lg:w-48 md:24 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
-                    <div className='kept-top pb-[10px]'>
+                    <div className='kept-top'>
                         <div className='flex items-center ml-[80px] mr-[80px] mb-[50px]'>
-                        
+                            
                             <div className='block mx-auto'>
                                 <div className='mt-[50px]'>
-                                    <h1 className='instute'>INSTUTE OF EDUCATION</h1>
-                                    <p className='flex justify-center bed-college'>B.ED.College, Bhimtal</p>
+                                    <h1 className='instute updated-font-family'>J.N KAUL INSTITUTE OF EDUCATION</h1>
+                                    <p className='flex justify-center bed-college updated-font-family'>B.ED. College, Bhimtal</p>
                                 </div>
                             </div>
                         </div>
 
 
                         <div className='flex ml-[80px] mr-[80px] justify-center mb-[219px]'>
-                            <div className='flex items-center'>
+                            <div className='flex items-center justify-around'>
                                 <div className=''>
-                                    <p className='kaul-institute'>J.N KAUL INSTITUTE OF EDUCATION BHIMTAL NAINITAL, INDIA</p>
-                                    <h1 className='education-is-power'>Education is the most powerful weapon which you can use to change the world</h1>
+                                    <h1 className='education-is-power updated-font-family'>Education is the most powerful weapon which you can use to change the world</h1>
                                 </div>
 
-                                <div className='ml-[147px]'>
+                                <div className=''>
                                     <img src={studyImage} alt="" />
                                 </div>
                             </div>
@@ -65,21 +64,21 @@ const InstuteOfEducation = () => {
                     <div className='mt-10'>
                         <div className='flex justify-center'>
                             <div>
-                                <h1 className='welcome'>Contact Us</h1>
-                                <img src={contactLine} alt="" />
+                                <h1 className='welcome updated-font-family'>Contact Us</h1>
+                                <img className='w-[150px]' src={contactLine} alt="" />
                             </div>
                         </div>
 
                         <div className='hidden lg:block md:block'>
                         <div className='flex justify-between items-center ml-[80px] mr-[80px] mt-4 mb-8'>
                             <div>
-                                <h1 className='mb-8 drop-details'>Drop us your details for quick response.</h1>
+                                <h1 className='mb-8 drop-details updated-font-family'>Drop us your details for quick response.</h1>
                                 <div>
                                     <div className='flex'>
                                     <div className='mb-8'>
                                         <div className='flex items-center justify-center mb-8 contact-input'>
                                             <img className='mx-4 for-opacity' src={user} alt="" />
-                                            <input className='pl-2 input-field' type="text" placeholder='Username' ></input>
+                                            <input className='pl-2 input-field' type="text" placeholder='Full Name' ></input>
                                         </div>
                                         <div className='flex items-center justify-center contact-input'>
                                             <img className='mx-4 for-opacity' src={location} alt="" />
@@ -95,7 +94,7 @@ const InstuteOfEducation = () => {
                                         </div>
                                         <div className='flex items-center justify-center contact-input'>
                                             <img className='mx-4 for-opacity' src={grade} alt="" />
-                                            <input className='pl-2 input-field' type="text" placeholder='Grade' ></input>
+                                            <input className='pl-2 input-field' type="text" placeholder='Course' ></input>
                                         </div>
                                     </div>
 
@@ -113,7 +112,7 @@ const InstuteOfEducation = () => {
                                     </div>
 
                                     <div class="form-control">
-                                        <button class="for-background-home hover:shadow-2xl block mx-auto">Submit</button>
+                                        <button class="for-background-home hover:shadow-2xl block mx-auto updated-font-family">Submit</button>
                                     </div>
 
                                 </div>
@@ -169,7 +168,7 @@ const InstuteOfEducation = () => {
 
                                         
                                         <div class="form-control mt-6">
-                                            <button class="for-background-home-mobile hover:shadow-2xl">Login</button>
+                                            <button class="for-background-home-mobile hover:shadow-2xl updated-font-family">Submit</button>
                                         </div>
                                     </div>
                                 </div>
@@ -179,7 +178,7 @@ const InstuteOfEducation = () => {
                     </div>
                 </div>
             </div>
-            <Footer></Footer>
+            
         </div>
     );
 };

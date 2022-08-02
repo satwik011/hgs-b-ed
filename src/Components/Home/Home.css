@@ -1,18 +1,18 @@
 .instute {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-size: 38px;
     color: #121212;
 }
 
 .bed-college {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-size: 32px;
     color: #121212;
 }
 
 .kept-top{
     position: absolute;
-    top: 30px;
+    top: -30px;
 
 }
 
@@ -22,24 +22,24 @@
 }
 
 .kaul-institute {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-size: 24px;
     line-height: 29px;
     color: #2D4A9D;
 }
 
 .education-is-power {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-size: 42px;
     line-height: 51px;
     color: #121212;
 }
 
 .welcome {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 38.5px;
+    font-size: 30.5px;
     line-height: 51px;
     color: #000000;
 }
@@ -52,7 +52,7 @@
 }
 
 .about-sos {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-weight: 700;
     font-size: 28px;
     display: flex;
@@ -61,7 +61,7 @@
 }
 
 .sos-para {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
@@ -73,7 +73,7 @@
 }
 
 .infructructure {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-weight: 700;
     font-size: 28px;
     line-height: 34px;
@@ -106,7 +106,7 @@
 }
 
 .photoGallery-heading {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
@@ -142,7 +142,7 @@
 
 
 .drop-details {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-weight: 600;
     font-size: 28px;
     line-height: 34px;
@@ -157,7 +157,7 @@
 }
 
 .submit {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
@@ -172,7 +172,7 @@
 }
 
 .footer-heading {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-weight: 700;
     font-size: 28px;
     line-height: 41px;
@@ -185,7 +185,7 @@
 }
 
 .contact-info {
-    font-family: 'Cormorant';
+    font-family: 'Poppins';
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
@@ -342,4 +342,7 @@
 .about-institution-picture{
     width: 350px;
     height: 280px;
+}
+.updated-font-family{
+    font-family: 'Poppins';
 }

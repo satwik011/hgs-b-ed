@@ -1,8 +1,7 @@
 import React from 'react';
-import Navbar from '../../Navbar/Navbar';
 import InstuteOfEducation from './InstuteOfEducation';
 
-const Home = () => {
+const Home = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, setAlumni, setAdmission, setFacultiStaff, setContactUs }) => {
     return (
         <div>
             <div>
