@@ -109,8 +109,8 @@ const Leadership = ({ setShowNavbar, setOverview, setLidership, setProgramsOffer
 
 
                         <div className='leadership-info'>
-                            <div className='flex items-center justify-center'>
-                                <img className='mr-4' src={location} alt="" />
+                            <div className='flex justify-center'>
+                                <img className='h-8 mr-4' src={location} alt="" />
                                 <p className='flex forTextHover updated-font-family'>J N Kaul Institute of Education Bhimtal SOS Complex, Tallital Bhimtal Nainital, Uttrakhand, India, 263136</p>
                             </div>
                             <div className='flex items-center justify-center my-4 mr-6'>
@@ -149,7 +149,7 @@ const Leadership = ({ setShowNavbar, setOverview, setLidership, setProgramsOffer
 
                     {/* 2nd one */}
                     <div class="mb-[50px] ml-6 mr-6 mt-6 hidden md:block lg:block">
-                        <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
+                        <div class="flex justify-center flexProp flex-col lg:flex-row">
                             <div className=''>
                                 <h1 className='mb-2 text-2xl font-bold-heading updated-font-family'>Secretary General</h1>
                                 <p className='mb-2 text-xl updated-font-family'>Sumanta Kar</p>
@@ -171,13 +171,13 @@ const Leadership = ({ setShowNavbar, setOverview, setLidership, setProgramsOffer
 
 
                     <div class="mb-[50px] ml-6 mr-6 mt-6 block md:hidden lg:hidden">
-                        <div class="flex justify-center items-center lg:block md:block mx-auto flexProp flex-col lg:flex-row">
+                        <div class="flex justify-center lg:block md:block mx-auto flexProp flex-col lg:flex-row">
                             <img src={teacher2} class="teachers-picture  picture-shadow mr-6" alt='' />
                             <div className=''>
                                 <h1 className='mb-2 text-2xl font-bold-heading updated-font-family'>Secretary General</h1>
                                 <p className='mb-2 text-xl updated-font-family'>Mr.Sumanta Kar</p>
                                 <p className='mb-2 text-xl updated-font-family'>SOS Children’s Villages of India</p>
-                                <p className='mt-2 updated-font-family'>
+                                <p className=' updated-font-family'>
                                     Mr Sumanta Kar is the Secretary General of SOS Children’s Villages of India (SOSCVI), one of India’s biggest childcare NGOs and the largest self-implementing agency providing an end-to-end Group Foster Care for children without parental care.
 
                                     Mr Kar has over 30 years of experience in the field of alternative care. He joined SOSCVI in 1989 as a youth co-worker. Mr Kar has conceptualised and implemented several development projects at SOSCVI. He led SOSCVI’s tsunami operation in the southern states of India (2004-2007) - it was the largest ever-emergency programme undertaken by the NGO so far.
@@ -198,7 +198,7 @@ const Leadership = ({ setShowNavbar, setOverview, setLidership, setProgramsOffer
 
                     {/* 3rd */}
                     <div class="mb-[50px] ml-6 mr-6 mt-6">
-                        <div class="flex justify-center items-center flexProp flex-col lg:flex-row">
+                        <div class="flex justify-center flexProp flex-col lg:flex-row">
                             <img src={teacher3} class="teachers-picture flex lg:block md:block mx-auto  picture-shadow" alt='' />
                             <div className=' lg:ml-6 md:ml-6'>
                                 <h1 className='mb-2 text-2xl font-bold-heading updated-font-family'>Head Education & Child Development</h1>

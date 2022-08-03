@@ -6,7 +6,7 @@ import studentTaboutBhimtal from './../assets/images/about-bhimtal.png';
 
 const AboutInstitution = () => {
     return (
-        <div className='margin-for-institute ml-[80px] mr-[80px]'>
+        <div className='margin-for-institute ml-[80px] mr-[80px]' id='home'>
                         <div>
                             <div className='mt-8 mb-8'>
                                 <h1 className='welcome updated-font-family'>Welcome to J.N Kaul Institute of Education</h1>

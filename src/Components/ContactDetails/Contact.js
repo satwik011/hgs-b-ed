@@ -5,14 +5,19 @@ import email from './../assets/icons/email.svg';
 import location from './../assets/icons/location.svg';
 import grade from './../assets/icons/grade.svg';
 import message from './../assets/icons/message.svg';
-import Footer from '../Home/Footer';
+import sosChildrenVillage from './../assets/images/sos_logo 3.png';
+import { useNavigate } from 'react-router-dom';
 
 const Contact = () => {
-
+    const navigate = useNavigate();
+    const handleOverView = () => {
+        navigate('/')
+    }
     return (
         <div>
+            <img  onClick={handleOverView} className='w-20 lg:w-48 md:24 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
             <div className='mb-12'>
-            <h1 className='flex justify-center mt-20 mb-8 text-5xl font-bold love-to-hear updated-font-family'>We'd love to hear from you.</h1>
+            <h1 className='flex justify-center mt-20 mb-6 text-5xl font-bold love-to-hear updated-font-family'>We'd love to hear from you.</h1>
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <div className='lg:ml-28'>
@@ -20,37 +25,39 @@ const Contact = () => {
                             <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                                 <div class="card-body">
                                     <div class="form-control">
-                                        <div className='flex items-center justify-center mb-8 contact-input'>
+                                        <div className='flex items-center justify-center mb-6 contact-input'>
                                             <img className='mx-4 for-opacity' src={user} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Full Name' ></input>
                                         </div>
                                     </div>
                                     <div class="form-control">
-                                        <div className='flex items-center justify-center mb-8 contact-input'>
-                                            <img className='mx-4 for-opacity' src={location} alt="" />
-                                            <input className='pl-2 input-field' type="text" placeholder='City' ></input>
-                                        </div>
-                                    </div>
-                                    <div class="form-control">
-                                        <div className='flex items-center justify-center mb-8 contact-input'>
+                                    <div className='flex items-center justify-center mb-6 contact-input'>
                                             <img className='mx-4 for-opacity' src={email} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Email' ></input>
                                         </div>
+                                        
                                     </div>
                                     <div class="form-control">
-                                        <div className='flex items-center justify-center mb-8 contact-input'>
-                                            <img className='mx-4 for-opacity' src={grade} alt="" />
-                                            <input className='pl-2 input-field' type="text" placeholder='Course' ></input>
-                                        </div>
-                                    </div>
-                                    <div class="form-control">
-                                        <div className='flex items-center justify-center mb-8 contact-input'>
+                                    <div className='flex items-center justify-center mb-6 contact-input'>
                                             <img className='mx-4 for-opacity' src={phone} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Phone Number' ></input>
                                         </div>
                                     </div>
                                     <div class="form-control">
-                                        <div className='flex items-center justify-center mb-8 contact-input'>
+                                    <div className='flex items-center justify-center mb-6 contact-input'>
+                                            <img className='mx-4 for-opacity' src={location} alt="" />
+                                            <input className='pl-2 input-field' type="text" placeholder='City' ></input>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="form-control">
+                                    <div className='flex items-center justify-center mb-6 contact-input'>
+                                            <img className='mx-4 for-opacity' src={grade} alt="" />
+                                            <input className='pl-2 input-field' type="text" placeholder='Course' ></input>
+                                        </div>
+                                    </div>
+                                    <div class="form-control">
+                                        <div className='flex items-center justify-center mb-6 contact-input'>
                                             <img className='mx-4 for-opacity' src={message} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Message' ></input>
                                         </div>

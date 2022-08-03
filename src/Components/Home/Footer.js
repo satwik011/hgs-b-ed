@@ -3,6 +3,7 @@ import phone from './../assets/icons/footer.png';
 import email from './../assets/icons/email.png'; 
 import location from './../assets/icons/location.png'; 
 import { useNavigate } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, setAlumni, setAdmission, setFacultiStaff, setContactUs }) => {
     const navigate = useNavigate();
@@ -88,7 +89,7 @@ const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
             <footer class="footer p-10 Footer grid md:flex lg:flex justify-around text-base-content">
                 <div className=''>
                     <span class="footer-heading block mb-[20px]">Quick Links</span>
-                    <a onClick={handleOverView} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Over View</a>
+                    <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#home'>Overview</Link>
                     <a onClick={handleLeadership} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Leadership</a>
                     <a onClick={handleProgramsOffered} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Programs Offered</a>
                     <a onClick={handleContact} class="link link-hover flex justify-center items-center lg:ml-20 md:ml-20">
@@ -97,7 +98,7 @@ const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                 </div>
 
                 <div className=''>
-                <span style={{color: '#0076BD'}} class="footer-heading mb-[20px]">Quick Overview</span>
+                <span style={{color: 'darkblue'}} class="footer-heading mb-[20px]">Quick Link</span>
                     <a onClick={handleAlumni} class="link link-hover flex justify-center items-center mb-[20px] lg:ml-20 md:ml-20">
                         <p className='contact-info'>Alumni</p>
                     </a>

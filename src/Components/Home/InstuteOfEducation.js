@@ -10,12 +10,13 @@ import location from './../assets/icons/location.svg';
 import grade from './../assets/icons/grade.svg';
 import background from '../assets/images/background.png';
 import message from './../assets/icons/message.svg';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Home.css';
 import Footer from './Footer';
 import InfrastructureCard from './InfrastructureCard';
 import PhotoGallery from './PhotoGallery';
 import AboutInstitution from './AboutInstitution';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 const InstuteOfEducation = () => {
@@ -34,8 +35,8 @@ const InstuteOfEducation = () => {
                             
                             <div className='block mx-auto'>
                                 <div className='mt-[50px]'>
-                                    <h1 className='instute updated-font-family'>J.N KAUL INSTITUTE OF EDUCATION</h1>
-                                    <p className='flex justify-center bed-college updated-font-family'>B.ED. College, Bhimtal</p>
+                                    <h1 style={{color: '#2D4A9D'}} className='instute updated-font-family'>J.N KAUL INSTITUTE OF EDUCATION</h1>
+                                    <p style={{color: '#2D4A9D'}} className='flex justify-center bed-college updated-font-family'>B.ED. College, Bhimtal</p>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +45,7 @@ const InstuteOfEducation = () => {
                         <div className='flex ml-[80px] mr-[80px] justify-center mb-[219px]'>
                             <div className='flex items-center justify-around'>
                                 <div className=''>
-                                    <h1 className='education-is-power updated-font-family'>Education is the most powerful weapon which you can use to change the world</h1>
+                                    <h1 style={{fontFamily: 'Cormorant'}} className='education-is-power'>Education is the most powerful  weapon which you can use to change the world</h1>
                                 </div>
 
                                 <div className=''>

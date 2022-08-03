@@ -104,8 +104,8 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
 
                     <div className='leadership-info'>
-                        <div className='flex items-center justify-center'>
-                            <img className='mr-4' src={location} alt="" />
+                        <div className='flex justify-center'>
+                            <img className='h-8 mr-4' src={location} alt="" />
                             <p className='flex forTextHover updated-font-family'>J N Kaul Institute of Education Bhimtal SOS Complex, Tallital Bhimtal Nainital, Uttrakhand, India, 263136</p>
                         </div>
                         <div className='flex items-center justify-center my-4 mr-6'>
@@ -147,7 +147,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
 
                                 <div className='mb-6'>
-                                    <span className='mb-2 text-xl font-bold updated-font-family'>Application fees: </span> <span className='flex justify-center'>As per last year.</span>
+                                    <span className='mb-2 text-xl font-bold updated-font-family'>Application fees: </span> <span className=''>As per last year.</span>
                                     <div>
                                         <ul className='ml-10'>
 

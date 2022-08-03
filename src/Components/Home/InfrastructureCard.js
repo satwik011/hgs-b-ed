@@ -124,7 +124,7 @@ const InfrastructureCard = () => {
             </p>
 
             <div className='flex justify-center mt-8'>
-                <div className='grid grid-cols-1 gap-12 lg:grid-cols-3 md:grid-cols-2 lg:gap-x-16 md:gap-x-16 gap-y-12'>
+                <div className='grid grid-cols-1 gap-12 lg:grid-cols-3 md:grid-cols-2 lg:gap-x-16 md:gap-x-12 gap-y-12 lz:mx-8 md:mx-8'>
                     <div class={`card p-4 ${classroom === false ? 'card-size' : 'large-card'} shadow-xl hover:shadow-2xl`}>
                         <figure class="">
                             <img style={{height: '280px'}} className='w-full h-full facility-picture' src={rectangle411} alt="" class="rounded-xl" />
@@ -176,7 +176,7 @@ const InfrastructureCard = () => {
                         </figure>
                         <div class="card-body card-info">
                             <h1 className='infructructure updated-font-family'>Science & Mathematics Lab</h1>
-                            <p className='mt-8 updated-font-family'>Science and mathematics are not mere disciplines of study but also a way of life. Science & mathematics education at school and institute level has to focus not <span className={`updated-font-family ${science === false ? 'hidden' : 'block'}`}> only on development of understanding and skills but also on the development of scientific temper among learners. The lab is well equipped with sufficient apparatus, charts, models, teaching aids and other material for conducting numbers of experiment activities and demonstrations of physics, chemistry, biology and mathematics at secondary level.</span> 
+                            <p className='updated-font-family'>Science and mathematics are not mere disciplines of study but also a way of life. Science & mathematics education at school and institute level has to focus not <span className={`updated-font-family ${science === false ? 'hidden' : 'block'}`}> only on development of understanding and skills but also on the development of scientific temper among learners. The lab is well equipped with sufficient apparatus, charts, models, teaching aids and other material for conducting numbers of experiment activities and demonstrations of physics, chemistry, biology and mathematics at secondary level.</span> 
                             {
                                 !science ? <span onClick={handleScienceMathematicsLab} class="see-more udated-font-family">See More</span> : <span onClick={handleScienceMathematicsLab} class="see-more udated-font-family">See Less</span>
                             }
@@ -243,7 +243,7 @@ const InfrastructureCard = () => {
                         </figure>
                         <div class="card-body card-info">
                             <h1 className='infructructure updated-font-family'>Seminar Room</h1>
-                            <p className='mt-8 updated-font-family'>The Seminar Room is situated on the ground Floor of the Institute. It is used heavily during term for teaching / supervisions and other meetings. When it is not booked <span className={`updated-font-family ${seminerCard === false ? 'hidden' : 'block'}`}> the Room can be used for quiet study. The Room is equipped with a data projector, Wi-Fi system, tv and video, overhead projector, slide projector and screen, which may be used for seminar, conferences, panel discussions and academic purposes during staffed hours only. A laptop for use with the data-projector is available from the issue desk. It consists of well-furnished furniture well ventilated and spacious room. </span>
+                            <p className='updated-font-family'>The Seminar Room is situated on the ground Floor of the Institute. It is used heavily during term for teaching / supervisions and other meetings. When it is not booked <span className={`updated-font-family ${seminerCard === false ? 'hidden' : 'block'}`}> the Room can be used for quiet study. The Room is equipped with a data projector, Wi-Fi system, tv and video, overhead projector, slide projector and screen, which may be used for seminar, conferences, panel discussions and academic purposes during staffed hours only. A laptop for use with the data-projector is available from the issue desk. It consists of well-furnished furniture well ventilated and spacious room. </span>
                             {
                                 !seminerCard ? <span onClick={handleSeminarRoom} class="see-more udated-font-family">See More</span> : <span onClick={handleSeminarRoom} class="see-more udated-font-family">See Less</span>
                             }
@@ -260,7 +260,7 @@ const InfrastructureCard = () => {
                         </figure>
                         <div class="card-body card-info">
                             <h1 className='infructructure updated-font-family'>Playground</h1>
-                            <p className='mt-8 updated-font-family'>The Institute has playgrounds for many outdoor games like volleyball, Basketball etc. It has facility for indoor games like  Badminton Chess and Table-Tennis etc. 
+                            <p className='updated-font-family'>The Institute has playgrounds for many outdoor games like volleyball, Basketball etc. It has facility for indoor games like  Badminton Chess and Table-Tennis etc. 
                             </p>
                         </div>
                         {/* */}
