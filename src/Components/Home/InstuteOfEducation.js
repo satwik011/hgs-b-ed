@@ -175,11 +175,9 @@ const InstuteOfEducation = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-            
         </div>
     );
 };
