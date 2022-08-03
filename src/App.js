@@ -19,6 +19,7 @@ function App() {
   const [admission, setAdmission] = useState(''); 
   const [facultiStaff, setFacultiStaff] = useState(''); 
   const [contactUs, setContactUs] = useState('');
+  const [quicklink, setQuickLink] = useState('');
   console.log(showNavbar); 
   return (
     <div>

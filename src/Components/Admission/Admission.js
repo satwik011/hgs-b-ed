@@ -128,7 +128,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='block mx-auto mb-2 text-xl font-bold'>Kumaun University B.Ed Entrance Exam 2021</p>
-                                    <p className='mt-2 updated-font-family'>
+                                    <p className='mt-2 updated-font-family teacher-paragraph'>
                                         Kumaun University will release notification for B.Ed admission 2021. The B.Ed entrance exam 2021 will beheld as per schedule. The candidates who qualify for the entrance test are then required to participate in the counseling.
                                     </p>
                                 </div>
@@ -136,7 +136,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2021 Application Form</p>
-                                    <p className='mt-2 updated-font-family'>
+                                    <p className='mt-2 updated-font-family teacher-paragraph'>
                                         Candidates have to register themselves for the exam through the Kumaun University B.Ed 2021 application
                                         form. First and foremost they have to pay the application fees through prescribed mode only. It is advised that
                                         the candidates provide authentic information as that record will be forwarded to the university and once
@@ -147,38 +147,38 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
 
                                 <div className='mb-6'>
-                                    <span className='mb-2 text-xl font-bold updated-font-family'>Application fees: </span> <span className=''>As per last year.</span>
+                                    <span className='mb-2 text-xl font-bold updated-font-family'>Application fees: </span> <span className='teacher-paragraph'>As per last year.</span>
                                     <div>
                                         <ul className='ml-10'>
 
 
                                             <li className='flex items-center updated-font-family'>
                                                 <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
-                                                <p>For B.ED the application fees is – 1250+ Bank charges (If any)</p>
+                                                <p className='teacher-paragraph'>For B.ED the application fees is – 1250+ Bank charges (If any)</p>
                                             </li>
 
 
                                             <li className='flex items-center updated-font-family'>
                                                 <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
-                                                <p>Apply for Online Registration</p>
+                                                <p className='teacher-paragraph'>Apply for Online Registration</p>
                                             </li>
 
 
                                             <li className='flex items-center updated-font-family'>
                                                 <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
-                                                <p>Pay Examination Fee (Online/Challan Mode/NEFT/RTGS)</p>
+                                                <p className='teacher-paragraph'>Pay Examination Fee (Online/Challan Mode/NEFT/RTGS)</p>
                                             </li>
 
 
                                             <li className='flex items-center updated-font-family'>
                                                 <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
-                                                <p>Fill Online Application Form</p>
+                                                <p className='teacher-paragraph'>Fill Online Application Form</p>
                                             </li>
 
 
                                             <li className='flex items-center updated-font-family'>
                                                 <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
-                                                <p>Download Final Application</p>
+                                                <p className='teacher-paragraph'>Download Final Application</p>
                                             </li>
 
                                         </ul>
@@ -189,7 +189,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2021 Eligibility Criteria</p>
-                                    <p className='mt-2 mb-4 updated-font-family'>
+                                    <p className='mt-2 mb-4 updated-font-family teacher-paragraph'>
                                         It is highly recommended that the candidates candidates should ensure that they fill all the eligibility criteria
                                         laid down by the examination body. Students who fail to fulfill the criterion will be disqualified from the
                                         exam. Below we have provided in detail the eligibility criteria for both the courses.
@@ -200,14 +200,14 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
                                     <ul className='ml-10'>
                                             <li className='flex items-center updated-font-family'>
                                                 <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
-                                                <p>Candidates belonging to the General category should have secured at least 50% marks in their graduation
+                                                <p className='teacher-paragraph'>Candidates belonging to the General category should have secured at least 50% marks in their graduation
                                             or post graduation examination. Candidates with even 49.99 percentile are not eligible to apply.</p>
                                             </li>
 
 
                                             <li className='flex items-center updated-font-family'>
                                                 <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
-                                                <p>Candidates belonging to the reserved category (Other Backwards Class, Scheduled Caste and Scheduled
+                                                <p className='teacher-paragraph'>Candidates belonging to the reserved category (Other Backwards Class, Scheduled Caste and Scheduled
                                             Tribe) should have scored at least 45% Marks in their graduation or post graduation examination.
                                             Candidates with percentage of 44.99 are not eligible to apply.</p>
                                             </li>
@@ -215,13 +215,13 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                             <li className='flex items-center updated-font-family'>
                                                 <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
-                                                <p>Candidate should not have any criminal record against them.</p>
+                                                <p className='teacher-paragraph'>Candidate should not have any criminal record against them.</p>
                                             </li>
 
 
                                             <li className='flex items-center updated-font-family'>
                                                 <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
-                                                <p>Candidates who have been debarred by the University for any reasons will not be eligible.</p>
+                                                <p className='teacher-paragraph'>Candidates who have been debarred by the University for any reasons will not be eligible.</p>
                                             </li>
 
                                         </ul>
@@ -234,7 +234,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2021 Admit Card</p>
-                                    <p className='mt-2 '>
+                                    <p className='mt-2 teacher-paragraph'>
                                         Students who have successfully submitted their duly filled application form before the last scheduled date can
                                         download their admit cards for the exam. It is available on the official website for the candidates to download.
                                         It is mandatory that the candidates carry their admit cards on the day of examination. Candidates without a
@@ -245,7 +245,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2021 Exam Scheme</p>
-                                    <p className='mt-2 updated-font-family'>
+                                    <p className='mt-2 updated-font-family teacher-paragraph'>
                                         The examination pattern of Kumaun University B.Ed Entrance Exam is based on the last year record. You
                                         can check it for the reference only as conducting body will release the latest one we will update here.
                                     </p>
@@ -254,7 +254,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2021 Result</p>
-                                    <p className='mt-2 updated-font-family'>
+                                    <p className='mt-2 updated-font-family teacher-paragraph'>
                                         Kumaun University (KU) will be released the result for B.Ed entrance examination. The candidates can check
                                         the result online at kuadmission.com or kunainital.ac.in. To check Kumaun University B.Ed 2021 result, the
                                         candidates need to enter their login credentials like application number and email address.
@@ -264,7 +264,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
                                 <div className='mb-6'>
                                     <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2021 Counselling</p>
-                                    <p className='mt-2 updated-font-family'>
+                                    <p className='mt-2 updated-font-family teacher-paragraph'>
                                         Kumaun University will be released the counselling notice for B.Ed admission. To participate in the
                                         counselling process, candidates first have to pay the counselling fee, then upload the documents and fill the
                                         choice. After choice filling, merit list will publish on the basis of merit and weightage marks. Shortlisted
@@ -287,38 +287,38 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
                                             </thead>
                                             <tbody>
                                                 <tr className='hover-table'>
-                                                    <th className='table-data updated-font-family'>Course Level</th>
-                                                    <td className='table-data updated-font-family'><span className='flex justify-center'>Graduation</span> </td>
+                                                    <th className='table-data updated-font-family teacher-paragraph'>Course Level</th>
+                                                    <td className='table-data updated-font-family teacher-paragraph'><span className='flex justify-center'>Graduation</span> </td>
                                                 </tr>
 
                                                 <tr className='hover-table'>
-                                                    <th className='table-data updated-font-family'>Course Fees</th>
-                                                    <td className='table-data updated-font-family'><span className='flex justify-center'>State Quota - 42000.00</span> </td>
-                                                </tr>
-
-                                                <tr className='hover-table'>
-                                                    <th className='table-data'></th>
-                                                    <td className='table-data updated-font-family'><span className='flex justify-center'>Management Quota- 55000.00</span> </td>
+                                                    <th className='table-data updated-font-family teacher-paragraph'>Course Fees</th>
+                                                    <td className='table-data updated-font-family teacher-paragraph'><span className='flex justify-center'>State Quota - 42000.00</span> </td>
                                                 </tr>
 
                                                 <tr className='hover-table'>
                                                     <th className='table-data'></th>
-                                                    <td className='table-data updated-font-family'><span className='flex justify-center'>NRI Quota- 75000.00</span> </td>
+                                                    <td className='table-data updated-font-family teacher-paragraph'><span className='flex justify-center'>Management Quota- 55000.00</span> </td>
                                                 </tr>
 
                                                 <tr className='hover-table'>
-                                                    <th className='table-data updated-font-family'>University Name</th>
-                                                    <td className='table-data updated-font-family'><span className='flex justify-center underline'>Kumaun University</span></td>
+                                                    <th className='table-data'></th>
+                                                    <td className='table-data updated-font-family teacher-paragraph'><span className='flex justify-center'>NRI Quota- 75000.00</span> </td>
                                                 </tr>
 
                                                 <tr className='hover-table'>
-                                                    <th className='table-data updated-font-family'>Official Website</th>
-                                                    <td className='table-data updated-font-family'><span className='flex justify-center underline'>https://www.kunainital.ac.in/</span></td>
+                                                    <th className='table-data updated-font-family teacher-paragraph'>University Name</th>
+                                                    <td className='table-data updated-font-family teacher-paragraph'><span className='flex justify-center underline'>Kumaun University</span></td>
                                                 </tr>
 
                                                 <tr className='hover-table'>
-                                                    <th className='table-data updated-font-family'>Admission 2021-22</th>
-                                                    <td className='table-data updated-font-family'><span className='flex justify-center underline'>Kumaun University Admission 2021</span></td>
+                                                    <th className='table-data updated-font-family teacher-paragraph'>Official Website</th>
+                                                    <td className='table-data updated-font-family teacher-paragraph'><span className='flex justify-center underline'>https://www.kunainital.ac.in/</span></td>
+                                                </tr>
+
+                                                <tr className='hover-table'>
+                                                    <th className='table-data updated-font-family teacher-paragraph'>Admission 2021-22</th>
+                                                    <td className='table-data updated-font-family teacher-paragraph'><span className='flex justify-center underline'>Kumaun University Admission 2021</span></td>
                                                 </tr>
                                             </tbody>
                                         </table>

@@ -113,7 +113,7 @@ const InfrastructureCard = () => {
         }
     }
     return (
-        <div className='py-8 mt-16 middle-background'>
+        <div className='py-8 mt-16 middle-background' id='infrastructure'>
             <div className='flex justify-center'>
                 <div>
                     <h1 className='welcome infrustructure updated-font-family'>Infrastructure and Facilities</h1>

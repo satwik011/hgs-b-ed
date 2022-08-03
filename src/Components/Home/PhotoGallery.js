@@ -64,7 +64,7 @@ const PhotoGallery = () => {
         sliderRef.current.slickPrev(); 
     }
     return (
-        <div className='mr-[30px] ml-[80px]'>
+        <div className='mr-[30px] ml-[80px]' id='photo'>
             <div className='slider-picture'>
                 <div className='flex justify-center my-8'>
                 <div>

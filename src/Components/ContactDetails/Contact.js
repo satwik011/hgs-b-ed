@@ -7,6 +7,7 @@ import grade from './../assets/icons/grade.svg';
 import message from './../assets/icons/message.svg';
 import sosChildrenVillage from './../assets/images/sos_logo 3.png';
 import { useNavigate } from 'react-router-dom';
+import Footer from '../Home/Footer';
 
 const Contact = () => {
     const navigate = useNavigate();

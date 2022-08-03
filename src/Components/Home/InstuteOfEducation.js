@@ -12,7 +12,6 @@ import background from '../assets/images/background.png';
 import message from './../assets/icons/message.svg';
 import { useNavigate } from 'react-router-dom';
 import './Home.css';
-import Footer from './Footer';
 import InfrastructureCard from './InfrastructureCard';
 import PhotoGallery from './PhotoGallery';
 import AboutInstitution from './AboutInstitution';

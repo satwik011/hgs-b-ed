@@ -4,6 +4,7 @@ import email from './../assets/icons/email.png';
 import location from './../assets/icons/location.png'; 
 import { useNavigate } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
+import { useParams } from 'react-router-dom';
 
 const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, setAlumni, setAdmission, setFacultiStaff, setContactUs }) => {
     const navigate = useNavigate();
@@ -84,14 +85,18 @@ const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
         setContactUs[1]('setContactUs[1]')
         navigate('/contact')
     }
+    const params = useParams(); 
+    console.log(params); 
     return (
         <div>
             <footer class="footer p-10 Footer grid md:flex lg:flex justify-around text-base-content">
                 <div className=''>
                     <span class="footer-heading block mb-[20px]">Quick Links</span>
-                    <Link onClick={handleOverView} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#home'>Overview</Link>
+                    <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#home'>Overview</Link>
+                    <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#infrastructure'>Infrastructure and Facilities</Link>
+                    <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#photo'>Photo Gallery</Link>
                     <a onClick={handleLeadership} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Leadership</a>
-                    <a onClick={handleProgramsOffered} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Programs Offered</a>
+                    
                     <a onClick={handleContact} class="link link-hover flex justify-center items-center lg:ml-20 md:ml-20">
                         <p className='contact-info'>Contact Us</p>
                     </a>
@@ -105,9 +110,10 @@ const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                     <a onClick={handleAdmission} class="link link-hover flex justify-center items-center mb-[20px] lg:ml-20 md:ml-20">
                         <p className='contact-info'>Admission</p>
                     </a>
-                    <a onClick={handleFaculty} class="link link-hover flex justify-center items-center lg:ml-20 md:ml-20">
+                    <a onClick={handleFaculty} class="link link-hover flex justify-center items-center mb-[20px] lg:ml-20 md:ml-20">
                         <p className='contact-info'>Faculti & Staff</p>
                     </a>
+                    <a onClick={handleProgramsOffered} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Programs Offered</a>
                     
                 </div>
 

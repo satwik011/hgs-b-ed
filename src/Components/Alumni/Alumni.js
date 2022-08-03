@@ -133,7 +133,7 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                                 <h1 className='mb-2 text-2xl font-bold updated-font-family'>Shraddha Singh (Batch -2017-19)</h1>
                                 <p className='mb-2 text-xl updated-font-family'>Teacher</p>
                                 <p className='mb-2 text-xl updated-font-family'>Jawahar Navoday Vidyalaya,Pota (Rajasthan)</p>
-                                <p className='mt-2 updated-font-family'>
+                                <p className='mt-2 updated-font-family teacher-paragraph'>
                                     I have not only witnessed, but also experienced the bliss, with which this wonderful institution nurtures an individual. Each and every block of the institution act as a stepping stone for us, thus augmenting each and every one of their qualities- be it academic prowess in securing a high percentage or versatility on the stage and games field The institution under the able guidance of our Principal ma’am has the embellishment of a caring, loving and learning atmosphere and that makes all the difference. And today I’m working in Sherwood College, Nainital as the coordinator of English Department.
                                 </p>
                             </div>
@@ -148,7 +148,7 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                                 <h1 className='mb-2 text-2xl font-bold updated-font-family'>Pooja Kuriya (Batch -2017-19)</h1>
                                 <p className='mb-2 text-xl updated-font-family'>Principal</p>
                                 <p className='mb-2 text-xl updated-font-family'>Mehra Public School Ramnagar</p>
-                                <p className='mr-6 updated-font-family'>
+                                <p className='mr-6 updated-font-family teacher-paragraph'>
                                     I’m amongst the many students of the institution whose life changed not only academically but also mentally and emotionally after joining the Institute. The college focuses not only on making the finest of all teachers but also good humans and citizens. It’s the continuous toiling of the Principal and staff of the college that it has become one of the best and most revered colleges of education in the state. What I’m today, I totally owe to the hard work and values instilled by the institute in me, I m working as Lecturer English, Uttarakhand Education Department.
                                 </p>
                             </div>
@@ -166,7 +166,7 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                                 <h1 className='mb-2 text-2xl font-bold updated-font-family'>Gauhar Fatima (Batch -2013-14) </h1>
                                 <p className='mb-2 text-xl updated-font-family'>Assistant Professor (Through UKPSC)</p>
                                 <p className='mb-2 text-xl updated-font-family'>SOS Children’s Villages of India</p>
-                                <p className='mt-2 updated-font-family'>
+                                <p className='mt-2 updated-font-family teacher-paragraph'>
                                     Certain milestones bring drastic changes in your life, coming to J. N. Kaul was one of them. The Institution didn't just work on our academics but ensured our participation in various co-curricular activities and community services which can prepare a teacher to cater the needs of their prospective career. Also we got ample of opportunities to use latest technologies which enabled us to stand with the ever-changing modern world and improve the teaching-learning process.
                                     As I joined JNKIE a completely different journey started because It was not a regular college which generally focuses on the academics and neglects the all round development of the students. From the first week of my admission I had to participate in the varied activities which I was not comfortable earlier on. But gradually I saw the difference in me and my friends we were more confident and active which is an relevant for every individual  to succeed in life, meanwhile I  qualified the NET/JRF examination In Education with the utmost support and guidance of the Principal and staff and right now doing my Ph. D. course work.
                                 </p>
@@ -182,7 +182,7 @@ const Alumni = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                                 <h1 className='mb-2 text-2xl font-bold updated-font-family'>Himanshu Rawat (Batch -2015-17)</h1>
                                 <p className='mb-2 text-xl updated-font-family'>Teacher</p>
                                 <p className='mb-2 text-xl updated-font-family'>SOS Children’s Villages of India</p>
-                                <p className='mt-2 updated-font-family'>
+                                <p className='mt-2 updated-font-family teacher-paragraph'>
                                     It had  been a while  for  me after  leaving formal education  but coming  here just  not made  me a disciplined   person but  also motivated  me  to  explore  my capabilities, skills  and  talents. My   perception  towards the teaching profession especially with the experience during my practice teaching.
                                 </p>
                             </div>
