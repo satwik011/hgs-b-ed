@@ -89,7 +89,7 @@ const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
             <footer class="footer p-10 Footer grid md:flex lg:flex justify-around text-base-content">
                 <div className=''>
                     <span class="footer-heading block mb-[20px]">Quick Links</span>
-                    <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#home'>Overview</Link>
+                    <Link onClick={handleOverView} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#home'>Overview</Link>
                     <a onClick={handleLeadership} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Leadership</a>
                     <a onClick={handleProgramsOffered} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Programs Offered</a>
                     <a onClick={handleContact} class="link link-hover flex justify-center items-center lg:ml-20 md:ml-20">
