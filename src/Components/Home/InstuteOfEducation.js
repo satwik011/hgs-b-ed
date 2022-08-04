@@ -44,7 +44,7 @@ const InstuteOfEducation = () => {
                         <div className='flex ml-[280px] mr-[280px] justify-center mb-[219px]'>
                             <div className='flex items-center justify-around'>
                                 <div className=''>
-                                    <h1 style={{fontFamily: 'Cormorant'}} className='education-is-power'>The main hope of a nation <br /> lies in the proper education of its youth. <span style={{fontSize:'20px'}}>~Erasmus</span></h1>
+                                    <h1 style={{fontFamily: 'Cormorant'}} className='education-is-power'>The main hope of a nation lies in the proper education of its youth. <span style={{fontSize:'20px'}}>~Erasmus</span></h1>
                                 </div>
 
                                 <div className=''>
