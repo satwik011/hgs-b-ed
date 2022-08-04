@@ -1,5 +1,5 @@
 .navbar-topic:hover {
-    background: #0076BD;
+    background: #2D4A9D;
     color: #fff;
     font-size: 1.3rem;
     font-weight: 400;
@@ -26,7 +26,7 @@
     background: #2D4A9D;
     border-radius: 10px; */
     font-family: 'Poppins';
-    background: darkblue;
+    background: #2D4A9D;
     color: #fff;
     font-size: 1.3rem;
     font-weight: 400;
@@ -44,7 +44,7 @@
 }
 
 .love-to-hear {
-    color: #0076BD;
+    color: #2D4A9D;
 }
 
 .for-making-sticky-navbar {

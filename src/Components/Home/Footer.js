@@ -95,43 +95,38 @@ const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                     <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#home'>Overview</Link>
                     <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#infrastructure'>Infrastructure and Facilities</Link>
                     <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#photo'>Photo Gallery</Link>
-                    <a onClick={handleLeadership} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Leadership</a>
                     
-                    <a onClick={handleContact} class="link link-hover flex justify-center items-center lg:ml-20 md:ml-20">
-                        <p className='contact-info'>Contact Us</p>
-                    </a>
+                    
                 </div>
 
                 <div className=''>
                 <span style={{color: '#2D4A9D'}} class="footer-heading mb-[20px]">Quick Link</span>
+                <a onClick={handleLeadership} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Leadership</a>
                     <a onClick={handleAlumni} class="link link-hover flex justify-center items-center mb-[20px] lg:ml-20 md:ml-20">
                         <p className='contact-info'>Alumni</p>
                     </a>
-                    <a onClick={handleAdmission} class="link link-hover flex justify-center items-center mb-[20px] lg:ml-20 md:ml-20">
-                        <p className='contact-info'>Admission</p>
+
+                    <a onClick={handleContact} class="link mb-[20px] link-hover flex justify-center items-center lg:ml-20 md:ml-20">
+                        <p className='contact-info'>Contact Us</p>
                     </a>
-                    <a onClick={handleFaculty} class="link link-hover flex justify-center items-center mb-[20px] lg:ml-20 md:ml-20">
-                        <p className='contact-info'>Faculti & Staff</p>
-                    </a>
-                    <a onClick={handleProgramsOffered} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Programs Offered</a>
+
+                    
+
+                    
                     
                 </div>
 
                 {/* ml-2 md:ml-10 lg:ml-2 */}
                 <div className=''>
-                <span class="footer-heading mb-[20px]">Contact Us</span>
-                    <a class="link link-hover flex justify-center items-center mb-[20px]">
-                        <img className='mr-[24px]' src={phone} alt="" />
-                        <p className='contact-info'>+91 -  9876543210 , 1234567898</p>
+                <span style={{color: '#2D4A9D'}} class="footer-heading mb-[20px]">Quick Link</span>
+                <a onClick={handleAdmission} class="link link-hover flex justify-center items-center mb-[20px] lg:ml-20 md:ml-20">
+                        <p className='contact-info'>Admission</p>
                     </a>
-                    <a class="link link-hover flex justify-center items-center mb-[20px]">
-                        <img className='mr-[24px]' src={email} alt="" />
-                        <p className='contact-info'>sosjk.kaul.@gmail.com</p>
+                <a onClick={handleFaculty} class="link link-hover flex justify-center items-center mb-[20px] lg:ml-20 md:ml-20">
+                        <p className='contact-info'>Faculti & Staff</p>
                     </a>
-                    <a class="link link-hover flex justify-center items-center">
-                        <img className='mr-[24px]' src={location} alt="" />
-                        <p className='contact-info'>Bhimtal, Nanital , India</p>
-                    </a>
+                    <a onClick={handleProgramsOffered} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Programs Offered</a>
+
                 </div>
 
                 

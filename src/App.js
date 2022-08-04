@@ -12,7 +12,7 @@ import ProgramesOffered from './Components/ProgramesOffered/ProgramesOffered';
 import Navbar from './Navbar/Navbar';
 function App() {
   const [showNavbar, setShowNavbar] = useState(false);
-  const [overView, setOverview] = useState('');
+  const [overView, setOverview] = useState('setOverview');
   const [leadership, setLidership] = useState(''); 
   const [programsOffered, setProgramsOffered] = useState(''); 
   const [alumni, setAlumni] = useState(''); 

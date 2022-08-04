@@ -76,7 +76,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 34px;
-    color: darkblue;
+    color: #2D4A9D;
 }
 .see-more{
     color: #2D4A9D;
@@ -108,9 +108,9 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 30.5px;
     line-height: 51px;
-    color: #121212;
+    color: #000000;
 
 }
 
@@ -296,7 +296,7 @@
 }
 
 .for-background-home {
-    background: darkblue;
+    background: #2D4A9D;
     color: #fff;
     font-size: 1.3rem;
     font-weight: 400;
@@ -311,7 +311,7 @@
     width: 30%;
 }
 .for-background-home-mobile{
-    background: #0076BD;
+    background: #2D4A9D;
     color: #fff;
     font-size: 1.3rem;
     font-weight: 400;

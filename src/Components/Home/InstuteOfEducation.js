@@ -41,10 +41,10 @@ const InstuteOfEducation = () => {
                         </div>
 
 
-                        <div className='flex ml-[80px] mr-[80px] justify-center mb-[219px]'>
+                        <div className='flex ml-[280px] mr-[280px] justify-center mb-[219px]'>
                             <div className='flex items-center justify-around'>
                                 <div className=''>
-                                    <h1 style={{fontFamily: 'Cormorant'}} className='education-is-power'>Education is the most powerful  weapon which you can use to change the world</h1>
+                                    <h1 style={{fontFamily: 'Cormorant'}} className='education-is-power'>The main hope of a nation <br /> lies in the proper education of its youth. <span style={{fontSize:'20px'}}>~Erasmus</span></h1>
                                 </div>
 
                                 <div className=''>
@@ -65,7 +65,7 @@ const InstuteOfEducation = () => {
                         <div className='flex justify-center'>
                             <div>
                                 <h1 className='welcome updated-font-family'>Contact Us</h1>
-                                <img className='w-[150px]' src={contactLine} alt="" />
+                                <img className='w-[150px] h-[4px]' src={contactLine} alt="" />
                             </div>
                         </div>
 
