@@ -64,7 +64,7 @@ const Contact = () => {
                                         </div>
                                     </div>
                                     <div class="form-control">
-                                        <button class="for-background updated-font-family">Submit</button>
+                                        <button class="for-background btn updated-font-family">Submit</button>
                                     </div>
                                 </div>
                             </div>

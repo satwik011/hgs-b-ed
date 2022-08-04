@@ -1,12 +1,26 @@
 .instute {
     font-family: 'Poppins';
-    font-size: 38px;
+    font-size: 45px;
     color: #121212;
+    text-shadow: 1px 1px 1px aliceblue,
+    1px 2px 1px aliceblue,
+    1px 3px 1px aliceblue,
+    1px 4px 1px aliceblue,
+    1px 5px 1px aliceblue,
+    1px 6px 1px aliceblue,
+    1px 7px 1px aliceblue,
+    1px 8px 1px aliceblue,
+    1px 9px 1px aliceblue,
+    1px 10px 1px aliceblue,
+    1px 18px 6px rgba(16,16,16,0.4), 
+    1px 22px 10px rgba(16,16,16,0.2), 
+    1px 25px 35px rgba(16,16,16,0.2), 
+    1px 30px 60px rgba(16,16,16,0.4);
 }
 
 .bed-college {
     font-family: 'Poppins';
-    font-size: 32px;
+    font-size: 40px;
     color: #121212;
 }
 
@@ -313,10 +327,16 @@
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
     transition-property: color;
-    transition-duration: .3s;
     border: 0;
     width: 30%;
+    text-transform: capitalize;
 }
+.for-background-home:hover{
+    transition-duration: 1000ms;
+    font-size: 1.5rem;
+    background: #2D4A9D;
+}
+
 .for-background-home-mobile{
     background: #2D4A9D;
     color: #fff;

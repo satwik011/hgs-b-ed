@@ -281,10 +281,8 @@ const InfrastructureCard = () => {
                             <img style={{ height: '240px' }} className='w-full h-full facility-picture' src={bildersRoom} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure updated-font-family'>Building Room</h1>
+                            <h1 className='infructructure updated-font-family'>Billiards Room</h1>
                             <p className='infrustructure-card-para updated-font-family'>The institute is proud to have the facility for indoor games like Billiards. It will help our people teacher to keep at par with the changing face of education.
-
-
                             </p>
                         </div>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import sosChildrenVillage from './../assets/images/sos_logo 3.png';
-import studyImage from './../assets/images/new-home-photo.png';
+import studyImage from './../assets/images/Education-amico.svg';
 import contactImage from './../assets/images/3969587 2.png'
 import contactLine from './../assets/images/contact-line.png'
 import user from './../assets/icons/user.svg';
@@ -29,25 +29,28 @@ const InstuteOfEducation = () => {
                 <div>
                     <img className='w-full' src={background} alt="" />
                     <img onClick={handleHome} className='w-20 lg:w-48 md:24 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
-                    <div className='kept-top'>
-                        <div className='flex items-center ml-[80px] mr-[80px] mb-[50px]'>
+                    <div className='kept-top mt-[-70px]'>
+                        {/* <div className='flex items-center ml-[80px] mr-[80px] mb-[50px]'>
                             <div className='block mx-auto'>
-                                <div className='mt-[50px]'>
-                                    <h1 style={{ color: '#2D4A9D' }} className='ml-16 instute font updated-font-family'>J.N KAUL INSTITUTE OF EDUCATION</h1>
-                                    <p style={{ color: '#2D4A9D' }} className='flex justify-center ml-16 font bed-college updated-font-family'>B.ED. College, Bhimtal</p>
-                                </div>
+                                
                             </div>
-                        </div>
+                        </div> */}
 
 
-                        <div className='flex ml-[280px] mr-[280px] justify-center mb-[219px]'>
-                            <div className='flex items-center justify-around'>
-                                <div className=''>
-                                    <h1 style={{ fontFamily: 'Cormorant' }} className='education-is-power'>The main hope of a nation lies in the proper education of its youth.</h1>
+                        <div className='flex ml-[230px] mr-[280px] justify-center'>
+                            <div className='flex items-center justify-around picture-school'>
+                                <div className='grid'>
+                                <div className='mb-6'>
+                                    <h1 style={{ color: '#2D4A9D' }} className='instute font updated-font-family'>J.N. KAUL INSTITUTE OF EDUCATION</h1>
+                                    <p style={{ color: '#2D4A9D' }} className='font bed-college updated-font-family'>B.ED. College, Bhimtal</p>
+                                </div>
+                                <div className='mr-10'>
+                                    <em style={{ fontFamily: 'Cormorant' }} className='education-is-power'>The main hope of a nation lies in the proper education of its youth.</em>
+                                </div>
                                 </div>
 
-                                <div className=''>
-                                    <img src={studyImage} alt="" />
+                                <div className='mt-20 ml-12'>
+                                    <img style={{width:'1250px', height:'850px'}} src={studyImage} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -113,7 +116,7 @@ const InstuteOfEducation = () => {
                                         </div>
 
                                         <div class="form-control">
-                                            <button class="for-background-home hover:shadow-2xl block mx-auto updated-font-family">Submit</button>
+                                            <button class="for-background-home btn hover:shadow-2xl block mx-auto updated-font-family">Submit</button>
                                         </div>
 
                                     </div>
@@ -121,7 +124,7 @@ const InstuteOfEducation = () => {
 
                                 <div class="avatar">
                                     <div class="w-80 rounded">
-                                    <img className='w-80' src={contactImage} alt="" />
+                                        <img className='w-80' src={contactImage} alt="" />
                                     </div>
                                 </div>
 
