@@ -31,11 +31,10 @@ const InstuteOfEducation = () => {
                     <img onClick={handleHome} className='w-20 lg:w-48 md:24 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
                     <div className='kept-top'>
                         <div className='flex items-center ml-[80px] mr-[80px] mb-[50px]'>
-
                             <div className='block mx-auto'>
                                 <div className='mt-[50px]'>
-                                    <h1 style={{ color: '#2D4A9D' }} className='instute font updated-font-family'>J.N KAUL INSTITUTE OF EDUCATION</h1>
-                                    <p style={{ color: '#2D4A9D' }} className='flex justify-center font bed-college updated-font-family'>B.ED. College, Bhimtal</p>
+                                    <h1 style={{ color: '#2D4A9D' }} className='ml-16 instute font updated-font-family'>J.N KAUL INSTITUTE OF EDUCATION</h1>
+                                    <p style={{ color: '#2D4A9D' }} className='flex justify-center ml-16 font bed-college updated-font-family'>B.ED. College, Bhimtal</p>
                                 </div>
                             </div>
                         </div>

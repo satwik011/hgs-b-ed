@@ -72,9 +72,9 @@ const PhotoGallery = () => {
                     
                 </div>
                 </div>
-                <i onClick={handlePrevious} style={{color:'#0076BD'}} class="fa-solid text-5xl left-arrow-button fa-circle-chevron-left"></i>
+                <i onClick={handlePrevious} style={{color:'#2D4A9D'}} class="fa-solid text-5xl left-arrow-button fa-circle-chevron-left"></i>
                 
-                <i onClick={handleNext} style={{color:'#0076BD'}} class="fa-solid text-5xl right-arrow-button fa-circle-chevron-right"></i>
+                <i onClick={handleNext} style={{color:'#2D4A9D'}} class="fa-solid text-5xl right-arrow-button fa-circle-chevron-right"></i>
                 <Slider ref={sliderRef} {...settings}>
                     <div className='bg-white'>
                         <img className='gallery-photo' src={photo1} alt="" />
