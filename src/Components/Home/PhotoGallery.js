@@ -68,8 +68,8 @@ const PhotoGallery = () => {
             <div className='slider-picture'>
                 <div className='flex justify-center my-8'>
                 <div>
-                    <h1 className='text-4xl photoGallery-heading updated-font-family'>Photo Gallery</h1>
-                    <img className='w-[184px] h-[4px]' src={photoGalleryLine} alt="" />
+                    <h1 className='text-4xl welcome photoGallery-heading updated-font-family'>Photo Gallery</h1>
+                    <p className='w-[184px] welcome-line h-[4px]' alt="" />
                     
                 </div>
                 </div>

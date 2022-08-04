@@ -10,7 +10,7 @@ const AboutInstitution = () => {
                         <div>
                             <div className='mt-8 mb-8'>
                                 <h1 className='welcome updated-font-family'>Welcome to J.N Kaul Institute of Education</h1>
-                                <img className='w-[570px]' src={rectangle} alt="" />
+                                <p className='w-[570px] welcome-line' alt="" />
                             </div>
 
                             <div class="mb-[50px]">

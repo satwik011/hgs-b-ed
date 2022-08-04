@@ -9,6 +9,7 @@ import Footer from './Components/Home/Footer';
 import Home from './Components/Home/Home';
 import Leadership from './Components/Leadership/Leadership';
 import ProgramesOffered from './Components/ProgramesOffered/ProgramesOffered';
+import ScrollToTop from './Components/ScrollToTop';
 import Navbar from './Navbar/Navbar';
 function App() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -25,6 +26,7 @@ function App() {
     <div>
       <div className="">
       <Navbar setShowNavbar={[showNavbar, setShowNavbar]} setOverview={[overView, setOverview]} setLidership={[leadership, setLidership]} setProgramsOffered={[programsOffered, setProgramsOffered]} setAlumni={[alumni, setAlumni]} setAdmission={[admission, setAdmission]} setFacultiStaff={[facultiStaff, setFacultiStaff]} setContactUs={[contactUs, setContactUs]}></Navbar>
+      <ScrollToTop></ScrollToTop>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
 

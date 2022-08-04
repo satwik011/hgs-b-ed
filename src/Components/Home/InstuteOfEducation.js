@@ -65,7 +65,8 @@ const InstuteOfEducation = () => {
                         <div className='flex justify-center'>
                             <div>
                                 <h1 className='welcome updated-font-family'>Contact Us</h1>
-                                <img className='w-[150px] h-[4px]' src={contactLine} alt="" />
+                                <p className='w-[150px] welcome-line h-[4px]' alt="" />
+                                
                             </div>
                         </div>
 
@@ -75,7 +76,7 @@ const InstuteOfEducation = () => {
                                 <h1 className='mb-8 drop-details updated-font-family'>Drop us your details for quick response.</h1>
                                 <div>
                                     <div className='flex'>
-                                    <div className='mb-8'>
+                                    <div className='mb-6'>
                                         <div className='flex items-center justify-center mb-8 contact-input'>
                                             <img className='mx-4 for-opacity' src={user} alt="" />
                                             <input className='pl-2 input-field' type="text" placeholder='Full Name' ></input>

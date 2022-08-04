@@ -42,6 +42,9 @@
     line-height: 51px;
     color: #000000;
 }
+.welcome-line{
+    border-bottom: 4px solid #2D4A9D;
+}
 
 .institute-picture {
     width: 545.03px;

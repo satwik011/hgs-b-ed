@@ -117,10 +117,11 @@ const InfrastructureCard = () => {
             <div className='flex justify-center'>
                 <div>
                     <h1 className='welcome infrustructure updated-font-family'>Infrastructure and Facilities</h1>
-                    <img className='w-[380px]' src={rectangle405} alt="" />
+                    <p className='w-[380px] welcome-line h-[4px]' alt="" />
+                    
                 </div>
             </div>
-            <p className='block mt-4 text-xl lg:mx-56 md:mx-28 updated-font-family'>J. N. Kaul institute of Education, Bhimtal campus situated in surrounded with beautiful ground and lush greenery, which consists of five huge classrooms, music room, library, computer lab, play ground. The whole campus covered with CCTV camera etc.
+            <p className='block mt-4 text-xl lg:mx-48 md:mx-28 updated-font-family'>J. N. Kaul institute of Education, Bhimtal campus situated in surrounded with beautiful ground and lush greenery, which consists of five huge classrooms, music room, library, computer lab, play ground. The whole campus covered with CCTV camera etc.
             </p>
 
             <div className='flex justify-center mt-8'>
