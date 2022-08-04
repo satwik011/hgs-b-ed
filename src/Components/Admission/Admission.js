@@ -153,31 +153,31 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
 
                                             <li className='flex items-center updated-font-family'>
-                                                <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
+                                                <i style={{ color: '#2D4A9D' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
                                                 <p className='teacher-paragraph'>For B.ED the application fees is – 1250+ Bank charges (If any)</p>
                                             </li>
 
 
                                             <li className='flex items-center updated-font-family'>
-                                                <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
+                                                <i style={{ color: '#2D4A9D' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
                                                 <p className='teacher-paragraph'>Apply for Online Registration</p>
                                             </li>
 
 
                                             <li className='flex items-center updated-font-family'>
-                                                <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
+                                                <i style={{ color: '#2D4A9D' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
                                                 <p className='teacher-paragraph'>Pay Examination Fee (Online/Challan Mode/NEFT/RTGS)</p>
                                             </li>
 
 
                                             <li className='flex items-center updated-font-family'>
-                                                <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
+                                                <i style={{ color: '#2D4A9D' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
                                                 <p className='teacher-paragraph'>Fill Online Application Form</p>
                                             </li>
 
 
                                             <li className='flex items-center updated-font-family'>
-                                                <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
+                                                <i style={{ color: '#2D4A9D' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
                                                 <p className='teacher-paragraph'>Download Final Application</p>
                                             </li>
 
@@ -199,14 +199,14 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
                                     </p>
                                     <ul className='ml-10'>
                                             <li className='flex items-center updated-font-family'>
-                                                <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
+                                                <i style={{ color: '#2D4A9D' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
                                                 <p className='teacher-paragraph'>Candidates belonging to the General category should have secured at least 50% marks in their graduation
                                             or post graduation examination. Candidates with even 49.99 percentile are not eligible to apply.</p>
                                             </li>
 
 
                                             <li className='flex items-center updated-font-family'>
-                                                <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
+                                                <i style={{ color: '#2D4A9D' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
                                                 <p className='teacher-paragraph'>Candidates belonging to the reserved category (Other Backwards Class, Scheduled Caste and Scheduled
                                             Tribe) should have scored at least 45% Marks in their graduation or post graduation examination.
                                             Candidates with percentage of 44.99 are not eligible to apply.</p>
@@ -214,13 +214,13 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
 
                                             <li className='flex items-center updated-font-family'>
-                                                <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
+                                                <i style={{ color: '#2D4A9D' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
                                                 <p className='teacher-paragraph'>Candidate should not have any criminal record against them.</p>
                                             </li>
 
 
                                             <li className='flex items-center updated-font-family'>
-                                                <i style={{ color: '#0076BD' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
+                                                <i style={{ color: '#2D4A9D' }} class="fa-solid fa-diamond text-2xl mr-3"></i>
                                                 <p className='teacher-paragraph'>Candidates who have been debarred by the University for any reasons will not be eligible.</p>
                                             </li>
 

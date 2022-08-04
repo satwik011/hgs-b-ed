@@ -123,7 +123,7 @@ const ProgramesOffered = ({ setShowNavbar, setOverview, setLidership, setProgram
 
                 <div>
                     <div class="mb-[50px] ml-6 mr-6 mt-2">
-                        <h1 className='mt-4 mb-8 text-4xl leadership-heading updated-font-family'>Course Details (B.Ed Programme)</h1>
+                        <h1 className='mt-4 mb-8 text-4xl leadership-heading updated-font-family'>Programs Offered</h1>
                         <div className='mb-6'>
                             <p className='block mx-auto mb-2 updated-font-family teacher-paragraph'>The Bachelor of Education (B.Ed.) programe is a two year (four semesters) professional course that prepares teachers for upper primary or middle level (classes VI- VIII), secondary level (classes IX-X) and senior secondary level (classes XI-XII).
                                 The B.Ed. programme runs for a duration of two academic years (four semesters). Students are permitted to complete the programme  in two years from the date of admission to the programme..There shall be at least two hundred working days each year, exclusive of the period of examination and admission.

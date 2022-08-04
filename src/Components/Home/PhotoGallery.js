@@ -2,7 +2,6 @@ import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import photoGalleryLine from './../assets/images/photo-gallery-line.png'; 
 import photo1 from './../assets/images/1.JPG';
 import photo2 from './../assets/images/2.jpeg';
 import photo3 from './../assets/images/3.JPG';

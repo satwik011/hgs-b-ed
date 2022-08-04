@@ -128,17 +128,18 @@
 
 
 .contact-input {
-    width: 319.97px;
+    width: 250.97px;
     height: 60px;
     background: #F5F5F5;
     border-radius: 10px;
 }
 
 .input-field {
-    width: 290px;
+    width: 220px;
     height: 60px;
     background: #F5F5F5;
     border-radius: 10px;
+    padding-right: 9px;
 }
 
 .input-field:focus {
@@ -355,14 +356,14 @@
     z-index: 1;
     position: absolute; 
     left: 55px;
-    margin-top: 180px;
+    margin-top: 160px;
 }
 
 .right-arrow-button{
     z-index: 1;
     position: absolute;
     right: 55px;
-    margin-top: 180px;
+    margin-top: 160px;
 }
 
 .teachers-picture{

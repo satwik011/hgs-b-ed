@@ -106,9 +106,9 @@ const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                         <p className='contact-info'>Alumni</p>
                     </a>
 
-                    <a onClick={handleContact} class="link mb-[20px] link-hover flex justify-center items-center lg:ml-20 md:ml-20">
-                        <p className='contact-info'>Contact Us</p>
-                    </a>
+                    <a onClick={handleProgramsOffered} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Programs Offered</a>
+
+                    
 
                     
 
@@ -125,7 +125,10 @@ const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                 <a onClick={handleFaculty} class="link link-hover flex justify-center items-center mb-[20px] lg:ml-20 md:ml-20">
                         <p className='contact-info'>Faculty & Staff</p>
                     </a>
-                    <a onClick={handleProgramsOffered} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Programs Offered</a>
+                    
+                    <a onClick={handleContact} class="link mb-[20px] link-hover flex justify-center items-center lg:ml-20 md:ml-20">
+                        <p className='contact-info'>Contact Us</p>
+                    </a>
 
                 </div>
 
