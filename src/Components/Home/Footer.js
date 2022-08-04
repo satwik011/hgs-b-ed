@@ -103,7 +103,7 @@ const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                 </div>
 
                 <div className=''>
-                <span style={{color: 'darkblue'}} class="footer-heading mb-[20px]">Quick Link</span>
+                <span style={{color: '#2D4A9D'}} class="footer-heading mb-[20px]">Quick Link</span>
                     <a onClick={handleAlumni} class="link link-hover flex justify-center items-center mb-[20px] lg:ml-20 md:ml-20">
                         <p className='contact-info'>Alumni</p>
                     </a>
