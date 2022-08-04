@@ -34,8 +34,8 @@ const InstuteOfEducation = () => {
 
                             <div className='block mx-auto'>
                                 <div className='mt-[50px]'>
-                                    <h1 style={{ color: '#2D4A9D' }} className='instute updated-font-family'>J.N KAUL INSTITUTE OF EDUCATION</h1>
-                                    <p style={{ color: '#2D4A9D' }} className='flex justify-center bed-college updated-font-family'>B.ED. College, Bhimtal</p>
+                                    <h1 style={{ color: '#2D4A9D' }} className='instute font updated-font-family'>J.N KAUL INSTITUTE OF EDUCATION</h1>
+                                    <p style={{ color: '#2D4A9D' }} className='flex justify-center font bed-college updated-font-family'>B.ED. College, Bhimtal</p>
                                 </div>
                             </div>
                         </div>

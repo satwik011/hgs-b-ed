@@ -85,16 +85,14 @@ const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
         setContactUs[1]('setContactUs[1]')
         navigate('/contact')
     }
-    const params = useParams(); 
-    console.log(params); 
     return (
         <div>
             <footer class="footer p-10 Footer grid md:flex lg:flex justify-around text-base-content">
                 <div className=''>
                     <span class="footer-heading block mb-[20px]">Quick Links</span>
-                    <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#home'>Overview</Link>
-                    <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#infrastructure'>Infrastructure and Facilities</Link>
-                    <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='#photo'>Photo Gallery</Link>
+                    <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='/#home'>Overview</Link>
+                    <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='/#infrastructure'>Infrastructure and Facilities</Link>
+                    <Link class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20" smooth to='/#photo'>Photo Gallery</Link>
                     
                     
                 </div>
@@ -107,12 +105,6 @@ const Footer = ({ setShowNavbar, setOverview, setLidership, setProgramsOffered, 
                     </a>
 
                     <a onClick={handleProgramsOffered} class="link link-hover contact-info mb-[20px] lg:ml-20 md:ml-20">Programs Offered</a>
-
-                    
-
-                    
-
-                    
                     
                 </div>
 
