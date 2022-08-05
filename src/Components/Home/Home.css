@@ -26,7 +26,7 @@
 
 .kept-top{
     position: absolute;
-    top: 0px;
+    top: 40px;
 
 }
 
@@ -43,7 +43,7 @@
 }
 
 .education-is-power {
-    font-size: 42px;
+    font-size: 36px;
     line-height: 51px;
     color: #121212;
 }

@@ -49,8 +49,8 @@ const InstuteOfEducation = () => {
                                 </div>
                                 </div>
 
-                                <div className='mb-12 ml-12'>
-                                    <img style={{width:'950px', height:'600px'}} src={studyImage} alt="" />
+                                <div className='mb-12'>
+                                    <img style={{width:'900px', height:'550px'}} src={studyImage} alt="" />
                                 </div>
                             </div>
                         </div>
