@@ -127,17 +127,17 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
 
                                 <div className='mb-6'>
-                                    <p className='block mx-auto mb-2 text-xl font-bold'>Kumaun University B.Ed Entrance Exam 2021</p>
+                                    <p className='block mx-auto mb-2 text-xl font-bold'>Kumaun University B.Ed Entrance Exam 2022</p>
                                     <p className='mt-2 updated-font-family teacher-paragraph'>
-                                        Kumaun University will release notification for B.Ed admission 2021. The B.Ed entrance exam 2021 will beheld as per schedule. The candidates who qualify for the entrance test are then required to participate in the counseling.
+                                        Kumaun University will release notification for B.Ed admission 2022. The B.Ed entrance exam 2022 will beheld as per schedule. The candidates who qualify for the entrance test are then required to participate in the counseling.
                                     </p>
                                 </div>
 
 
                                 <div className='mb-6'>
-                                    <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2021 Application Form</p>
+                                    <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2022 Application Form</p>
                                     <p className='mt-2 updated-font-family teacher-paragraph'>
-                                        Candidates have to register themselves for the exam through the Kumaun University B.Ed 2021 application
+                                        Candidates have to register themselves for the exam through the Kumaun University B.Ed 2022 application
                                         form. First and foremost they have to pay the application fees through prescribed mode only. It is advised that
                                         the candidates provide authentic information as that record will be forwarded to the university and once
                                         submitted it will not be changed. Candidates will be able to fill their application form 24 hours after they have
@@ -188,7 +188,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
 
                                 <div className='mb-6'>
-                                    <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2021 Eligibility Criteria</p>
+                                    <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2022 Eligibility Criteria</p>
                                     <p className='mt-2 mb-4 updated-font-family teacher-paragraph'>
                                         It is highly recommended that the candidates candidates should ensure that they fill all the eligibility criteria
                                         laid down by the examination body. Students who fail to fulfill the criterion will be disqualified from the
@@ -233,7 +233,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
 
                                 <div className='mb-6'>
-                                    <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2021 Admit Card</p>
+                                    <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2022 Admit Card</p>
                                     <p className='mt-2 teacher-paragraph'>
                                         Students who have successfully submitted their duly filled application form before the last scheduled date can
                                         download their admit cards for the exam. It is available on the official website for the candidates to download.
@@ -244,7 +244,7 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
 
                                 <div className='mb-6'>
-                                    <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2021 Exam Scheme</p>
+                                    <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2022 Exam Scheme</p>
                                     <p className='mt-2 updated-font-family teacher-paragraph'>
                                         The examination pattern of Kumaun University B.Ed Entrance Exam is based on the last year record. You
                                         can check it for the reference only as conducting body will release the latest one we will update here.
@@ -253,17 +253,17 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
 
 
                                 <div className='mb-6'>
-                                    <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2021 Result</p>
+                                    <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2022 Result</p>
                                     <p className='mt-2 updated-font-family teacher-paragraph'>
                                         Kumaun University (KU) will be released the result for B.Ed entrance examination. The candidates can check
-                                        the result online at kuadmission.com or kunainital.ac.in. To check Kumaun University B.Ed 2021 result, the
+                                        the result online at kuadmission.com or kunainital.ac.in. To check Kumaun University B.Ed 2022 result, the
                                         candidates need to enter their login credentials like application number and email address.
                                     </p>
                                 </div>
 
 
                                 <div className='mb-6'>
-                                    <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2021 Counselling</p>
+                                    <p className='mb-2 text-xl font-bold updated-font-family'>Kumaun University B.Ed 2022 Counselling</p>
                                     <p className='mt-2 updated-font-family teacher-paragraph'>
                                         Kumaun University will be released the counselling notice for B.Ed admission. To participate in the
                                         counselling process, candidates first have to pay the counselling fee, then upload the documents and fill the
@@ -317,8 +317,8 @@ const Admission = ({ setShowNavbar, setOverview, setLidership, setProgramsOffere
                                                 </tr>
 
                                                 <tr className='hover-table'>
-                                                    <th className='table-data updated-font-family teacher-paragraph'>Admission 2021-22</th>
-                                                    <td className='table-data updated-font-family teacher-paragraph'><span className='flex justify-center underline'>Kumaun University Admission 2021</span></td>
+                                                    <th className='table-data updated-font-family teacher-paragraph'>Admission 2022-22</th>
+                                                    <td className='table-data updated-font-family teacher-paragraph'><span className='flex justify-center underline'>Kumaun University Admission 2022</span></td>
                                                 </tr>
                                             </tbody>
                                         </table>
