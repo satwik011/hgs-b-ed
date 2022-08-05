@@ -29,31 +29,47 @@ const InstuteOfEducation = () => {
                 <div>
                     <img className='w-full' src={background} alt="" />
                     <img onClick={handleHome} className='w-20 lg:w-48 md:24 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
-                    <div className='kept-top mt-[-70px]'>
-                        {/* <div className='flex items-center ml-[80px] mr-[80px] mb-[50px]'>
-                            <div className='block mx-auto'>
-                                
-                            </div>
-                        </div> */}
+                    <div className=''>
 
-
-                        <div className='flex ml-[130px] mr-[10px] justify-center'>
-                            <div className='flex items-center justify-around picture-school'>
-                                <div className='grid'>
-                                <div className=''>
-                                    <h1 style={{ color: '#2D4A9D' }} className='instute font updated-font-family'>J.N. KAUL INSTITUTE OF EDUCATION</h1>
-                                    <p style={{ color: '#2D4A9D' }} className='font bed-college updated-font-family'>B.ED. College, Bhimtal</p>
-                                </div>
-                                <div className='mr-10'>
-                                    <em style={{ fontFamily: 'Cormorant' }} className='education-is-power'>The main hope of a nation lies in the proper education of its youth.</em>
-                                </div>
+                        <div class="hero kept-top">
+                            <div class="hero-content flex-col lg:flex-row-reverse">
+                            <div className='mb-24'>
+                                    <img style={{ width: '900px', height: '550px' }} src={studyImage} alt="" />
                                 </div>
 
-                                <div className='mb-12'>
-                                    <img style={{width:'900px', height:'550px'}} src={studyImage} alt="" />
+
+                                <div>
+                                <div className='grid mb-24'>
+                                    <div className=''>
+                                        <h1 style={{ color: '#2D4A9D' }} className='instute font updated-font-family'>J.N. KAUL INSTITUTE OF EDUCATION</h1>
+                                        <p style={{ color: '#2D4A9D' }} className='font bed-college updated-font-family'>B.ED. College, Bhimtal</p>
+                                    </div>
+                                    <div className='mr-10'>
+                                        <em style={{ fontFamily: 'Cormorant' }} className='education-is-power'>The main hope of a nation lies in the proper education of its youth.</em>
+                                    </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
+
+
+                        {/* <div className='flex ml-[130px] mr-[10px] justify-center'>
+                            <div className='flex items-center justify-around picture-school'>
+                                <div className='grid'>
+                                    <div className=''>
+                                        <h1 style={{ color: '#2D4A9D' }} className='instute font updated-font-family'>J.N. KAUL INSTITUTE OF EDUCATION</h1>
+                                        <p style={{ color: '#2D4A9D' }} className='font bed-college updated-font-family'>B.ED. College, Bhimtal</p>
+                                    </div>
+                                    <div className='mr-10'>
+                                        <em style={{ fontFamily: 'Cormorant' }} className='education-is-power'>The main hope of a nation lies in the proper education of its youth.</em>
+                                    </div>
+                                </div>
+
+                                <div className='mb-12'>
+                                    <img style={{ width: '900px', height: '550px' }} src={studyImage} alt="" />
+                                </div>
+                            </div>
+                        </div> */}
                     </div>
 
                     <AboutInstitution></AboutInstitution>
