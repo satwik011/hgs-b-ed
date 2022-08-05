@@ -37,10 +37,10 @@ const InstuteOfEducation = () => {
                         </div> */}
 
 
-                        <div className='flex ml-[230px] mr-[280px] justify-center'>
+                        <div className='flex ml-[130px] mr-[10px] justify-center'>
                             <div className='flex items-center justify-around picture-school'>
                                 <div className='grid'>
-                                <div className='mb-6'>
+                                <div className=''>
                                     <h1 style={{ color: '#2D4A9D' }} className='instute font updated-font-family'>J.N. KAUL INSTITUTE OF EDUCATION</h1>
                                     <p style={{ color: '#2D4A9D' }} className='font bed-college updated-font-family'>B.ED. College, Bhimtal</p>
                                 </div>
@@ -49,8 +49,8 @@ const InstuteOfEducation = () => {
                                 </div>
                                 </div>
 
-                                <div className='mt-20 ml-12'>
-                                    <img style={{width:'1250px', height:'850px'}} src={studyImage} alt="" />
+                                <div className='mb-12 ml-12'>
+                                    <img style={{width:'950px', height:'600px'}} src={studyImage} alt="" />
                                 </div>
                             </div>
                         </div>

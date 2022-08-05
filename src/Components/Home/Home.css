@@ -1,6 +1,6 @@
 .instute {
     font-family: 'Poppins';
-    font-size: 45px;
+    font-size: 36px;
     color: #121212;
     text-shadow: 1px 1px 1px aliceblue,
     1px 2px 1px aliceblue,
@@ -20,13 +20,13 @@
 
 .bed-college {
     font-family: 'Poppins';
-    font-size: 40px;
+    font-size: 27px;
     color: #121212;
 }
 
 .kept-top{
     position: absolute;
-    top: -30px;
+    top: 0px;
 
 }
 

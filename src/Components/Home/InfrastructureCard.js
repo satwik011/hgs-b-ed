@@ -133,7 +133,7 @@ const InfrastructureCard = () => {
                             <img style={{ height: '240px' }} className='w-full h-full facility-picture' src={rectangle411} alt="" class="rounded-xl" />
                         </figure>
                         <div class="card-body card-info">
-                            <h1 className='infructructure updated-font-family'>Classroom</h1>
+                            <h1 className='infructructure updated-font-family'>Classrooms</h1>
                             <p className='infrustructure-card-para updated-font-family'>The Institute consists of 5 spacious & well ventilated classrooms with facilities like study table, chairs, furniture and all <br /><span className={`infrustructure-card-para updated-font-family ${classroom === false ? 'hidden' : 'block'}`}> the basis utilities like water electricity etc. for students & teachers and in every classroom CCTV camera has been installed.</span>
                                 {
                                     !classroom ? <span onClick={handleClassroom} class="see-more udated-font-family">See More</span> : <span onClick={handleClassroom} class="see-more udated-font-family">See Less</span>
