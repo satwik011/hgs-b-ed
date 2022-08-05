@@ -34,7 +34,7 @@ const InstuteOfEducation = () => {
                         <div class="hero kept-top">
                             <div class="hero-content flex-col lg:flex-row-reverse">
                             <div className='mb-24'>
-                                    <img style={{ width: '900px', height: '550px' }} src={studyImage} alt="" />
+                                    <img style={{ width: '850px', height: '500px' }} src={studyImage} alt="" />
                                 </div>
 
 

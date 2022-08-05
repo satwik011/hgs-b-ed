@@ -3,6 +3,22 @@
     font-size: 36px;
     color: #121212;
     text-shadow: 1px 1px 1px aliceblue,
+    1px 1.5px 1px aliceblue,
+    1px 2px 1px aliceblue,
+    1px 2.5px 1px aliceblue,
+    1px 3px 1px aliceblue,
+    1px 3.5px 1px aliceblue,
+    1px 4px 1px aliceblue,
+    1px 4.5px 1px aliceblue,
+    1px 5px 1px aliceblue,
+    1px 6px 1px aliceblue,
+    1px 6px 6px rgba(16,16,16,0.4), 
+    1px 12px 10px rgba(16,16,16,0.2), 
+    1px 18px 35px rgba(16,16,16,0.2), 
+    1px 24px 60px rgba(16,16,16,0.4);
+
+
+    /* text-shadow: 1px 1px 1px aliceblue,
     1px 2px 1px aliceblue,
     1px 3px 1px aliceblue,
     1px 4px 1px aliceblue,
@@ -12,10 +28,10 @@
     1px 8px 1px aliceblue,
     1px 9px 1px aliceblue,
     1px 10px 1px aliceblue,
-    1px 18px 6px rgba(16,16,16,0.4), 
-    1px 22px 10px rgba(16,16,16,0.2), 
-    1px 25px 35px rgba(16,16,16,0.2), 
-    1px 30px 60px rgba(16,16,16,0.4);
+    1px 6px 6px rgba(16,16,16,0.4), 
+    1px 12px 10px rgba(16,16,16,0.2), 
+    1px 18px 35px rgba(16,16,16,0.2), 
+    1px 24px 60px rgba(16,16,16,0.4); */
 }
 
 .bed-college {
