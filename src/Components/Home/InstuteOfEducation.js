@@ -38,7 +38,7 @@ const InstuteOfEducation = () => {
                                 </div>
 
 
-                                <div>
+                                <div className='ml-[45px]'>
                                 <div className='grid mb-24'>
                                     <div className=''>
                                         <h1 style={{ color: '#2D4A9D' }} className='instute font updated-font-family'>J.N. KAUL INSTITUTE OF EDUCATION</h1>
@@ -69,7 +69,7 @@ const InstuteOfEducation = () => {
                                     <img style={{ width: '900px', height: '550px' }} src={studyImage} alt="" />
                                 </div>
                             </div>
-                        </div> */}
+                        </div> */} 
                     </div>
 
                     <AboutInstitution></AboutInstitution>
