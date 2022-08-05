@@ -42,7 +42,7 @@
 
 .kept-top{
     position: absolute;
-    top: -30px;
+    top: -20px;
 
 }
 
@@ -56,6 +56,15 @@
     font-size: 24px;
     line-height: 29px;
     color: #2D4A9D;
+}
+.hover-picture:hover{
+    /* width: 870px;
+    height: 520px; */
+}
+
+.hover-picture{
+    width: 850px;
+    height: 500px;
 }
 
 .education-is-power {
@@ -416,3 +425,23 @@
 .updated-font-family{
     font-family: 'Poppins';
 }
+@media only screen and (min-width: 1550px) {
+    .hover-picture{
+      width: 1100px;
+      height: 650px;
+      margin-left: 100px;
+    }
+    .instute{
+      font-size: 46px;
+    }
+    .bed-college {
+        font-family: 'Poppins';
+        font-size: 37px;
+        color: #121212;
+    }
+    .education-is-power {
+        font-size: 46px;
+        line-height: 51px;
+        color: #121212;
+    }
+  }

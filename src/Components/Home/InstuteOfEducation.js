@@ -29,16 +29,15 @@ const InstuteOfEducation = () => {
                 <div>
                     <img className='w-full' src={background} alt="" />
                     <img onClick={handleHome} className='w-20 lg:w-48 md:24 home-button hover:shadow-2xl' src={sosChildrenVillage} alt="" />
-                    <div className=''>
-
+                    <div className='abs-class-large'>
                         <div class="hero kept-top">
-                            <div class="hero-content flex-col lg:flex-row-reverse">
-                            <div className='mb-24'>
-                                    <img style={{ width: '850px', height: '500px' }} src={studyImage} alt="" />
+                            <div class="hero-content flex-col lg:flex-row-reverse md:flex-row-reverse">
+                            <div className='mb-20 mr-8'>
+                                    <img className='hover-picture' src={studyImage} alt="" />
                                 </div>
 
 
-                                <div className='ml-[45px]'>
+                                <div className='ml-[60px]'>
                                 <div className='grid mb-24'>
                                     <div className=''>
                                         <h1 style={{ color: '#2D4A9D' }} className='instute font updated-font-family'>J.N. KAUL INSTITUTE OF EDUCATION</h1>
