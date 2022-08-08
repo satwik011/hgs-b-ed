@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import aboutUs from './../assets/images/alumni-cover.JPG'
+import aboutUs from './../assets/images/ALUMNI.JPG'
 import teacher1 from './../assets/images/alumni-teacher (1).png'
 import teacher2 from './../assets/images/alumni-teacher (2).png'
 import teacher3 from './../assets/images/alumni-teacher (3).png'

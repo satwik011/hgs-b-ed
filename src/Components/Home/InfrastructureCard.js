@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import rectangle405 from './../assets/images/Rectangle 405.png';
-import rectangle411 from './../assets/images/Rectangle 411.png'
-import ict from './../assets/images/institute-image/ICT1.JPG'
-import PSYCHOLOGY from './../assets/images/institute-image/PSYCHOLOGY LAB.JPG';
+import rectangle411 from './../assets/images/classroom.jpg'
+import ict from './../assets/images/ICT1.JPG'
+import PSYCHOLOGY from './../assets/images/psychology.jpg';
 import scienceLab from './../assets/images/institute-image/SCIENCE LAB.JPG'
 import libraryCum from './../assets/images/institute-image/library.JPG'
 import health from './../assets/images/institute-image/GYM.JPG'

@@ -1,7 +1,8 @@
 import React from 'react';
 import rectangle from './../assets/images/Rectangle 404.png';
 import studentTeacher from './../assets/images/image 12.png';
-import studentTeacher2 from './../assets/images/image 13.png';
+import studentTeacher2 from './../assets/images/mission and vission.JPG';
+import studentTeacher3 from './../assets/images/image 13.png';
 import studentTaboutBhimtal from './../assets/images/about-bhimtal.png';
 
 const AboutInstitution = () => {
@@ -28,7 +29,7 @@ const AboutInstitution = () => {
 
                             <div class="mb-[50px]">
                                 <div class="flex justify-center flexProp flex-col lg:flex-row">
-                                    <img src={studentTeacher2} class="about-institution-picture rounded-lg shadow-2xl" alt='' />
+                                    <img src={studentTeacher3} class="about-institution-picture rounded-lg shadow-2xl" alt='' />
                                     <div className='ml-6'>
                                         <h1 className='about-sos updated-font-family'>About J.N. Kaul Institute of Education</h1>
                                         <p className='sos-para updated-font-family'>
