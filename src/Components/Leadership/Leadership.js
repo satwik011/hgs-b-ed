@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutUs from './../assets/images/about-us-leadership.jpeg'
+import aboutUs from './../assets/images/leadership.JPG'
 import teacher1 from './../assets/images/teacher-head (1).png'
 import teacher2 from './../assets/images/teacher-head (2).png'
 import teacher3 from './../assets/images/teacher-head (3).png'

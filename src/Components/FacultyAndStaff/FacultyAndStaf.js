@@ -17,7 +17,7 @@ import teacher15 from './../assets/images/teacher (15).png';
 import location from './../assets/icons/location.png'
 import email from './../assets/icons/email.png'
 import phone from './../assets/icons/footer.png'
-import aboutUs from './../assets/images/alumni-cover.JPG'
+import aboutUs from './../assets/images/faculty.JPG'
 import sosChildrenVillage from './../assets/images/sos_logo 3.png';
 import './FacultyStafTable.css';
 import { useNavigate } from 'react-router-dom';

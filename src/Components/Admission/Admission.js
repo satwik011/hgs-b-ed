@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Footer from '../Home/Footer';
-import aboutUs from './../assets/images/admission-cover.JPG'
+import aboutUs from './../assets/images/admission.JPG'
 import location from './../assets/icons/location.png'
 import email from './../assets/icons/email.png'
 import phone from './../assets/icons/footer.png'
