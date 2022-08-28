@@ -457,13 +457,14 @@
   }
   .moving-para{
     transform: translateX(100%);
-    animation: moving 25s linear infinite;
+    animation: moving 15s linear infinite;
   }
   @keyframes moving {
     0%{
         transform: translateX(100%);
     }
+    
     100%{
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
   }

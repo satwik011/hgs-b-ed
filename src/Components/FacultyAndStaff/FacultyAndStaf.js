@@ -154,16 +154,16 @@ const FacultyAndStaf = ({ setShowNavbar, setOverview, setLidership, setProgramsO
                                             <th className='table-data'>Name</th>
                                             <th className='table-data'>Attested
                                                 photograph</th>
-                                            <th className='stand-heading table-data'>Whether SC/ST/OBC/other <br/>Category</th>
+                                            <th className='stand-heading table-data'>Category <br/>Whether SC/ST/OBC/other</th>
                                             <th className='stand-heading table-data'>Designation</th>
-                                            <th className='stand-heading table-data'>B.Ed with %<br/> of marks</th>
-                                            <th className='stand-heading table-data'>M.Ed with % <br/>of marks</th>
-                                            <th className='stand-heading table-data'>M.A (Education) with % <br/>of marks</th>
-                                            <th className='stand-heading table-data'>Master's Degree in school<br/> subject with %</th>
+                                            <th className='stand-heading table-data'>of marks<br/> B.Ed with %</th>
+                                            <th className='stand-heading table-data'> of marks<br/>M.Ed with %</th>
+                                            <th className='stand-heading table-data'>of marks<br/>M.A (Education) with %</th>
+                                            <th className='stand-heading table-data'>subject with %<br/>Master's Degree in school</th>
                                             <th className='stand-heading table-data'>Subject of Teaching</th>
-                                            <th className='stand-heading table-data'>Ph.D. (Education/Specify<br/> the subject)</th>
-                                            <th className='stand-heading table-data'>Passed UGC NET<br/> or equivalent</th>
-                                            <th className='stand-heading table-data'>Teaching Experience <br/>in Years</th>
+                                            <th className='stand-heading table-data'>the subject) <br/>Ph.D. (Education/Specify </th>
+                                            <th className='stand-heading table-data'> or equivalent <br/>Passed UGC NET</th>
+                                            <th className='stand-heading table-data'>in Years<br/>Teaching Experience</th>
                                         </tr>
                                     </thead>
 

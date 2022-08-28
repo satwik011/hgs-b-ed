@@ -71,7 +71,7 @@ const InstuteOfEducation = () => {
                         </div> */} 
                     </div>
 
-                    <p className='pt-8 mx-8 welcome moving-para'><span style={{color: 'rgb(45, 74, 157)'}}> Upcoming: </span> BA. BSc. BEd. Integrated Courses</p>
+                    <p className='pt-8 welcome moving-para'><span style={{color: 'rgb(45, 74, 157)'}}> Upcoming: </span> BA. BSc. BEd. Integrated Courses</p>
 
                     <AboutInstitution></AboutInstitution>
                     <InfrastructureCard></InfrastructureCard>
