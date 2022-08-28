@@ -40,11 +40,7 @@
     color: #121212;
 }
 
-.kept-top{
-    position: absolute;
-    top: -20px;
 
-}
 
 .children-village {
     width: 150px;
@@ -248,7 +244,7 @@
 }
 
 .margin-for-institute {
-    margin-top: 100px;
+    margin-top: 85px;
 }
 
 .facility-picture {
@@ -443,5 +439,31 @@
         font-size: 46px;
         line-height: 51px;
         color: #121212;
+    }
+  }
+
+  .kept-top{
+    position: absolute;
+    top: 90px;
+
+}
+
+  .study-image-picture{
+    /* width: 800px; */
+    height: 320px;
+    width: 650px;
+    border: 2px solid rgb(45, 74, 157);
+    border-radius: 5px;
+  }
+  .moving-para{
+    transform: translateX(100%);
+    animation: moving 25s linear infinite;
+  }
+  @keyframes moving {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
     }
   }

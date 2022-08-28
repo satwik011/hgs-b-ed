@@ -1,6 +1,6 @@
 import React from 'react';
 import sosChildrenVillage from './../assets/images/sos_logo 3.png';
-import studyImage from './../assets/images/Education-amico.svg';
+import studyImage from './../assets/images/Landing photo.jpg';
 import contactImage from './../assets/images/3969587 2.png'
 import contactLine from './../assets/images/contact-line.png'
 import user from './../assets/icons/user.svg';
@@ -33,7 +33,7 @@ const InstuteOfEducation = () => {
                         <div class="hero kept-top">
                             <div class="hero-content flex-col lg:flex-row-reverse md:flex-row-reverse">
                             <div className='mb-20 mr-8'>
-                                    <img className='hover-picture' src={studyImage} alt="" />
+                                    <img className='hover-picture study-image-picture' src={studyImage} alt="" />
                                 </div>
 
 
@@ -70,6 +70,8 @@ const InstuteOfEducation = () => {
                             </div>
                         </div> */} 
                     </div>
+
+                    <p className='pt-8 mx-8 welcome moving-para'><span style={{color: 'rgb(45, 74, 157)'}}> Upcoming: </span> BA. BSc. BEd. Integrated Courses</p>
 
                     <AboutInstitution></AboutInstitution>
                     <InfrastructureCard></InfrastructureCard>
